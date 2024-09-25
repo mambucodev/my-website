@@ -1,21 +1,22 @@
-# The URL the site will be built for
 base_url = "https://mambucodev.github.io"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
+title = "Mambuco"
 theme = "duckquill"
 
+compile_sass = true
+build_search_index = true
+
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
-
-default_theme = "dark"
 accent_color = "#7b98e0"
+show_read_time = true
+show_share_button = true
+
+[extra.nav]
+show_feed = true
+links = [
+    { url = "@/blog/_index.md", name = "Blog" },
+    { url = "@/projects.md", name = "Projects" },
+    { url = "@/contacts.md", name = "Contacts" },
+]
