@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-<img src="/avatar.png" align="right" width="144" alt="Avatar">
+<img src="assets/avatar.png" align="right" width="144" alt="Avatar">
 
 # Welcome to Mambuco's Personal Website
 
