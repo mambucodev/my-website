@@ -2,6 +2,8 @@
 title = "Home"
 +++
 
+<img src="/avatar.png" align="right" width="144" alt="Avatar">
+
 # Welcome to Mambuco's Personal Website
 
 Hello! I'm Mambuco, a passionate developer with a love for creating innovative solutions. This website is a showcase of my projects, blog posts, and more. Feel free to explore and learn more about my work and interests.
