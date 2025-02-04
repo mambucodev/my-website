@@ -6,7 +6,9 @@ title = "Home"
 
 # Welcome to My Website!
 
-Hey! It's Mambuco here, your favorite developer.
+Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that famous. But I'm glad you're here!
+
+We've got a lot to talk about, so let's get started.
 
 ## About Me
 
@@ -40,7 +42,7 @@ But apart from that, I also listen to a lot of Rock and Metal, like Sleep Token,
 ### Linux
 
 I currently use Fedora as my daily driver, but my favorite is honestly Arch.
-There's a [blog post](@/blog/from-arch-to-fedora.md) about the reason I switched, if you're interested.
+There's a [blog post](@/blog/2025-02-04-from-arch-to-fedora/index.md) about the reason I switched, if you're interested.
 
 Just in case, here's a list of the distros I've tried (in order):
 

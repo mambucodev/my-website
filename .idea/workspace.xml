@@ -5,56 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77202406-7bb7-4f1f-900d-724063dec3e2" name="Changes" comment="Big Update&#10;&#10;Rewriting the home page and publishing a port. This is still WIP, I'll finish to work on it later on">
-      <change afterPath="$PROJECT_DIR$/content/online/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/auto-render.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/elasticlunr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/InterVariable-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/InterVariable.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsMono-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsMono.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_AMS-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Caligraphic-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Caligraphic-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Fraktur-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Fraktur-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Main-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Main-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Main-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Main-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Math-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Math-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_SansSerif-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_SansSerif-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_SansSerif-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Script-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Size1-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Size2-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Size3-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Size4-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/KaTeX_Typewriter-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/katex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/katex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/processed_images/banner.d26f9911a4551316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/processed_images/banner.ed0678c0bce42ad1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/search_index.en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/syntax-theme-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/syntax-theme-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/theme-switcher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/from-arch-to-fedora.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/find/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/from-arch-to-fedora.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/2025-02-04-from-arch-to-fedora/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/online/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/online/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/search_index.en.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/search_index.en.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/blog/2025-02-04-from-arch-to-fedora" />
       <recent name="$PROJECT_DIR$/content" />
     </key>
   </component>
@@ -132,7 +89,8 @@
       <workItem from="1727337566750" duration="950000" />
       <workItem from="1738684170558" duration="3470000" />
       <workItem from="1738687788302" duration="24000" />
-      <workItem from="1738689359936" duration="3014000" />
+      <workItem from="1738689359936" duration="8173000" />
+      <workItem from="1738699519464" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Added Favicon and moved Assets">
       <option name="closed" value="true" />
@@ -150,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727350423478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Big Update&#10;&#10;Rewriting the home page and publishing a port. This is still WIP, I'll finish to work on it later on">
+      <option name="closed" value="true" />
+      <created>1738692381385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738692381385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
