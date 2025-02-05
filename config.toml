@@ -33,7 +33,7 @@ show_share_button = true
 [extra.nav]
 show_feed = true
 show_theme_switcher = true
-show_repo = true
+#show_repo = true
 
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
