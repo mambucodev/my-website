@@ -2,17 +2,18 @@
 title = "Home"
 +++
 
-<img src="assets/avatar.png" align="right" width="144" alt="Avatar">
+{{ image(url="assets/avatar.png", alt="Just my avatar, nothing new", no_hover=true, end=true) }}
 
-# Welcome to My Website!
+# Hello, I'm Mambuco.
 
 Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that famous. But I'm glad you're here!
 
 We've got a lot to talk about, so let's get started.
 
+
 ## About Me
 
-My actual name is Gabriele, I'm Italian and I love food. *I mean, who doesn't?*
+My actual name is Gabriele, I'm Italian, and I love food. *I mean, who doesn't?*
 
 I've got a few passions:
 
@@ -42,7 +43,7 @@ But apart from that, I also listen to a lot of Rock and Metal, like Sleep Token,
 ### Linux
 
 I currently use Fedora as my daily driver, but my favorite is honestly Arch.
-There's a [blog post](@/blog/2025-02-04-from-arch-to-fedora/index.md) about the reason I switched, if you're interested.
+There's a [blog post](@/blog/2025-02-04-from-arch-to-fedora/index.md) about the reason I switched if you're interested.
 
 Just in case, here's a list of the distros I've tried (in order):
 
