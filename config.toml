@@ -21,6 +21,13 @@ smart_punctuation = true
 [search]
 index_format = "elasticlunr_json"
 
+[languages.it]
+title = "Mambuco"
+description = "Il blog personale di Mambuco."
+generate_feeds = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
 [extra]
 accent_color = "#817be0"
 

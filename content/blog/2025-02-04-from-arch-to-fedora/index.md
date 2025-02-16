@@ -48,7 +48,7 @@ Turns out that instead of installing arch as a dual-boot with Windows, I wiped o
 ## Using Arch
 
 I mean, the installation **did** go really well because I just used the [Archinstall](https://wiki.archlinux.org/title/Archinstall/) tool, and it worked, but even then, I was really confused.
-My dumb ass decided to not select most of the options in the Archinstall TUI, so there was no Desktop Manager.
+My dumb ass decided to not select most of the options in the Archinstall TUI, so there was no Desktop Environment.
 *I did manage how to install it eventually, with `sudo pacman -S gnome`.*
 
 At the end everything turned out great.
@@ -59,8 +59,7 @@ I and the [Arch Wiki](https://wiki.archlinux.org/) became best friends, and I al
 Everything was going fine, until a **kernel update** decided that my arch installation must not boot anymore.
 Without talking about the issue too much, I'll just let you know that 2 weeks ago (when this happened) I was very ill and I just wanted to use my PC for a bit, and I couldn't because of this.
 
-After a while I got tired of my system's mood swings, it seemed like it had menstruation.
-Monthly something would eventually break.
+After a while I got tired of my system's mood swings, every month something would eventually break.
 I already know that's Arch's philosophy, and it was fun at the beginning until it got boring.
 
 ## The Solution
