@@ -1,16 +1,18 @@
-base_url = "https://mambuco.dev"
-
 title = "Mambuco"
+base_url = "https://mambuco.dev"
 description = "Mambuco's personal blog."
 
 theme = "duckquill"
 
+minify_html = true
 compile_sass = true
 generate_feeds = true
 
 feed_filenames = ["rss.xml", "atom.xml"]
 build_search_index = true
 author = "Mambuco"
+
+default_language = "en"
 
 taxonomies = [{ name = "tags", feed = true }]
 
@@ -33,16 +35,16 @@ accent_color = "#817be0"
 
 styles = ["mods.css"]
 
+issues_url = "https://github.com/mambucodev/my-website/issues"
 source_url = "https://github.com/mambucodev/my-website"
 
 show_read_time = true
 show_share_button = true
-
+show_backlinks = true
 
 [extra.nav]
 show_feed = true
 show_theme_switcher = true
-#show_repo = true
 
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
