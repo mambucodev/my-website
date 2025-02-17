@@ -7,7 +7,6 @@ tags = ["Linux", "Fedora"]
 [extra]
 accent_color = "#51a2da"
 banner = "banner.webp"
-hot = true
 +++
 
 Hey, questo è il mio primo post. Va bene, sembra tutto a posto.
