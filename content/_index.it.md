@@ -2,7 +2,12 @@
 title = "Home"
 +++
 
-{{ image(url="/assets/avatar.png", alt="Solo il mio avatar, niente di nuovo", no_hover=true, end=true) }}
+<aside>
+    <figure>
+        {{ image(url="/assets/avatar.png", alt="Il mio avatar", no_hover=true) }}
+        <figcaption>Il mio avatar</figcaption>
+    </figure>
+</aside>
 
 # Ciao, Sono Mambuco.
 

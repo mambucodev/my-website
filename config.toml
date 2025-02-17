@@ -31,6 +31,8 @@ taxonomies = [{ name = "tags", feed = true }]
 [extra]
 accent_color = "#817be0"
 
+styles = ["mods.css"]
+
 source_url = "https://github.com/mambucodev/my-website"
 
 show_read_time = true
@@ -44,7 +46,7 @@ show_theme_switcher = true
 
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
-#    { url = "@/projects/index.md", name = "Projects" },
+    #    { url = "@/projects/index.md", name = "Projects" },
     { url = "@/online/index.md", name = "Online" },
 ]
 
