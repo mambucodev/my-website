@@ -8,8 +8,30 @@ scripts = ["online/status.js", "online/clock.js"]
 
 Hey, it's still me!
 
-Here it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(UTC+1)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>
+## Contacts
+
+In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(UTC+1)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>.
+
+You can reach me out on a few social media platforms:
+
+<ul class="masonry">
+    <li>
+        <a href="https://discord.com/users/604790617138266149">
+            <article>
+                {{ image(url="icons/discord-icon.png", alt="Discord Logo", end=true, transparent=true, no_hover=true) }}
+                <h2>Discord</h2>
+                <p>My favorite platform, where I'm most active.</p>
+            </article>
+        </a>
+    </li>
+    <li>
+        <a href="https://matrix.to/#/@mambuco:matrix.org">
+            <article>
+                <h2>Matrix</h2>
+                <p>My favorite platform, where I'm most active.</p>
+            </article>
+        </a>
+    </li>
+</ul>
 
 This page is still <abbr title="Work In Progress">WIP</abbr>, I'm working on it.
-
-But for now, you can find me on [Discord](https://discord.sadyn.it/) or [Matrix](https://matrix.to/#/@mambuco:matrix.org) (*my favorite*).
