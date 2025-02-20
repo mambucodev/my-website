@@ -36,4 +36,4 @@ You can reach me out on a few social media platforms:
     </li>
 </ul>
 
-This page is still <abbr title="Work In Progress">WIP</abbr>, I'm working on it.
+<strong>This page is still <abbr title="Work In Progress">WIP</abbr>, I'm working on it.</strong>
