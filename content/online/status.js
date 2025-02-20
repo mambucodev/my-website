@@ -1,7 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const indicatorElement = document.getElementById("online-indicator");
+const indicatorElement = document.getElementById("online-indicator");
+
+document.addEventListener("DOMContentLoaded", () => {
   indicatorElement.innerHTML = "N/A";
 
+  updateStatus();
+  setInterval(updateStatus, 10000);
+});
+
+function updateStatus() {
   fetch("https://api.lanyard.rest/v1/users/604790617138266149")
     .then((response) => response.json())
     .then((data) => {
@@ -29,4 +35,4 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error fetching Lanyard data:", error);
       indicatorElement.innerHTML = "N/A";
     });
-});
+}

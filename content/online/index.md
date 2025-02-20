@@ -18,16 +18,18 @@ You can reach me out on a few social media platforms:
     <li>
         <a href="https://discord.com/users/604790617138266149">
             <article>
-                {{ image(url="icons/discord-icon.png", alt="Discord Logo", end=true, transparent=true, no_hover=true) }}
-                <h2>Discord</h2>
+                <img src="icons/discord-icon.png" alt="Discord Logo" class="transparent no-hover icon discord" />
+                <!-- <h2>Discord</h2> -->
                 <p>My favorite platform, where I'm most active.</p>
+                <!-- {{ image(url="icons/discord-icon.png", alt="Discord Logo", transparent=true, no_hover=true) }} -->
             </article>
         </a>
     </li>
     <li>
         <a href="https://matrix.to/#/@mambuco:matrix.org">
             <article>
-                <h2>Matrix</h2>
+                <img src="icons/matrix-icon.png" alt="Matrix Logo" class="transparent no-hover icon" />
+                <!-- <h2>Matrix</h2> -->
                 <p>My favorite platform, where I'm most active.</p>
             </article>
         </a>
