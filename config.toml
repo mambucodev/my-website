@@ -28,6 +28,8 @@ title = "Mambuco"
 description = "Il blog personale di Mambuco."
 generate_feeds = true
 
+build_search_index = true
+
 taxonomies = [{ name = "tags", feed = true }]
 
 [extra]
