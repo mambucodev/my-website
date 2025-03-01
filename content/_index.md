@@ -2,14 +2,14 @@
 title = "Home"
 +++
 
+# Hello, I'm Mambuco.
+
 <aside>
     <figure>
         {{ image(url="/assets/avatar.png", alt="Just my avatar", no_hover=true) }}
         <figcaption>Just my avatar</figcaption>
     </figure>
 </aside>
-
-# Hello, I'm Mambuco.
 
 Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that famous. But I'm glad you're here!
 
