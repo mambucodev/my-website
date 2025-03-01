@@ -11,7 +11,7 @@ title = "Home"
     </figure>
 </aside>
 
-Hey! Sono Mambuco, il vostro sviluppatore preferito. Sto scherzando, non sono così famoso. Ma sono felice che tu sia qui!
+Hey! Sono Mambuco, il tuo sviluppatore preferito. Sto scherzando, mi conoscono in pochi. Ma sono felice che tu sia qui!
 
 Abbiamo molto di cui parlare, quindi iniziamo.
 
@@ -64,7 +64,7 @@ Ho deciso di cominciare a scrivere un [blog](@/blog/_index.it.md), come modo per
 
 ### Online
 
-Se volete mettervi in contatto con me (o semplicemente seguirmi), date un'occhiata a [questa pagina](@/online/index.it.md).
+Se vuoi metterti in contatto con me (o semplicemente seguirmi), dai un'occhiata a [questa pagina](@/online/index.it.md).
 
 ## Crediti
 
