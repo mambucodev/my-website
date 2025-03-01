@@ -2,14 +2,14 @@
 title = "Home"
 +++
 
+# Ciao, Sono Mambuco.
+
 <aside>
     <figure>
         {{ image(url="/assets/avatar.png", alt="Il mio avatar", no_hover=true) }}
         <figcaption>Il mio avatar</figcaption>
     </figure>
 </aside>
-
-# Ciao, Sono Mambuco.
 
 Hey! Sono Mambuco, il vostro sviluppatore preferito. Sto scherzando, non sono così famoso. Ma sono felice che tu sia qui!
 
