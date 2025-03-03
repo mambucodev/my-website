@@ -9,6 +9,10 @@ accent_color = "#908a99"
 banner = "banner.webp"
 +++
 
+{% alert(note=true) %}
+Un grazie enorme a [Daudix](https://daudix.one) che mi ha aiutato con il banner!
+{% end %}
+
 Ciao, sembra che ci rincontriamo. O forse no, se sei un nuovo arrivato.
 
 Questo post parla del perché ultimamente sto **riscoprendo i giochi retrò** e del perché mi sto **divertendo di più con loro che con i giochi moderni.**

@@ -9,6 +9,10 @@ accent_color = "#908a99"
 banner = "banner.webp"
 +++
 
+{% alert(note=true) %}
+A really big thanks to [Daudix](https://daudix.one/) for helping me with the banner!
+{% end %}
+
 Hey, looks like we meet again. Or maybe not, in case you're new here.
 
 This post is going to be about why I've been **rediscovering retro games** lately, and also why I'm having **more fun with them than modern games** at the moment.
