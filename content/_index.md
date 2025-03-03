@@ -1,5 +1,7 @@
 +++
 title = "Home"
+[extra]
+no_header = true
 +++
 
 # Hello, I'm Mambuco.
