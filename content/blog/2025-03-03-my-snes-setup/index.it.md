@@ -6,7 +6,7 @@ date = 2025-03-03
 tags = ["Retro", "Gaming", "SNES"]
 [extra]
 accent_color = "#908a99"
-# banner = "banner.webp"
+banner = "banner.webp"
 +++
 
 Ciao, sembra che ci rincontriamo. O forse no, se sei un nuovo arrivato.
