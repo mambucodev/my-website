@@ -33,7 +33,7 @@ build_search_index = true
 taxonomies = [{ name = "tags", feed = true }]
 
 [extra]
-accent_color = ["hsl(233, 57%, 37%)", "hsl(231, 44%, 74%)"]
+accent_color = ["hsl(233, 57%, 37%)", "hsl(230, 44%, 64%)"]
 
 # styles = ["mods.css"]
 
