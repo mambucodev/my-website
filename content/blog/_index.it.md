@@ -7,6 +7,19 @@ page_template = "article.html"
 paginate_by = 10
 +++
 
+{% crt() %}
+```
+(\ 
+\'\ 
+ \'\     __________  
+ / '|   ()_________)
+ \ '/    \ ~~~~~~~~ \
+   \       \ ~~~~~~   \
+   ==).      \__________\
+  (__)       ()__________)
+```
+{% end %}
+
 **Hey**, non mi aspettavo di trovarti qui!
 Immagino tu abbia letto il titolo, quindi sai di cosa si tratta.
 
