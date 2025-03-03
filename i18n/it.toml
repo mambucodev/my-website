@@ -7,13 +7,6 @@ language_name = "Italiano"
 date_format = "%B %d, %Y"
 date_locale = "it_IT"
 
-# Menu items.
-# Should match the names in config.extra.nav.links and config.extra.footer.links.
-Blog = "Blog"
-Online = "Online"
-Coffee = "Caffè"
-Discord = "Discord"
-
 all_tags = "Tutti i tag"
 archived = "Archiviato"
 author = "Autore"

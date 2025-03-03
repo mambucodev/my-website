@@ -1,3 +1,3 @@
-[submodule "themes/duckquill"]
-	path = themes/duckquill
-	url = https://codeberg.org/daudix/duckquill.git
+[submodule "themes/ametrine"]
+	path = themes/ametrine
+	url = https://codeberg.org/daudix/ametrine.git

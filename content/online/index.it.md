@@ -14,26 +14,7 @@ Qui a roma sono le <time id="clock"><noscript>NO:JS</noscript></time> <small>(UT
 
 Puoi contattarmi su alcune piattaforme social:
 
-<ul class="masonry">
-    <li>
-        <a href="https://discord.com/users/604790617138266149">
-            <article>
-                <img src="icons/discord-icon.png" alt="Discord Logo" class="transparent no-hover icon discord" />
-                <!-- <h2>Discord</h2> -->
-                <p>La mia piattaforma preferita, dove sono più attivo.</p>
-                <!-- {{ image(url="icons/discord-icon.png", alt="Discord Logo", transparent=true, no_hover=true) }} -->
-            </article>
-        </a>
-    </li>
-    <li>
-        <a href="https://matrix.to/#/@mambuco:matrix.org">
-            <article>
-                <img src="icons/matrix-icon.png" alt="Matrix Logo" class="transparent no-hover icon" />
-                <!-- <h2>Matrix</h2> -->
-                <p>La mia piattaforma preferita, dove sono più attivo.</p>
-            </article>
-        </a>
-    </li>
-</ul>
+- [Discord](https://discord.com/users/604790617138266149)
+- [Matrix](https://matrix.to/#/@mambuco:envs.net) - *il mio preferito*
 
 <strong>Questa pagina è ancora <abbr title="Work In Progress">WIP</abbr>, ci sto lavorando.</strong>

@@ -5,13 +5,15 @@ sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"
 paginate_by = 10
+[extra]
+no_header = true
 +++
 
 {% crt() %}
 ```
-(\ 
-\'\ 
- \'\     __________  
+(\
+\'\
+ \'\     __________
  / '|   ()_________)
  \ '/    \ ~~~~~~~~ \
    \       \ ~~~~~~   \
@@ -19,6 +21,8 @@ paginate_by = 10
   (__)       ()__________)
 ```
 {% end %}
+
+# Blog di Mambuco
 
 **Hey**, non mi aspettavo di trovarti qui!
 Immagino tu abbia letto il titolo, quindi sai di cosa si tratta.
