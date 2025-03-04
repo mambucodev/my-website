@@ -55,7 +55,7 @@ card = true
 # show_feed = true
 # show_theme_switcher = true
 
-icon = true
+icon = apple-touch-icon.png
 force_sidebar = true
 
 links = [
