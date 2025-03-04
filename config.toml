@@ -42,7 +42,7 @@ accent_color = ["hsl(232, 54%, 41%)", "hsl(230, 44%, 64%)"]
 issues_url = "https://github.com/mambucodev/my-website/issues"
 source_url = "https://github.com/mambucodev/my-website"
 
-show_read_time = true
+show_reading_time = true
 show_share_button = true
 show_backlinks = true
 
