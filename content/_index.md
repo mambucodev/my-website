@@ -70,7 +70,7 @@ If you ever wanna get in touch (or just stalk me), just take a look at [this pag
 
 ## Credits
 
-This is honestly the most important part for me. I really love the way the website looks, and that's all thanks to [Daudix](https://daudix.one/) for his beautiful theme: [Duckquill](https://duckquill.daudix.one/).
+This is honestly the most important part for me. I really love the way the website looks, and that's all thanks to [Daudix](https://daudix.one/) for his beautiful theme: [Ametrine](https://ametrine.daudix.one/).
 
 He helped me a lot with the customization, and with the things I didn't understand about [Zola](https://www.getzola.org/).
 

@@ -70,7 +70,7 @@ Se vuoi metterti in contatto con me (o semplicemente seguirmi), dai un'occhiata 
 
 ## Crediti
 
-Onestamente, secondo me questa è la parte più importante. Adoro il look di questo sito, e questo è tutto grazie a [Daudix](https://daudix.one/) per il suo bellissimo tema: [Duckquill](https://duckquill.daudix.one/).
+Onestamente, secondo me questa è la parte più importante. Adoro il look di questo sito, e questo è tutto grazie a [Daudix](https://daudix.one/) per il suo bellissimo tema: [Ametrine](https://ametrine.daudix.one/).
 
 Mi ha aiutato un sacco con la personalizzazione, e tutto quello che non capivo riguardo [Zola](https://www.getzola.org/). *(Mi ha anche aiutato a capire come mettere la traduzione in Italiano)*
 
