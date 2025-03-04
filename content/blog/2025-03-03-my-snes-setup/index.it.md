@@ -5,7 +5,7 @@ date = 2025-03-03
 [taxonomies]
 tags = ["Retro", "Gaming", "SNES"]
 [extra]
-accent_color = "hsl(264, 7%, 57%)"
+accent_color = ["hsl(264, 7%, 57%)", "hsl(324, 5%, 80%)"]
 banner = "banner.webp"
 +++
 
