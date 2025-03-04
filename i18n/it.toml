@@ -1,6 +1,6 @@
-language_name = "Italiano"  # Mostrato nel selettore di lingua per siti multilingue.
+language_name = "Italiano"
 date_locale = "it_IT"
-full_stop = "."  # Usato alla fine di una frase.
+full_stop = "."
 
 skip_to_content = "Vai al contenuto principale"
 comments = "Commenti"
@@ -8,12 +8,9 @@ read_also = "Leggi anche"
 filter_tag = "Filtra per tag"
 filter_category = "Filtra per categoria"
 many_posts = "$NUMBER post in totale"
-# Come in "Post precedente"
 previous = "Precedente"
-# Come in "Post successivo"
 next = "Successivo"
 file_an_issue = "Segnala un problema"
-# Come in "Dettagli del post"; data di pubblicazione, tag e simili.
 details = "Dettagli"
 header_tags = "Tag"
 author_separator = ", "
