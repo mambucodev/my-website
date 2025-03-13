@@ -48,7 +48,16 @@ show_backlinks = true
 
 analytics = true
 
+date_format = "%d %B %Y"
+date_format_long = "%d %B %Y, %R (%Z)"
+date_locale = "en_IE"
+
 timezone = "Europe/Rome"
+
+[extra.it]
+date_format = "%d %B %Y"
+date_format_long = "%d %B %Y, %R (%Z)"
+date_locale = "it_IT"
 
 [extra.meta]
 favicon = true
