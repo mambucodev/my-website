@@ -58,7 +58,8 @@ Just in case, here's a list of the distros I've tried (in order):
 - Kali
 - Arch
 - EndeavourOS
-- Fedora (current)
+- Fedora
+- Vanilla OS (current)
 
 ### Blog
 

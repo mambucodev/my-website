@@ -58,7 +58,8 @@ Nel dubbio, ecco una lista delle <abbr title="Distribuzioni di Linux">distro</ab
 - Kali
 - Arch
 - EndeavourOS
-- Fedora (attuale)
+- Fedora
+- Vanilla OS (attuale)
 
 ### Blog
 
