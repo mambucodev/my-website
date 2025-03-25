@@ -40,6 +40,37 @@ What do I mean with criterias? Just a list of stuff to try out before actually g
 - Writing code
 - Launching games
 - Listening to music
-- Other stuff (See [#suggestions](#suggestions))
+- Other stuff (See [#suggestions](@/distropedia/_index.md#suggestions))
 
-## Suggestions
+## Which Distros?
+
+Obviously I can't try every linux distro on earth, so I'll select the most used ones + the ones anybody of you [requests](@/distropedia/_index.md#suggestions).
+
+I'm open-minded to pretty much anything, so we'll begin with
+
+- Debian
+- Red Hat
+- ~~Arch Linux~~
+
+{% alert(note=true) %} 
+Q: *Why not Arch?*
+A: **It was my first distro** and I've used it for months. [Here](@/blog/2025-02-04-from-arch-to-fedora/index.md) I explain why I quit, but it's been a wonderful experience.
+{% end %}
+
+I'll then keep going with debian-based distros and so on with Red Hat/Arch-based too.
+
+By the way there's also a [roadmap](@/distropedia/roadmap/index.md) if you want.
+
+## Conclusion
+
+On the sidebar the [Distropedia](@/distropedia/_index.md) tab should have appeared. That's where you'll find all the distros tried so far, a roadmap, and a link to this article.
+
+Again, if you have any suggestions please [read this paragraph](@/distropedia/_index.md#suggestions) to understand how you can contribute.
+
+{% alert(fact=true) %}
+Thanks, really. This website is helping me going trough a lot of stuff. You probably can't notice trough an article all the troubles that somebody is living.
+
+So I really appreciate who's here reading my blog light-heartedly. It supports me more than you can imagine.
+{% end %}
+
+See ya!
