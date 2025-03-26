@@ -14,10 +14,7 @@ author = "Mambuco"
 
 default_language = "en"
 
-taxonomies = [
-    { name = "tags", feed = true },
-    # { name = "categories", feed = true },
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 highlight_code = true
@@ -74,6 +71,7 @@ force_sidebar = true
 links = [
     { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
+    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
 ]
 
 [extra.nav.it]
@@ -81,6 +79,7 @@ links = [
 links = [
     { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
+    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
 ]
 
 [extra.footer]
