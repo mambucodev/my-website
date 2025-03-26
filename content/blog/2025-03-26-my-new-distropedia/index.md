@@ -9,6 +9,10 @@ accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
 # banner = "banner.webp"
 +++
 
+{% alert(warning=true) %}
+*I still need to make a banner, but imagine a lot of distro logos in a circle and... and a compass maybe... at the center. That's the idea.*
+{% end %}
+
 Prepare, because you're going to read a lot of interesting stuff (at least I hope) about **Linux**, and about **me**.
 
 {% alert(important=true) %}
@@ -52,7 +56,7 @@ I'm open-minded to pretty much anything, so we'll begin with
 - Red Hat
 - ~~Arch Linux~~
 
-{% alert(note=true) %} 
+{% alert(note=true) %}
 Q: *Why not Arch?*
 A: **It was my first distro** and I've used it for months. [Here](@/blog/2025-02-04-from-arch-to-fedora/index.md) I explain why I quit, but it's been a wonderful experience.
 {% end %}
