@@ -96,3 +96,8 @@ socials = [
 
 [extra.footer.it]
 copyright = "© Mambuco, 2024-$YEAR"
+
+[extra.fediverse]
+
+host = "wetdry.world"
+user = "mambuco"
