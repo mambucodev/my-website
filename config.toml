@@ -19,7 +19,7 @@ taxonomies = [{ name = "tags", feed = true }]
 [markdown]
 highlight_code = true
 smart_punctuation = true
-# bottom_footnotes = true
+bottom_footnotes = true
 
 [search]
 index_format = "elasticlunr_json"
@@ -41,7 +41,8 @@ source_url = "https://github.com/mambucodev/my-website"
 
 show_reading_time = true
 show_share_button = true
-show_backlinks = true
+# show_backlinks = true
+copy_button = true
 
 analytics = true
 
@@ -71,7 +72,7 @@ force_sidebar = true
 links = [
     { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
+    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books", new = true },
 ]
 
 [extra.nav.it]
@@ -79,7 +80,7 @@ links = [
 links = [
     { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
+    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books", new = true },
 ]
 
 [extra.footer]
