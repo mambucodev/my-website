@@ -4,7 +4,7 @@ title = "Home"
 no_header = true
 +++
 
-<div class="container-full">
+<div class="container-fill">
 <div>
 
 {{ image(url="/assets/avatar.png", alt="Just my avatar", end=true, no_hover=true) }}
