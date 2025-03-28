@@ -24,6 +24,7 @@ Hey! Sono Mambuco, il tuo sviluppatore preferito. Sto scherzando, mi conoscono i
 </div>
 
 <div id="more"></div>
+
 ## Online
 
 Se vuoi metterti in contatto con me (o semplicemente seguirmi), dai un'occhiata a [questa pagina](@/online/index.it.md).
