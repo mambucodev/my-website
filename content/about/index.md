@@ -33,17 +33,8 @@ But apart from that, I also listen to a lot of Rock and Metal, like Sleep Token,
 
 ## Linux
 
-I currently use Fedora as my daily driver, but my favorite is honestly Arch.
-There's a [blog post](@/blog/2025-02-04-from-arch-to-fedora/index.md) about the reason I switched if you're interested.
-
-Just in case, here's a list of the distros I've tried (in order):
-
-- Ubuntu
-- Kali
-- Arch
-- EndeavourOS
-- Fedora
-- Vanilla OS (current)
+I currently use Vanilla OS as my daily driver, and I like it a lot.
+There's a project about linux that I've started, take a look at the [Distropedia](@/distropedia/_index.md).
 
 ## Blog
 

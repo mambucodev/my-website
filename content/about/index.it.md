@@ -33,17 +33,8 @@ Ma a parte questo, ascolto anche molto Rock e Metal, come Sleep Token, Bring Me 
 
 ## Linux
 
-Attualmente uso Fedora come <abbr title="Sistema Operativo">OS</abbr> principale, ma il mio preferito è onestamente Arch.
-C'è un [post](@/blog/2025-02-04-from-arch-to-fedora/index.it.md) sul mio blog riguardo il motivo per cui ho cambiato, se sei interessato.
-
-Nel dubbio, ecco una lista delle <abbr title="Distribuzioni di Linux">distro</abbr> che ho provato (in ordine):
-
-- Ubuntu
-- Kali
-- Arch
-- EndeavourOS
-- Fedora
-- Vanilla OS (attuale)
+Al momento uso Vanilla OS ogni giorno, e direi che mi piace abbastanza.
+C'è un progetto riguardo Linux che ho cominciato, dai un'occhiata a [Distropedia](@/distropedia/_index.it.md).
 
 ## Blog
 
