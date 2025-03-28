@@ -60,7 +60,7 @@ date_locale = "it_IT"
 [extra.meta]
 favicon = "favicon.gif"
 apple_touch_icon = "assets/avatar.png"
-card = true
+# card = true
 
 [extra.nav]
 # show_feed = true
