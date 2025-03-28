@@ -46,6 +46,8 @@ copy_button = true
 
 analytics = true
 
+show_comments_qr = true
+
 date_format = "%d %B %Y"
 date_format_long = "%d %B %Y, %R (%Z)"
 date_locale = "en_IE"
