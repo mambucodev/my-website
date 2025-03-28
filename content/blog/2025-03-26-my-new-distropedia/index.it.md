@@ -7,6 +7,8 @@ tags = ["Distropedia", "Linux"]
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
 # banner = "banner.webp"
+[extra.comments]
+id = "114237109441401674"
 +++
 
 {% alert(warning=true) %}
