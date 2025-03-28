@@ -21,8 +21,9 @@ Hey! Sono Mambuco, il tuo sviluppatore preferito. Sto scherzando, mi conoscono i
   <a href="#more">Altro ↓</a>
 </div>
 </div>
+</div>
 
-<div is="more">
+<div is="more"></div>
 
 ## Online
 
@@ -35,5 +36,3 @@ Onestamente, secondo me questa è la parte più importante. Adoro il look di que
 Mi ha aiutato un sacco con la personalizzazione, e tutto quello che non capivo riguardo [Zola](https://www.getzola.org/). *(Mi ha anche aiutato a capire come mettere la traduzione in Italiano)*
 
 Il sito è disponibile su [GitHub](https://github.com/mambucodev/my-website/) per chiunque avesse bisogno di ispirazione o fosse solo curioso. (Tra l'altro, grazie anche a [Vercel](https://vercel.com/) per il deploy!)
-
-</div>

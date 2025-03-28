@@ -21,8 +21,9 @@ Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that 
   <a href="#more">More ↓</a>
 </div>
 </div>
+</div>
 
-<div id="more">
+<div id="more"></div>
 
 ## Online
 
@@ -35,5 +36,3 @@ This is honestly the most important part for me. I really love the way the websi
 He helped me a lot with the customization, and with the things I didn't understand about [Zola](https://www.getzola.org/).
 
 The website is available on [GitHub](https://github.com/mambucodev/my-website/) for whoever needs inspiration or is just curious. (By the way, also thanks to [Vercel](https://vercel.com/) for deploying!)
-
-</div>
