@@ -91,6 +91,7 @@ show_powered_by = true
 show_timestamp = true
 
 socials = [
+    { url = "https://wetdry.world/@mambuco", icon = "mastodon" },
     { url = "https://bsky.app/profile/mambuco.dev", icon = "bluesky" },
     { url = "https://github.com/mambucodev", icon = "github" },
     { url = "https://discord.sadyn.it", icon = "discord" },
