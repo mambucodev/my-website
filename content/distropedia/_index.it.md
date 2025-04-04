@@ -59,5 +59,5 @@ Comunque, puoi suggerire in diversi modi. Puoi contattarmi direttamente o aprire
 
 <div class="buttons centered big">
     <a href="/it/online">Contattami →</a>
-    <a class="suggested" target="_blank" href="https://github.com/mambucodev/my-website/issues">GitHub →</a>
+    <a class="suggested" target="_blank" href="https://github.com/mambucodev/my-website/issues/new/choose">GitHub →</a>
 </div>
