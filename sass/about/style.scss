@@ -1,5 +1,5 @@
 .container-fill-desktop {
-  @media (min-width: 768px) {
+  @media (min-height: 948px) {
     margin: 0 auto;
 	width: calc(100% - 2rem);
 	max-width: var(--container-width);
