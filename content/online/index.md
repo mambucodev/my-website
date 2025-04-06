@@ -2,7 +2,7 @@
 title = "Online"
 description = "Find me on social media or other platforms online."
 [extra]
-styles = ["masonry.css", "online/style.css"]
+styles = ["online/style.css"]
 scripts = ["online/status.js", "online/clock.js"]
 +++
 
