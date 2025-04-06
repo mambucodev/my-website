@@ -1,41 +1,91 @@
 +++
-title = "Su di me"
+title = "Biografia"
+[extra]
+styles = ["about/style.css"]
+no_header = true
 +++
 
-Hey, sono io! Abbiamo molto di cui parlare, quindi iniziamo.
+<div class="container-fill">
 
-Il mio vero nome è Gabriele, Sono Italiano, e amo il cibo. *Voglio dire, chi non lo ama?*
+# Biografia
 
-Ho alcune passioni:
+Volete conoscermi un po' di più? Ecco a te.
 
-- [Linux](#linux)
-- Programmare (ovvio)
+<ul class="masonry">
+
+<li>
+<article>
+
+Il mio vero nome è Gabriele, Sono Italiano, e amo il cibo. <small>Voglio dire, chi non lo ama?</small>
+
+</article>
+</li>
+
+<li>
+<article>
+
+Mi definirei **principalmente introverso**.
+
+Il mio tipo di personalità è `INFP-T`, da questo si possono capire molte cose di me. Di solito non inizio una conversazione a meno che **non abbia fiducia in quella persona**, e spesso mi piace passare del tempo **da solo**.
+
+</article>
+</li>
+
+<li>
+<article class="fancy-list">
+
+**Le mie passioni:**
+
+- Linux
+- Coding <small>(ovvio)</small>
 - Musica
-- [Giochi](#giochi-e-musica)
-- Ricing [*(definizione in inglese)*](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html/)
+- Giochi
+- <a class="external" target="_blank" href="https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/contenticing.html/">Ricing</a>
 
-Il mio linguaggio di programmazione preferito è al momento [Rust](https://www.rust-lang.org/), ma quello che conosco meglio è [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/).
+</article>
+</li>
 
-## Giochi e Musica
+<li>
+<article>
 
-Alcuni dei miei videogiochi preferiti sono:
+Il mio linguaggio di programmazione preferito è attualmente **Rust**, ma quello che conosco meglio è **JavaScript**.
 
-- [Hollow Knight](https://store.steampowered.com/app/367520/Hollow_Knight/) (Skong)
-- [Beat Saber](https://store.steampowered.com/app/620980/Beat_Saber/)
-- [Celeste](https://store.steampowered.com/app/504230/Celeste/)
-- [Portal](https://store.steampowered.com/app/400/Portal/)
-- [Minecraft](https://www.minecraft.net/)
-- Giochi FPS in generale
+</article>
+</li>
 
-Riguardo la musica, Billie Eilish è la migliore. Non c'è discussione su questo.
+<li>
+<article>
 
-Ma a parte questo, ascolto anche molto Rock e Metal, come Sleep Token, Bring Me The Horizon, e così via.
+Ascolto musica ogni giorno, per ore. Mi fa rilassare, mi fa venire l'hype o qualsiasi cosa mi serva. La mia cantante preferita è **Billie Eilish**, mi ha aiutato molto. Ascolto anche **Sleep Token**, **Polyphia** e molti altri artisti Rock/Metal.
 
-## Linux
+</article>
+</li>
 
-Al momento uso Vanilla OS ogni giorno, e direi che mi piace abbastanza.
-C'è un progetto riguardo Linux che ho cominciato, dai un'occhiata a [Distropedia](@/distropedia/_index.it.md).
+<li>
+<article class="fancy-list">
 
-## Blog
+**I miei giochi preferiti sono:**
 
-Ho deciso di cominciare a scrivere un [blog](@/blog/_index.it.md), come modo per condividere i miei pensieri e le mie esperienze. Non pretendo di essere interessante o roba simile, ma spero che qualcuno possa trovare i miei contenuti utili.
+- Hollow Knight <small>(Skong)</small>
+- Beat Saber
+- Celeste
+- Portal
+- Minecraft
+- *Alcuni giochi FPS*
+
+</article>
+</li>
+
+<li>
+<article>
+
+Amo **Linux** e odio Windows. Il mio sistema principale è **Vanilla OS**.
+
+Ho provato anche altre distro nel corso del tempo, si consiglia di dare un'occhiata alla [Distropedia](@/distropedia/_index.it.md): un mio progetto.
+
+</article>
+</li>
+
+</ul>
+
+</div>
