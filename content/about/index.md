@@ -5,7 +5,7 @@ styles = ["about/style.css"]
 no_header = true
 +++
 
-<div class="container-fill">
+<div class="container-fill-desktop">
 
 # About
 

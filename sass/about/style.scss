@@ -1,3 +1,20 @@
+.container-fill-desktop {
+  @media (min-width: 768px) {
+    margin: 0 auto;
+	width: calc(100% - 2rem);
+	max-width: var(--container-width);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-block-start: -2rem;
+	height: calc(100vh - 2rem);
+
+	@supports (height: 100svh) {
+		height: calc(100svh - 2rem);
+	}
+  }
+}
+
 .masonry {
 	column-gap: 0.5rem;
 	columns: auto 16rem;
