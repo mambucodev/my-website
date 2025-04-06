@@ -72,17 +72,23 @@ icon = "assets/avatar.png"
 force_sidebar = true
 
 links = [
-    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+    { url = "@/about/index.md", name = "About", icon = "info" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books", new = true },
+    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+    { name = "Projects", categoru = [
+        { url = "@/distropedia/_index.md", name = " Distropedia", icon = "books", new = true },
+    ] },
 ]
 
 [extra.nav.it]
 
 links = [
-    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+    { url = "@/about/index.md", name = "Biografia", icon = "info" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books", new = true },
+    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+    { name = "Progetti", categoru = [
+        { url = "@/distropedia/_index.md", name = " Distropedia", icon = "books", new = true },
+    ] },
 ]
 
 [extra.footer]
