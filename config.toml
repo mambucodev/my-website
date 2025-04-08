@@ -36,6 +36,8 @@ taxonomies = [{ name = "tags", feed = true }]
 [extra]
 accent_color = ["hsl(232, 54%, 41%)", "hsl(230, 44%, 64%)"]
 
+styles = ["mods.css"]
+
 issues_url = "https://github.com/mambucodev/my-website/issues"
 source_url = "https://github.com/mambucodev/my-website"
 
