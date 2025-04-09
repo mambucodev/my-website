@@ -6,34 +6,57 @@ styles = ["online/style.css"]
 scripts = ["online/status.js", "online/clock.js"]
 +++
 
-Hey, it's still me!
+**Hey, it's still me!** In case you want to get in touch with me, see what I do, publish, or say, this is the page you're looking for!
 
-## Contacts
+<details>
+<summary>What about popular Social Media?</summary>
+
+I've been avoiding most socials like TikTok, Instagram and others lately. The simple fact is that spending time on those platforms is completely wasted time **in my opinion**. I'm okay with how anybody chooses to spend their time, but this is my personal choice.
+
+<small>I'm still on some platforms like Mastodon, Discord and a few more. Take a look below! ↓</small>
+
+</details>
+
+## Socials
 
 In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(UTC+1)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>.
 
-You can reach me out on a few social media platforms:
+<small>↓ You can reach me out on any of these platforms, even privately.</small>
 
-<!-- <ul class="masonry">
-    <li>
-        <a href="https://discord.com/users/604790617138266149">
-            <article>
-                <img src="icons/discord-icon.png" alt="Discord Logo" class="transparent no-hover icon discord" />
-                <p>My favorite platform, where I'm most active.</p>
-            </article>
-        </a>
-    </li>
-    <li>
-        <a href="https://matrix.to/#/@mambuco:matrix.org">
-            <article>
-                <img src="icons/matrix-icon.png" alt="Matrix Logo" class="transparent no-hover icon" />
-                <p>My favorite platform, where I'm most active.</p>
-            </article>
-        </a>
-    </li>
-</ul> -->
+<div class="icon-grid">
 
-- [Discord](https://discord.com/users/604790617138266149)
-- [Matrix](https://matrix.to/#/@mambuco:envs.net) - *my favorite*
+<a href="https://discord.com/users/604790617138266149/">
+    <img alt="Pixel art Discord icon" class="transparent no-hover pixels drop-shadow icon" src="icons/discord.png" />
+    <div class="details">
+        <strong>Discord</strong>
+        <p>I use it pretty much every day. Lovely.</p>
+    </div>
+</a>
 
-<strong>This page is still <abbr title="Work In Progress">WIP</abbr>, I'm working on it.</strong>
+<a href="https://wetdry.world/@mambuco/">
+    <img alt="Pixel art Mastodon icon" class="transparent no-hover pixels drop-shadow icon" src="icons/mastodon.png" />
+    <div class="details">
+        <strong>Fediverse</strong>
+        <p>Joined Mastodon recently and I love it!</p>
+    </div>
+</a>
+
+<a href="https://matrix.to/#/@mambuco:envs.net/">
+    <img alt="Pixel art Matrix.org icon" class="transparent no-hover pixels drop-shadow icon" src="icons/matrix.png" />
+    <div class="details">
+        <strong>Matrix</strong>
+        <p>I don't use it daily, but receive notifications.
+    </div>
+</a>
+
+<a href="https://t.me/mambucodev/">
+    <img alt="Pixel art Telegram icon" class="transparent no-hover pixels drop-shadow icon" src="icons/telegram.png" />
+    <div class="details">
+        <strong>Telegram</strong>
+        <p>Not active at all, but I still use it sometimes.</p>
+    </div>
+</a>
+
+</div>
+
+<small>Btw they're not all yet... I've got to make more icons.</small>
