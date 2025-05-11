@@ -8,6 +8,10 @@ Ciao, benvenuto su Distropedia! Questa sezione del sito sta crescendo lentamente
 
 Se sei curioso riguardo allo scopo di Distropedia o vuoi sapere come mi è venuta in mente questa idea, [leggi questo](@/blog/2025-03-26-my-new-distropedia/index.md).
 
+{% alert(note=true) %}
+Ultimamente non ho molto tempo per lavorare a questo progetto. Andrà avanti, ma lentamente.
+{% end %}
+
 <details>
     <summary>Cosa troverai qui?</summary>
     Nel caso non volessi leggere il link sopra, ti capisco. Ecco perché sono qui a spiegare in poche parole <strong>perché esiste questa pagina</strong>. Fondamentalmente, ho iniziato questo progetto divertente in cui esploro una distribuzione, provo la maggior parte delle funzionalità che un sistema operativo comune dovrebbe avere e poi scrivo una recensione su di essa. Ecco perché qui sotto ci sono alcune distribuzioni (in realtà sono dei pulsanti). Se ci clicchi sopra, verrai indirizzato alla loro pagina di recensione.

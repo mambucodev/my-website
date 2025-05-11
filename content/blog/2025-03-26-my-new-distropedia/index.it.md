@@ -11,9 +11,11 @@ accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
 id = "114237109441401674"
 +++
 
+<!--
 {% alert(warning=true) %}
 *Devo ancora creare un banner, ma immagina molti loghi di distribuzioni in un cerchio e... e una bussola forse... al centro. Questa è l'idea.*
 {% end %}
+-->
 
 Preparati, perché leggerai un sacco di cose interessanti (almeno lo spero) su **Linux** e su **di me**.
 

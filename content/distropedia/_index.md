@@ -8,6 +8,10 @@ Hey, welcome to the Distropedia! This section of the website is slowly growing a
 
 If you're interested on what's the purpose of the Distropedia or want to know how I came up with this idea, [read this](@/blog/2025-03-26-my-new-distropedia/index.md).
 
+{% alert(note=true) %}
+I'm sorry but lately I don't have much time to work on this project. It will go on, but slowly.
+{% end %}
+
 <details>
     <summary>What will you find here?</summary>
     In case you didn't want to read the link above, I understand. That's why I'm here explaining in a nutshell <strong>why does this page exist</strong>. Basically I started this fun project where I sandbox a distro, try most of the features that a common OS should have and then write a review about it. That's why below there's a a few distros (they are actually buttons). If you click on them, you'll end up on their review page.
