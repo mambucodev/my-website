@@ -4,6 +4,6 @@ title = "Fedora"
 accent_color = ["hsl(215, 60%, 43%)", "hsl(215, 66%, 61%)"]
 +++
 
-Mi dispiace se ti aspettavi qualcosa di interessante...
+I'm sorry if you expected something interesting...
 
-Ho pubblicato la distropedia senza alcun contenuto effettivo da leggere, e mi dispiace. Se torni tra 1-2 giorni ti prometto che non troverai più questo messaggio.
+I've published the distropedia without any actual content to read, and I'm sorry about that. If you come back in 1-2 days I promise you won't find this message anymore.
