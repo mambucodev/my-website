@@ -6,7 +6,6 @@ date = 2025-07-09
 tags = ["Tech", "Android", "iOS"]
 [extra]
 accent_color = ["hsl(147, 83%, 31%)", "hsl(147, 69%, 55%)"]
-# banner = "banner.webp"
 # [extra.fediverse]
 # id = ""
 +++

@@ -3,7 +3,7 @@ title = "My SNES Setup"
 description = "Why I set up a SNES on my desk even though I have a gaming PC."
 date = 2025-03-03
 [taxonomies]
-tags = ["Retro", "Gaming", "SNES"]
+tags = ["Gaming", "Retro"]
 [extra]
 accent_color = ["hsl(264, 7%, 57%)", "hsl(324, 5%, 80%)"]
 banner = "banner.webp"
