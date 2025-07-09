@@ -24,15 +24,6 @@ bottom_footnotes = true
 [search]
 index_format = "elasticlunr_json"
 
-[languages.it]
-title = "Mambuco"
-description = "Il blog personale di Mambuco."
-generate_feeds = true
-
-build_search_index = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
 [extra]
 accent_color = ["hsl(232, 54%, 41%)", "hsl(230, 44%, 64%)"]
 
@@ -56,11 +47,6 @@ date_locale = "en_IE"
 
 timezone = "Europe/Rome"
 
-[extra.it]
-date_format = "%d %B %Y"
-date_format_long = "%d %B %Y, %R (%Z)"
-date_locale = "it_IT"
-
 [extra.meta]
 favicon = "favicon.gif"
 apple_touch_icon = "assets/avatar.png"
@@ -82,17 +68,6 @@ links = [
     ] },
 ]
 
-[extra.nav.it]
-
-links = [
-    { url = "@/about/index.md", name = "Biografia", icon = "info" },
-    { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
-    { name = "Progetti", category = [
-        { url = "@/distropedia/_index.md", name = " Distropedia", icon = "books", new = true },
-    ] },
-]
-
 [extra.footer]
 copyright = "© Mambuco, 2024-$YEAR"
 show_powered_by = true
@@ -104,9 +79,6 @@ socials = [
     { url = "https://github.com/mambucodev", icon = "github" },
     { url = "https://discord.sadyn.it", icon = "discord" },
 ]
-
-[extra.footer.it]
-copyright = "© Mambuco, 2024-$YEAR"
 
 [extra.fediverse]
 
