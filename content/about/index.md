@@ -56,7 +56,7 @@ My favorite programming language is currently **Rust**, but the one I know the b
 <li>
 <article>
 
-I listen to music every day, for hours. It makes me relax, hype, or whatever I need it to do. My favorite singer is **Billie Eilish**, she's helped me a lot. I also listen to **Sleep Token**, **Polyphia**, and many other Rock/Metal artists.
+I listen to music every day, for hours. It makes me relax, hype, or whatever I need it to do. My favorite singer is **Billie Eilish**, she's helped me a lot. I also listen to **Sleep Token**, **Polyphia**, and many other Rock/Metal artists. **BUT** I'm currently obessed with J-pop and J-rock, especially Anime opening/ending themes.
 
 </article>
 </li>
@@ -79,7 +79,7 @@ I listen to music every day, for hours. It makes me relax, hype, or whatever I n
 <li>
 <article>
 
-I love **Linux** and hate Windows. My main system is **Vanilla OS**.
+I love **Linux** and hate Windows. My main distro is currently **Arch Linux** <small>(btw)</small>.
 
 I also tried other distros trough time, you'd want to take a look at the [Distropedia](@/distropedia/_index.md): a project of mine.
 
