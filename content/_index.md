@@ -7,14 +7,14 @@ no_header = true
 <div class="container-fill">
 <div>
 
-{{ image(url="/assets/avatar.png", alt="Just my avatar", end=true, no_hover=true) }}
+{{ image(url="https://api.lanyard.rest/604790617138266149.webp", alt="Just my avatar", end=true, no_hover=true) }}
 
 <div id="title">
 
 # Hey, I'm Mambuco
 </div>
 
-Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that famous. But I'm glad you're here!
+Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that famous. But I'm glad you're here! {{ emoji(name="neofox_aww") }}
 
 <div class="buttons start big">
   <a class="suggested" href="/about/">About Me →</a>
@@ -36,3 +36,5 @@ This is honestly the most important part for me. I really love the way the websi
 He helped me a lot with the customization, and with the things I didn't understand about [Zola](https://www.getzola.org/).
 
 The website is available on [GitHub](https://github.com/mambucodev/my-website/) for whoever needs inspiration or is just curious. (By the way, also thanks to [Vercel](https://vercel.com/) for deploying!)
+
+<small>Oh, and by the way, the image above is fetched from my Discord profile {{ emoji(name="neofox_book") }}</small>
