@@ -6,8 +6,8 @@ date = 2025-07-09
 tags = ["Tech", "Android", "iOS"]
 [extra]
 accent_color = ["hsl(147, 83%, 31%)", "hsl(147, 69%, 55%)"]
-# [extra.fediverse]
-# id = ""
+[extra.fediverse]
+id = "114825869258735669"
 +++
 
 Hey, welcome back! I haven't posted for a while, and it's because I've been thinking about what to post about. I want to talk about big corporations this time such as Apple, Google, Microsoft, and so on.
