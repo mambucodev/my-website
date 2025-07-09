@@ -11,11 +11,9 @@ accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
 id = "114237109441401674"
 +++
 
-<!--
-{% alert(warning=true) %}
+<!-- {% alert(warning=true) %}
 *I still need to make a banner, but imagine a lot of distro logos in a circle and... and maybe a compass... in the centre. That's the idea.*
-{% end %}
--->
+{% end %} -->
 
 Get ready, because you're about to read a lot of interesting stuff (at least I hope so) about **Linux**, and about **me**.
 
