@@ -1,7 +1,7 @@
 +++
 title = "Distropedia"
 [extra]
-accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
+accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
 +++
 
 Hey, welcome to the Distropedia! This section of the website is slowly growing as my side project.

@@ -5,7 +5,7 @@ date = 2025-07-10
 [taxonomies]
 tags = ["Feelings", "Writing"]
 [extra]
-accent_color = ["hsl(258, 58%, 42%)", "hsl(262, 47%, 63%)"]
+accent_color = ["hsl(258, 59%, 45%)", "hsl(262, 49%, 71%)"]
 [extra.fediverse]
 id = "114828717650289403"
 +++

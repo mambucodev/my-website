@@ -1,7 +1,7 @@
 +++
 title = "Roadmap"
 [extra]
-accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 59%)"]
+accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
 +++
 
 This is the roadmap for the Distropedia. If you want me to add a new distro to this list, check the [suggestions](@/distropedia/_index.md#suggestions) section on the previous page.

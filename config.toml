@@ -25,7 +25,7 @@ bottom_footnotes = true
 index_format = "elasticlunr_json"
 
 [extra]
-accent_color = ["hsl(232, 54%, 41%)", "hsl(231, 44%, 56%)"]
+accent_color = ["hsl(204, 62%, 43%)", "hsl(204, 70%, 81%)"]
 
 styles = ["mods.css"]
 
@@ -62,7 +62,7 @@ links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
     { url = "@/socials/index.md", name = "Socials", icon = "at" },
     { name = "My Works", category = [
-        { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+        { url = "@/blog/_index.md", name = "Blog", icon = "newspaper-clipping" },
         { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
         { url = "@/commissions/index.md", name = "Commissions", icon = "basket" },
     ] },

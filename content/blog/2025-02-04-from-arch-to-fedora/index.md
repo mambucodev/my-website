@@ -5,7 +5,7 @@ date = 2025-02-04
 [taxonomies]
 tags = ["Linux", "Fedora"]
 [extra]
-accent_color = ["hsl(210 87% 34%)", "hsl(205, 65%, 59%)"]
+accent_color = ["hsl(210, 29%, 25%)", "hsl( 210, 12%, 71%)"]
 banner = "banner.webp"
 +++
 

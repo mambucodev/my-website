@@ -5,7 +5,7 @@ date = 2025-07-09
 [taxonomies]
 tags = ["Tech", "Android", "iOS"]
 [extra]
-accent_color = ["hsl(147, 83%, 31%)", "hsl(147, 69%, 55%)"]
+accent_color = ["hsl(92, 48%, 42%)", "hsl(88, 50%, 76%)"]
 [extra.fediverse]
 id = "114825869258735669"
 +++

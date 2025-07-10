@@ -25,7 +25,7 @@ Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that 
 
 <div id="more"></div>
 
-## Online
+## Socials
 
 If you ever wanna get in touch (or just stalk me), just take a look at [this page](@/socials/index.md).
 
