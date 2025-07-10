@@ -10,8 +10,6 @@ accent_color = ["hsl(258, 58%, 42%)", "hsl(262, 47%, 63%)"]
 # id = ""
 +++
 
-# What About Blogging?
-
 I've been enjoying this blog recently. Oh... now that I think about it, why wasn't I enjoying this before?
 
 <small>This was a cool ass introduction, admit it. {{ emoji(name="neofox_smug") }}</small>
