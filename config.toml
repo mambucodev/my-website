@@ -62,10 +62,13 @@ force_sidebar = true
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
     { url = "@/online/index.md", name = "Online", icon = "at" },
-    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
-    { name = "Projects", category = [
-        { url = "@/distropedia/_index.md", name = " Distropedia", icon = "books", new = true },
+    { name = "Hobbies", category = [
+        { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+        { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
     ] },
+    { name = "External", category = [
+        { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" }
+    ] }
 ]
 
 [extra.footer]
