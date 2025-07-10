@@ -25,7 +25,7 @@ bottom_footnotes = true
 index_format = "elasticlunr_json"
 
 [extra]
-accent_color = ["hsl(232, 54%, 41%)", "hsl(230, 44%, 64%)"]
+accent_color = ["hsl(232, 54%, 41%)", "hsl(231, 44%, 56%)"]
 
 styles = ["mods.css"]
 
@@ -34,7 +34,6 @@ source_url = "https://github.com/mambucodev/my-website"
 
 show_reading_time = true
 show_share_button = true
-# show_backlinks = true
 copy_button = true
 
 analytics = true
@@ -61,10 +60,11 @@ force_sidebar = true
 
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
-    { url = "@/online/index.md", name = "Online", icon = "at" },
-    { name = "Hobbies", category = [
+    { url = "@/socials/index.md", name = "Socials", icon = "at" },
+    { name = "My Works", category = [
         { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
         { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
+        { url = "@/commissions/index.md", name = "Commissions", icon = "basket" },
     ] },
     { name = "External", category = [
         { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" }

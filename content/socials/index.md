@@ -1,9 +1,9 @@
 +++
-title = "Online"
+title = "Socials"
 description = "Find me on social media or other platforms online."
 [extra]
-styles = ["online/style.css"]
-scripts = ["online/status.js", "online/clock.js"]
+styles = ["socials/style.css"]
+scripts = ["socials/status.js", "socials/clock.js"]
 +++
 
 **Hey, it's still me!** In case you want to get in touch with me, see what I do, publish, or say, this is the page you're looking for!
