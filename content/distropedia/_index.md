@@ -10,6 +10,8 @@ If you're interested on what's the purpose of the Distropedia or want to know ho
 
 {% alert(note=true) %}
 I'm sorry but lately I don't have much time to work on this project. It will go on, but slowly.
+
+Update: This website section hasn't been updated since it was created. I will surely bring this project to life, just not now. **I'm sorry for the hype.**
 {% end %}
 
 <details>

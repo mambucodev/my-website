@@ -9,9 +9,13 @@ scripts = ["socials/status.js", "socials/clock.js"]
 **Hey, it's still me!** In case you want to get in touch with me, see what I do, publish, or say, this is the page you're looking for!
 
 <details>
-<summary>What about popular Social Media?</summary>
+<summary>What about other Social Media?</summary>
 
-I've been avoiding most socials like TikTok, Instagram and others lately. The simple fact is that spending time on those platforms is completely wasted time **in my opinion**. I'm okay with how anybody chooses to spend their time, but this is my personal choice.
+I *do* have an account on Instagram, TikTok, X (Twitter), and other platforms. I just choose to not use them as I **don't** support the direction they're going. They were created for user entertainment, but now it's just bloated advertisement and propaganda. I prefer to be active on a platform where you can actually see interesting content.
+
+There's also the fact that most big corp SNSs are grabbing a lot of data. And you know where all that data is going, right? While it seemed a joke a few years ago, it's been proved now that AI gets a lot of training data and it's not only from scientists but from **us** too. I then realised that I'm not gonna die if I don't follow the crowd.
+
+I'm not surprised if ChatGPT answers correctly if you just go and ask him "Who's `<your fullname>`?".
 
 <small>I'm still on some platforms like Mastodon, Discord and a few more. Take a look below! ↓</small>
 
@@ -60,3 +64,7 @@ In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small
 </div>
 
 <small>Btw they're not all yet... I've got to make more icons.</small>
+
+---
+
+I also have an e-mail address `me@mambuco.dev` and I actually like using it. If you feel old school and want to have an email friend, I'd be happy to be one.

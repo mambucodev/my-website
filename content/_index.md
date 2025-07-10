@@ -29,6 +29,16 @@ Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that 
 
 If you ever wanna get in touch (or just stalk me), just take a look at [this page](@/socials/index.md).
 
+## Commissions
+
+Some of you may have come here because of my works (or at least I hope so {{ emoji(name="neofox_cry") }}). Well, in that case, I'm open to commissions.
+
+If there's something you'd want like a website and don't know how to get it done, I can do it for just a couple bucks. I'm not doing this for money but for fun.
+
+<div class="buttons big start">
+  <a href="/commissions/">Commissions →</a>
+</div>
+
 ## Credits
 
 This is honestly the most important part for me. I really love the way the website looks, and that's all thanks to [Daudix](https://daudix.one/) for his beautiful theme: [Ametrine](https://ametrine.daudix.one/).

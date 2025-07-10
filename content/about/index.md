@@ -1,15 +1,13 @@
 +++
 title = "About"
+description = "A brief introduction about myself, and my interests of course."
 [extra]
 styles = ["about/style.css"]
-no_header = true
 +++
 
-<div class="container-fill-desktop">
+Want to know a little bit more about me? Here you go.
 
-# About
-
-Wanna know me a little bit more? Here you go.
+<small>Even tho you'd learn even more reading my [blog](@/blog/_index.md) {{ emoji(name="neofox_smug") }}</small>
 
 <ul class="masonry">
 
@@ -40,7 +38,7 @@ My personality type is `INFP-T`, you can understand a lot about me from that. I 
 - Coding <small>(duh)</small>
 - Music
 - Games
-- <a class="external" target="_blank" href="https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/contenticing.html/">Ricing</a>
+- Ricing
 
 </article>
 </li>
@@ -49,6 +47,16 @@ My personality type is `INFP-T`, you can understand a lot about me from that. I 
 <article>
 
 My favorite programming language is currently **Rust**, but the one I know the best is **JavaScript**.
+
+</article>
+</li>
+
+<li>
+<article>
+
+I love **Anime**, **Manga**, and the japanese culture in general. You'll find me talking more and more about it in my [blog](@/blog/_index.md) over time.
+
+If you want to see a list of the anime I've watched or that I'm currently watching, I have a <a class="external" target="_blank" href="https://anilist.co/user/mambuco/">AniList</a> account.
 
 </article>
 </li>
@@ -86,6 +94,14 @@ I also tried other distros trough time, you'd want to take a look at the [Distro
 </article>
 </li>
 
-</ul>
+<li>
+<article>
 
-</div>
+I'm really passionate about design, especially **web design**.
+
+A website can either be your home, your shop, your little showcase/portfolio, your diary, and so on. The internet has **no limit**. That's why I love it so much.
+
+</article>
+</li>
+
+</ul>
