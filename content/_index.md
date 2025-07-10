@@ -37,4 +37,4 @@ He helped me a lot with the customization, and with the things I didn't understa
 
 The website is available on [GitHub](https://github.com/mambucodev/my-website/) for whoever needs inspiration or is just curious. (By the way, also thanks to [Vercel](https://vercel.com/) for deploying!)
 
-<small>Oh, and by the way, the image above is fetched from my Discord profile {{ emoji(name="neofox_book") }}</small>
+<small>Oh, and by the way, the image in the navbar (top left) is fetched from my Discord profile {{ emoji(name="neofox_book") }}</small>
