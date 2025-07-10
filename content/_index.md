@@ -7,7 +7,7 @@ no_header = true
 <div class="container-fill">
 <div>
 
-{{ image(url="https://api.lanyard.rest/604790617138266149.webp", alt="Just my avatar", end=true, no_hover=true) }}
+{{ image(url="assets/avatar.png", alt="Just my avatar", end=true, no_hover=true) }}
 
 <div id="title">
 
