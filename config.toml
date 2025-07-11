@@ -83,3 +83,4 @@ show_qr = true
 
 [extra.vercel]
 analytics = true
+speed_insights = true
