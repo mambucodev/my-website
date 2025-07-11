@@ -4,3 +4,4 @@
 # Zola
 public/
 **/processed_images/
+.vercel
