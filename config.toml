@@ -7,12 +7,9 @@ theme = "ametrine"
 minify_html = true
 compile_sass = true
 generate_feeds = true
-
-feed_filenames = ["rss.xml", "atom.xml"]
 build_search_index = true
-author = "Mambuco"
 
-default_language = "en"
+author = "Mambuco"
 
 taxonomies = [{ name = "tags", feed = true }]
 
@@ -34,10 +31,7 @@ issues_url = "https://github.com/mambucodev/my-website/issues"
 source_url = "https://github.com/mambucodev/my-website"
 
 show_reading_time = true
-show_share_button = true
-copy_button = true
-
-analytics = true
+show_copy_button = true
 
 show_comments_qr = true
 
@@ -53,11 +47,7 @@ apple_touch_icon = "assets/avatar.png"
 # card = true
 
 [extra.nav]
-# show_feed = true
-# show_theme_switcher = true
-
 icon = "https://api.lanyard.rest/604790617138266149.webp"
-force_sidebar = true
 
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
@@ -75,8 +65,9 @@ links = [
 
 [extra.footer]
 copyright = "© Mambuco, 2024-$YEAR"
-show_powered_by = true
+show_fediring = true
 show_timestamp = true
+show_powered_by = true
 
 socials = [
     { url = "https://wetdry.world/@mambuco", icon = "mastodon" },
@@ -86,6 +77,9 @@ socials = [
 ]
 
 [extra.fediverse]
-
 host = "wetdry.world"
 user = "mambuco"
+show_qr = true
+
+[extra.vercel]
+analytics = true
