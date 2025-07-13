@@ -30,7 +30,7 @@ The previous article itself was written **two months** ago, and was meant to be 
 
 ## Microblogging
 
-If you think about it, I didn't actually **abbandon** blogging at all. During this "delay" I got kind of obsessed with the fediverse. I already loved microblogging in general, but the way Mastodon and ActivityPub in general work, they were fascinating. {{ emoji(name="neofox_googly_shocked") }}
+If you think about it, I didn't actually **abandon** blogging at all. During this "delay" I got kind of obsessed with the fediverse. I already loved microblogging in general, but the way Mastodon and ActivityPub in general work, they were fascinating. {{ emoji(name="neofox_googly_shocked") }}
 
 I spent at least an hour a day on fedi, posting whatever I was doing or thinking about. It was a small, kind place, and I liked it. A few people started following me, even if not many, and I got to interact with them. So fun!
 

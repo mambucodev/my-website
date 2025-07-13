@@ -3,7 +3,7 @@ title = "From Arch to Fedora"
 description = "My journey to Fedora, why did I switch from Arch Linux."
 date = 2025-02-04
 [taxonomies]
-tags = ["Linux", "Fedora"]
+tags = ["Tech", "Linux", "Fedora"]
 [extra]
 accent_color = ["hsl(210, 29%, 25%)", "hsl( 210, 12%, 71%)"]
 banner = "banner.webp"

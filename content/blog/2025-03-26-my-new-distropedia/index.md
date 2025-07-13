@@ -3,7 +3,7 @@ title = "My New Distropedia"
 description = "I've decided to explore all the most famous Linux distros, and talk about them."
 date = 2025-03-26
 [taxonomies]
-tags = ["Distropedia", "Linux"]
+tags = ["Tech", "Distropedia", "Linux"]
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
 # banner = "banner.webp"
