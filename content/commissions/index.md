@@ -34,7 +34,7 @@ This is my Fiverr profile below ↓
     <img alt="Pixel art Fiverr icon" class="transparent no-hover pixels drop-shadow icon" src="fiverr.png" />
     <div class="details">
         <strong>Fiverr</strong>
-        <p>A really famous freelancing platform.</p>
+        <p>A famous freelancing platform.</p>
     </div>
 </a>
 
