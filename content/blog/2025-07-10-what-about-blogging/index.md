@@ -2,13 +2,17 @@
 title = "What About Blogging"
 description = "Just thought I should explain why I disappeared for such a long time, enjoy the read."
 date = 2025-07-10T00:45:00+02:00
+updated = 2025-07-13T15:56:00+02:00
 [taxonomies]
 tags = ["Feelings", "Writing"]
 [extra]
 accent_color = ["hsl(258, 59%, 45%)", "hsl(262, 49%, 71%)"]
+banner = "banner.webp"
 [extra.fediverse]
 id = "114828717650289403"
 +++
+
+<small>Banner was generated with **Google AI Studio**.</small>
 
 I've been enjoying this blog recently. Oh... now that I think about it, why wasn't I enjoying this before? <small>This was a cool ass introduction, admit it. {{ emoji(name="neofox_smug") }}</small>
 

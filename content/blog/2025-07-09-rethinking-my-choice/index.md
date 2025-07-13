@@ -2,13 +2,17 @@
 title = "Rethinking My Choice"
 description = "I had a reflection about why am I an Apple user, and if I should quit or not."
 date = 2025-07-09T22:18:00+02:00
+updated = 2025-07-13T15:56:00+02:00
 [taxonomies]
 tags = ["Tech", "Android", "iOS"]
 [extra]
 accent_color = ["hsl(92, 48%, 42%)", "hsl(88, 50%, 76%)"]
+banner = "banner.webp"
 [extra.fediverse]
 id = "114825869258735669"
 +++
+
+<small>Banner was generated with **Google AI Studio**.</small>
 
 Hey, welcome back! I haven't posted for a while, and it's because I've been thinking about what to post about. I want to talk about big corporations this time such as Apple, Google, Microsoft, and so on.
 

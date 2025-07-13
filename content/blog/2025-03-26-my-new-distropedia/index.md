@@ -2,18 +2,17 @@
 title = "My New Distropedia"
 description = "I've decided to explore all the most famous Linux distros, and talk about them."
 date = 2025-03-25T21:09:00+02:00
+updated = 2025-07-13T15:56:00+02:00
 [taxonomies]
 tags = ["Tech", "Distropedia", "Linux"]
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
-# banner = "banner.webp"
+banner = "banner.webp"
 [extra.fediverse]
 id = "114237109441401674"
 +++
 
-<!-- {% alert(warning=true) %}
-*I still need to make a banner, but imagine a lot of distro logos in a circle and... and maybe a compass... in the centre. That's the idea.*
-{% end %} -->
+<small>Banner was generated with **Google AI Studio**.</small>
 
 Get ready, because you're about to read a lot of interesting stuff (at least I hope so) about **Linux**, and about **me**.
 
