@@ -17,6 +17,30 @@ Else, feel free to take a look at my [Socials](@/socials/index.md) page for othe
 
 ## Pricing
 
+<details>
+<summary>My Fiverr Profile</summary>
+
+I also own a **Fiverr** profile. Prices are way higher there, but I prefer way more to have business with you trough Fiverr if the project we're talking about is in large scale.
+
+This is to guarantee you'll receive your website on time, trough a verified platform, and that I receive the full payment.
+
+Believe me, it's a really famous platform for freelancers, and you can definitely trust it more than you'd trust making a private transaction to me, without any intermediates.
+
+This is my Fiverr profile below ↓
+
+<div class="icon-grid">
+
+<a href="https://wetdry.world/@mambuco/">
+    <img alt="Pixel art Fiverr icon" class="transparent no-hover pixels drop-shadow icon" src="fiverr.png" />
+    <div class="details">
+        <strong>Fiverr</strong>
+        <p>A really famous freelancing platform.</p>
+    </div>
+</a>
+
+</div>
+</details>
+
 Pricing can vary very easily. In my opinion, websites are not something to be classified, because a very simple website can still be capable of having a strong impact on its visitors. That's why I usually recommend that people contact me beforehand and we discuss the price together.
 
 **But**, in case you need some reference, here's how much I would make somebody pay for a website:
