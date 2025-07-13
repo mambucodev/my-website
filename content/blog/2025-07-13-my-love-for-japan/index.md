@@ -116,6 +116,8 @@ I hyperfocused for a few months, and watched most of the anime people like to ta
 
 Saying this makes me recognize it sounds stupid, but as somebody with social anxiety, I can assure you it's not. Everybody has their own passion, and this is mine. We're not even in the age where people can make fun of anime. Didn't Netflix recently announce that approximately **50% of its users** watch anime across their platform? And romantic animes (like the one in the banner above) are really common.
 
+<small>By the way if you want to read my up-to-date anime and manga list, check out my [AniList](https://anilist.co/user/mambuco/) Profile!</small>
+
 Anyways, I feel like posting many articles about the Anime I watch, along the [tech](/tags/tech/)-related ones. Thanks for reading, I hope you can leave either your opinion or your experience in the comments, I'd be happy about it. {{ emoji(name="neofox_aww") }}
 
 **See ya next time!**
