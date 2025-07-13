@@ -58,7 +58,7 @@ links = [
         { url = "@/commissions/index.md", name = "Commissions", icon = "basket" },
     ] },
     { name = "External", category = [
-        { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" },
+        # { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" },
         { url = "https://envs.net", name = "Envs.net", icon = "hard-drives" }
     ] }
 ]
