@@ -7,8 +7,8 @@ tags = ["Anime", "Manga", "Japan", "Kindle"]
 [extra]
 accent_color = ["hsl(350, 67%, 67%)", "hsl(335, 77%, 88%)"]
 banner = "banner.webp"
-# [extra.fediverse]
-# id = ""
+[extra.fediverse]
+id = "114843353739638328"
 +++
 
 <small>Banner is **Marin Kitagawa**, a scene from My Dress-Up Darling S2 (which is currently airing this summer).</small>
