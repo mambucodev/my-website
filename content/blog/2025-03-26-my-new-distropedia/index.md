@@ -1,7 +1,7 @@
 +++
 title = "My New Distropedia"
 description = "I've decided to explore all the most famous Linux distros, and talk about them."
-date = 2025-03-26
+date = 2025-03-25T21:09:00+02:00
 [taxonomies]
 tags = ["Tech", "Distropedia", "Linux"]
 [extra]

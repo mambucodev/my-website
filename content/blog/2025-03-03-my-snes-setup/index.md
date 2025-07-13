@@ -1,7 +1,7 @@
 +++
 title = "My SNES Setup"
 description = "Why I set up a SNES on my desk even though I have a gaming PC."
-date = 2025-03-03
+date = 2025-03-03T00:41:00+02:00
 [taxonomies]
 tags = ["Gaming", "Retro"]
 [extra]

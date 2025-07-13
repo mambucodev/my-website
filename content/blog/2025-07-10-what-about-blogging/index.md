@@ -1,7 +1,7 @@
 +++
 title = "What About Blogging"
 description = "Just thought I should explain why I disappeared for such a long time, enjoy the read."
-date = 2025-07-10
+date = 2025-07-10T00:45:00+02:00
 [taxonomies]
 tags = ["Feelings", "Writing"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "My Love for Japan"
 description = "Wanted to post something different, and this seems like the perfect topic. You'll get to know a different side of me, the anime-obsessed one!"
-date = 2025-07-13
+date = 2025-07-13T00:40:00+02:00
 [taxonomies]
 tags = ["Anime", "Manga", "Japan", "Kindle"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "Rethinking My Choice"
 description = "I had a reflection about why am I an Apple user, and if I should quit or not."
-date = 2025-07-09
+date = 2025-07-09T22:18:00+02:00
 [taxonomies]
 tags = ["Tech", "Android", "iOS"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "From Arch to Fedora"
 description = "My journey to Fedora, why did I switch from Arch Linux."
-date = 2025-02-04
+date = 2025-02-04T20:25:00+02:00
 [taxonomies]
 tags = ["Tech", "Linux", "Fedora"]
 [extra]
