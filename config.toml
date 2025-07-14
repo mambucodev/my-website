@@ -54,6 +54,7 @@ links = [
     { url = "@/socials/index.md", name = "Socials", icon = "at" },
     { name = "My Works", category = [
         { url = "@/blog/_index.md", name = "Blog", icon = "newspaper-clipping" },
+        { url = "@/crestfall/_index.md", name = "Crestfall", icon = "joystick" },
         { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
         { url = "@/commissions/index.md", name = "Commissions", icon = "basket" },
     ] },
