@@ -168,6 +168,14 @@
     }
 }
 
-details.fancy-list ul {
+#player-details.fancy-list ul {
     margin-top: .8rem;
+
+    li .emoji {
+        border-radius: calc(var(--rounded-corner-small) / 1.5);
+
+        &:hover {
+            border-radius: calc(var(--rounded-corner-small) / 3);
+        }
+    }
 }
