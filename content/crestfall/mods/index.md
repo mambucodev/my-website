@@ -51,6 +51,7 @@ This is a complete list of the installed mods. They're all downloaded from [Modr
 - `Structory_Towers_1.21.x_v1.0.13.jar`
 - `tectonic-3.0.3-fabric-1.21.6.jar`
 - `Terralith_1.21.x_v2.5.11.jar`
+- `vanish-1.5.20+1.21.1.jar`
 - `ViaFabricPlus-4.2.2.jar`
 - `villagernames-1.21.7-8.3.jar`
 - `vmp-fabric-mc1.21.7-0.2.0+beta.7.202-all.jar`
