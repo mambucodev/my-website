@@ -49,7 +49,8 @@ If you want to take a better look at the server, read the [features](#features) 
 </div>
 
 <div class="buttons centered big">
-<a class="suggested" href="rules/">Rules →</a>
+<a class="suggested" href="https://map.crestfall.cc/">Map →</a>
+<a href="rules/">Rules →</a>
 <a href="mods/">Mods →</a>
 </div>
 
