@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   playersListElement.innerHTML = "";
   
   playerDetailsElement.classList.add("hidden");
+  offlineMessageElement.classList.add("hidden");
 
   updateStatus();
   setInterval(updateStatus, 10000);
