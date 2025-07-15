@@ -23,6 +23,7 @@ This is a complete list of the installed mods. They're all downloaded from [Modr
 - `DistantHorizons-2.3.3-b-1.21.7-fabric-neoforge.jar`
 - `dynamiclights-v1.8.8-mc1.17-1.21.7-mod.jar`
 - `easyauth-mc1.21.6-3.3.5.jar`
+- `easywhitelist-1.1.0.jar`
 - `Explorify v1.6.2 f10-48.jar`
 - `fabric-api-0.129.0+1.21.7.jar`
 - `FabricProxy-Lite-2.9.0.jar`
