@@ -22,7 +22,7 @@ function updateStatus() {
   fetch("https://api.mcstatus.io/v2/status/java/crestfall.cc")
     .then((response) => response.json())
     .then((data) => {
-      const status = data.online ? "online" : "offline";
+      const status = data.online && !data.version.name_raw.includes("Velocity") ? "online" : "offline"; 
 
       indicatorElement.classList.remove("online", "offline");
       indicatorElement.classList.add(status);
