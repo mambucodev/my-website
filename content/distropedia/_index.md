@@ -64,6 +64,6 @@ I'm slowly expanding the [roadmap](@/distropedia/roadmap/index.md) with genuine 
 By the way, you can suggest in many ways. You can either contact me or open an issue on GitHub.
 
 <div class="buttons centered big">
-    <a href="/online">Contact me →</a>
+    <a href="/socials/">Contact me →</a>
     <a class="suggested" target="_blank" href="https://github.com/mambucodev/my-website/issues/new/choose">GitHub →</a>
 </div>
