@@ -32,7 +32,7 @@ function updateStatus() {
           indicatorElement.innerHTML = "Online";
           playerCounterElement.innerHTML = `${data.players.online}/${data.players.max}`;
           playersListElement.innerHTML = data.players.list.length > 0 ?
-            data.players.list.map(player => `<li>${player.name_html}</li>`).join("") :
+            data.players.list.map(player => `<li>${player.name_raw}</li>`).join("") :
             `<li>No players online.</li>`;
           playerDetailsElement.classList.remove("hidden");
           offlineMessageElement.classList.add("hidden");

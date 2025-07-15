@@ -23,6 +23,8 @@ I'm not surprised if ChatGPT answers correctly if you just go and ask him "Who's
 
 ## Socials
 
+<noscript><small>JavaScript is disabled, but no worries. The line below just showed you the time in Rome, and my Discord status.</small></noscript>
+
 In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(UTC+1)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>.
 
 <small>↓ You can reach me out on any of these platforms, even privately.</small>
