@@ -27,7 +27,7 @@ function updateStatus() {
       indicatorElement.classList.add(status);
 
       switch (status) {
-        case "online":
+        case "online": {
           indicatorElement.innerHTML = "Online";
           playerCounterElement.innerHTML = `${data.players.online}/${data.players.max}`;
           playersListElement.innerHTML = data.players.list.length > 0 ?
@@ -36,13 +36,14 @@ function updateStatus() {
           playerDetailsElement.classList.remove("hidden");
           offlineMessageElement.classList.add("hidden");
           break;
-        case "offline":
+        } case "offline": {
           indicatorElement.innerHTML = "Offline";
           playerCounterElement.innerHTML = "0";
           playersListElement.innerHTML = "";
           playerDetailsElement.classList.add("hidden");
           offlineMessageElement.classList.remove("hidden");
           break;
+        } 
       }
     })
     .catch((error) => {
