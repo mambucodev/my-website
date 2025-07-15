@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function updateStatus() {
-  fetch("https://api.mcsrvstat.us/3/crestfall.cc")
+  fetch("https://api.mcstatus.io/v2/status/java/crestfall.cc")
     .then((response) => response.json())
     .then((data) => {
       const status = data.online ? "online" : "offline";
@@ -31,7 +31,7 @@ function updateStatus() {
           indicatorElement.innerHTML = "Online";
           playerCounterElement.innerHTML = `${data.players.online}/${data.players.max}`;
           playersListElement.innerHTML = data.players.list.length > 0 ?
-            data.players.list.map(player => `<li>${player.name}</li>`).join("") :
+            data.players.list.map(player => `<li>${player.name_html}</li>`).join("") :
             `<li>No players online.</li>`;
           playerDetailsElement.classList.remove("hidden");
           offlineMessageElement.classList.add("hidden");

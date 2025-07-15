@@ -13,7 +13,7 @@ Hi, and welcome to **Crestfall**! {{ emoji(name="neofox_aww") }}
 <li>
 <article id="online-card" class="hidden">
 
-The server is currently <span id="online-indicator"><noscript>N/A</noscript></span>.
+The server is currently <span id="online-indicator"><noscript>NO:JS</noscript></span>.
 
 <p id="offline-message" class="hidden">
 
@@ -37,7 +37,7 @@ If the server is **Offline** for too long, feel free to [contact me](@/socials/i
 
 Seems like you have JavaScript disabled, and that's great!
 
-Iff you had scripts enabled, you would have seen an **Online/Offline** indicator and a **players list** instead of this paragraph, in this spot.
+If you had scripts enabled, you would have seen an **Online/Offline** indicator and a **players list** instead of this paragraph, in this spot.
 
 </article>
 </noscript>
