@@ -9,6 +9,8 @@ compile_sass = true
 generate_feeds = true
 build_search_index = true
 
+feed_filenames = ["rss.xml", "atom.xml"]
+
 author = "Mambuco"
 
 taxonomies = [{ name = "tags", feed = true }]
