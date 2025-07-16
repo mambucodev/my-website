@@ -48,10 +48,16 @@ If you want to take a better look at the server, read the [features](#features) 
 
 </div>
 
-<div class="buttons centered big">
+Here's a few links you may want to look out about Crestfall:
+
+<div class="buttons start">
 <a class="suggested" href="https://map.crestfall.cc/">Map →</a>
 <a href="rules/">Rules →</a>
 <a href="mods/">Mods →</a>
+<a href="https://matrix.to/#/#crestfall:envs.net/">
+<img alt="Pixel art Matrix icon" title="Matrix" class="emoji transparent pixels drop-shadow" src="/socials/icons/matrix.png" />
+Chat →
+</a>
 </div>
 
 ## How to Join
