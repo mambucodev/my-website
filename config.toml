@@ -32,9 +32,8 @@ scripts = ["js/quicklink.umd.js", "js/prefetch.js"]
 issues_url = "https://github.com/mambucodev/my-website/issues"
 source_url = "https://github.com/mambucodev/my-website"
 
+copy_button = true
 show_reading_time = true
-show_copy_button = true
-
 show_comments_qr = true
 
 date_format = "%d %B %Y"

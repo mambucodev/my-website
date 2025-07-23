@@ -2,10 +2,19 @@
   outline: none;
 }
 
+@mixin badge_hover() {
+  &:hover {
+    transform: scale(2);
+    z-index: 1;
+    filter: var(--drop-shadow);
+  }
+}
+
 .badges {
   display: grid;
   grid-template-columns: repeat(auto-fit, 88px);
   grid-gap: 5px;
+  margin: 2rem 0;
   
   * {
     margin: 0;
@@ -14,10 +23,11 @@
     height: 31px;
   }
   img {
-    &:hover {
-      transform: scale(1.7);
-      z-index: 1;
-      filter: var(--drop-shadow);
-    }
+    @include badge_hover();
   }
+}
+
+.badge {
+  @include badge_hover();
+  width: 132px;
 }

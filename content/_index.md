@@ -52,6 +52,21 @@ Here's a few badges of people I know, communities I'm in, things I like, and mor
 
 {{ badges() }}
 
+<details>
+<summary>My Badge</summary>
+
+If you want to, you can add **my badge** on your website {{ emoji(name="neofox_boop_blep") }}
+
+<img class="pixels transparent no-hover badge" src="/badges/mambuco.gif" alt="My Badge">
+
+```html
+<a href="https://mambuco.dev">
+  <img src="https://mambuco.dev/badges/mambuco.gif" alt="Mambuco">
+</a>
+```
+
+</details>
+
 ## Commissions
 
 Some of you may have come here because of my works (or at least I hope so {{ emoji(name="neofox_cry") }}). Well, in that case, I'm open to commissions.
