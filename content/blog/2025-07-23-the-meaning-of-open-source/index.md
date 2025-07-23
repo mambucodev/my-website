@@ -1,7 +1,7 @@
 +++
 title = "The Meaning of Open-Source"
 description = "It's both a guide about open-source and a personal reflection; including subjects like FOSS, piracy, licences and more."
-date = 2025-07-23T05:57:00+02:00
+date = 2025-07-23T06:23:00+02:00
 [taxonomies]
 tags = ["Tech", "FOSS"]
 [extra]
