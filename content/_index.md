@@ -5,19 +5,24 @@ no_header = true
 styles = ["index.css"]
 badges = [
   { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
+  { name = "he-him", alt = "He/Him" },
   { name = "saynotoweb3", url = "https://yesterweb.org/saynotoweb3no-to-web3/", alt = "Say No To Web3" },
-  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
   { name = "adhd", alt = "ADHD" },
+  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
   { name = "daudix", url = "https://daudix.one/", alt = "Daudix" },
   { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
   { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
   { name = "mint", url = "https://www.freshlygrown.me/", alt = "Mint" },
+  { name = "immjs", url = "https://immjs.dev/", alt = "immjs" },
+  { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
   { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
+  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
+  { name = "eightyeightthirthyone", url = "https://eightyeightthirty.one/", alt = "eightyeightthirthy.one" },
   { name = "fediverse", alt = "Fediverse" },
   { name = "dark-mode", alt = "Made for Dark Mode" },
-  { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
+  { name = "mobile-friendly", alt = "Mobile Friendly" },
+  { name = "duckduckgo", url = "https://duckduckgo.com/", alt = "DuckDuckGo" },
   { name = "yarrr", alt = "Yarrr" },
-  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
 ]
 +++
 
