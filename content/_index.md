@@ -6,17 +6,18 @@ styles = ["index.css"]
 badges = [
   { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
   { name = "saynotoweb3", url = "https://yesterweb.org/saynotoweb3no-to-web3/", alt = "Say No To Web3" },
+  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
   { name = "adhd", alt = "ADHD" },
   { name = "daudix", url = "https://daudix.one/", alt = "Daudix" },
+  { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
+  { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
+  { name = "mint", url = "https://www.freshlygrown.me/", alt = "Mint" },
   { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
   { name = "fediverse", alt = "Fediverse" },
   { name = "dark-mode", alt = "Made for Dark Mode" },
-  { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
-  { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
-  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
-  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
   { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
   { name = "yarrr", alt = "Yarrr" },
+  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
 ]
 +++
 
