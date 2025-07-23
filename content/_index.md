@@ -2,6 +2,22 @@
 title = "Home"
 [extra]
 no_header = true
+styles = ["index.css"]
+badges = [
+  { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
+  { name = "saynotoweb3", url = "https://yesterweb.org/saynotoweb3no-to-web3/", alt = "Say No To Web3" },
+  { name = "adhd", alt = "ADHD" },
+  { name = "daudix", url = "https://daudix.one/", alt = "Daudix" },
+  { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
+  { name = "fediverse", alt = "Fediverse" },
+  { name = "dark-mode", alt = "Made for Dark Mode" },
+  { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
+  { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
+  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
+  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
+  { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
+  { name = "yarrr", alt = "Yarrr" },
+]
 +++
 
 <div class="container-fill">
@@ -25,9 +41,15 @@ Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that 
 
 <div id="more"></div>
 
-## Socials
+<!-- ## Socials
 
-If you ever wanna get in touch (or just stalk me), just take a look at [this page](@/socials/index.md).
+If you ever wanna get in touch (or just stalk me), just take a look at [this page](@/socials/index.md). -->
+
+## Badges
+
+Here's a few badges of people I know, communities I'm in, things I like, and more.
+
+{{ badges() }}
 
 ## Commissions
 

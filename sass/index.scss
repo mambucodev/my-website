@@ -1,0 +1,23 @@
+#more:target {
+  outline: none;
+}
+
+.badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 88px);
+  grid-gap: 5px;
+  
+  * {
+    margin: 0;
+    padding: 0;
+    width: 88px;
+    height: 31px;
+  }
+  img {
+    &:hover {
+      transform: scale(1.7);
+      z-index: 1;
+      filter: var(--drop-shadow);
+    }
+  }
+}

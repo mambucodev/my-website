@@ -24,8 +24,9 @@ no_header = true
 
 # Mambuco's Blog
 
-**Hey**, I didn't expect you here!
-I guess you've read the title, so you know what this is about.
+Welcome to my **blogging** corner! {{ emoji(name="neofox_aww") }}
 
-Here I share my thoughts and experiences in the world of coding, games or teenage life.
-Feel free to explore and find out more about me, maybe you'll even learn something new!
+I post a lot of interesting stuff, I swear. See, we've got a lot of categories: Tech, Anime, or just my personal thoughts and life experiences.
+I'd also like to write about my city (Rome) one day, once I get to appreciate it enough.
+
+By the way, scroll, read whatever you want, and if you've got an ActivityPub account you can leave a comment too!
