@@ -44,6 +44,7 @@ This is a complete list of the installed mods. They're all downloaded from [Modr
 - `NoChatReports-FABRIC-1.21.7-v2.14.0.jar`
 - `Nullscape_1.21.x_v1.2.13.jar`
 - `plasmovoice-fabric-1.21.7-2.1.5.jar`
+- `pv-addon-groups-1.1.0.jar`
 - `rightclickharvest-fabric-4.5.3+1.21.7.jar`
 - `ScalableLux-0.1.5+fabric.e4acdcb-all.jar`
 - `skinrestorer-2.4.2+1.21.6-fabric.jar`
