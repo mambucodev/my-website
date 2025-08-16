@@ -13,6 +13,7 @@ badges = [
   { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
   { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
   { name = "mint", url = "https://www.freshlygrown.me/", alt = "Mint" },
+  { name = "lina", url = "https://lina.sh/", alt = "lina.sh" },
   { name = "immjs", url = "https://immjs.dev/", alt = "immjs" },
   { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
   { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
