@@ -12,7 +12,7 @@ Hi, and welcome to **Crestfall**! {{ emoji(name="neofox_aww") }}
 
 <div class="card">
 <strong class="title">Server Status</strong>
-<div id="online-card" class="card-content hidden">
+<div id="online-card" class="card-content">
 
 The server is currently <span id="online-indicator"><noscript>NO:JS</noscript></span>.
 
