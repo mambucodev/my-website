@@ -4,8 +4,6 @@ const playerCounterElement = document.getElementById("player-counter");
 const playersListElement = document.getElementById("players-list");
 const offlineMessageElement = document.getElementById("offline-message");
 
-document.getElementById("online-card").classList.remove("hidden");
-
 document.addEventListener("DOMContentLoaded", () => {
   indicatorElement.innerHTML = "N/A";
   playerCounterElement.innerHTML = "0";
