@@ -16,6 +16,14 @@ Hi, and welcome to **Crestfall**! {{ emoji(name="neofox_aww") }}
 
 The server is currently <span id="online-indicator"><noscript>NO:JS</noscript></span>.
 
+<noscript>
+
+Seems like you have JavaScript disabled, and that's great!
+
+If you had scripts enabled, you would have seen an **Online/Offline** indicator and a **players list** instead of this paragraph, in this spot.
+
+</noscript>
+
 <div id="offline-message" class="hidden">
 
 We're sorry, but the server is currently unreachable. It's probably either rebooting, under maintenance, or just not working at the moment.
