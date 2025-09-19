@@ -1,0 +1,17 @@
+.container {
+	margin: 0 auto;
+	width: calc(100% - 2rem);
+	max-width: var(--container-width);
+
+	&-fill {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-block-start: -2rem;
+		height: 100vh;
+
+		@supports (height: 100svh) {
+			height: 100svh;
+		}
+	}
+}
