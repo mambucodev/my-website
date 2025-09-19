@@ -1,7 +1,7 @@
 +++
 title = "Silksong Is Out!"
 description = "After 7 years, Team Cherry finally published Hollow Knight: Silksong! It's my favorite game so far, so I think it deserves a whole article."
-date = 2025-09-19T00:00:00+02:00
+date = 2025-09-19T19:34:00+02:00
 [taxonomies]
 tags = ["Gaming", "Indies"]
 [extra]
