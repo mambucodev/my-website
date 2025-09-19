@@ -51,7 +51,7 @@ You may have heard about a lot of players complaining about the game being hard.
 
 Well, you see, I'd like to say something to those people: NO SHIT. It's literally a sequel of one of the hardest metroidvania out there, did you expect them to release an easy and chill game after 7 YEARS OF DEVELOPMENT?
 
-{{ image(url="git-gud.webp#end", alt="git gud meme") }}
+![git gud meme](git-gud.webp#end)
 
 **I'm glad it's difficult.** That's how a game should be, hard. Did people really prefer a game that could be finished in a couple days? NO. You're gonna get to the end, go trough all the 3 ACTS of the game, then 100% it and train yourself for the Steel Soul mode (which is a hardcore mode, you can't die).
 
