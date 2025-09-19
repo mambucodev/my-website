@@ -11,7 +11,7 @@ banner = "banner.webp"
 id = "114900650424383908"
 +++
 
-<details id="tracks">
+<details>
 <summary>Tracks</summary>
 
 From now on I'm mentioning the music I'm listening to while writing every article.
