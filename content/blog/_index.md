@@ -4,7 +4,7 @@ description = "This is my main corner. I write about my thoughts, I review stuff
 sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"
-paginate_by = 5
+paginate_by = 4
 [extra]
 no_header = true
 +++
