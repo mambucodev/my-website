@@ -7,6 +7,7 @@ tags = ["Tech", "FOSS"]
 [extra]
 accent_color = ["hsl(261, 72%, 40%)", "hsl(261, 72%, 86%)"]
 banner = "banner.webp"
+banner_position = "48%"
 [extra.fediverse]
 id = "114900650424383908"
 +++
