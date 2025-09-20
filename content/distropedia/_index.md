@@ -1,5 +1,6 @@
 +++
 title = "Distropedia"
+description = "[Currently WIP] A project about linux distributions, more of a review magazine. Take a look yourself!"
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
 +++

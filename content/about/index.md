@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "About Me"
 description = "A brief introduction about myself, and my interests of course."
 [extra]
 styles = ["about/style.css"]
@@ -24,7 +24,7 @@ My actual name is Gabriele, I'm Italian, and I love food. <small>I mean, who doe
 
 I'd define myself as **mainly introverted**.
 
-My personality type is `INFP-T`, you can understand a lot about me from that. I don't usually start a conversation unless **I'm confident with that person**, and I often like spending time **alone**.
+My personality type is `INFP-T` <small>(<a class="external" href="https://www.16personalities.com/infp-personality">here</a>)</small>, you can understand a lot about me from that. I don't usually start a conversation unless **I'm confident with that person**, and I often like spending time **alone**.
 
 </article>
 </li>
@@ -87,7 +87,7 @@ I listen to music every day, for hours. It makes me relax, hype, or whatever I n
 <li>
 <article>
 
-I love **Linux** and hate Windows. My main distro is currently **Arch Linux** <small>(btw)</small>.
+I love **Linux** and hate Windows. My main distro is currently **Arch Linux** <small>(btw)</small>, with Hyprland.
 
 I also tried other distros trough time, you'd want to take a look at the [Distropedia](@/distropedia/_index.md): a project of mine.
 

@@ -1,6 +1,6 @@
 +++
 title = "Socials"
-description = "Find me on social media or other platforms online."
+description = "Take a look! Here's all my social media profiles, and some other platforms where you can directly text me."
 [extra]
 styles = ["socials/style.css"]
 scripts = ["socials/status.js", "socials/clock.js"]
@@ -69,4 +69,4 @@ In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small
 
 ---
 
-I also have an e-mail address `me@mambuco.dev` and I actually like using it. If you feel old school and want to have an email friend, I'd be happy to be one.
+I also have an e-mail address `me[at]mambuco[dot]dev` and I actually like using it. If you feel old school and want to have an email friend, I'd be happy to be one.

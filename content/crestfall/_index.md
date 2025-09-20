@@ -1,6 +1,6 @@
 +++
 title = "Crestfall"
-description = "A vanilla-like minecraft server."
+description = "A vanilla-like minecraft server, with server-side mods only! I'd suggest you to give it a try, there's some fire world generation!"
 [extra]
 styles = ["crestfall/style.css"]
 scripts = ["crestfall/status.js"]

@@ -1,6 +1,6 @@
 +++
 title = "Mambuco's Blog"
-description = "I guess it's time to start writing..."
+description = "This is my main corner. I write about my thoughts, I review stuff. I suggest you take a look for yourself for a better understanding."
 sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"

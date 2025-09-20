@@ -1,6 +1,6 @@
 +++
 title = "Crestfall's Rules"
-description = "A list of rules you must comply in order to play into the server."
+description = "A list of rules you must comply in order to play on Crestfall."
 +++
 
 Rules are Work In Progress... *Sorry*.

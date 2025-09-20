@@ -1,6 +1,6 @@
 +++
 title = "Commissions"
-description = "I can create custom websites for you. Interested?"
+description = "I'm a web developer after all, so if you need a website or anything else make sure you come to me, okay?"
 +++
 
 Welcome to my commission corner! {{ emoji(name="neofox_angel") }}
