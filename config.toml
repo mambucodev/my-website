@@ -45,7 +45,7 @@ timezone = "Europe/Rome"
 [extra.meta]
 favicon = "favicon.gif"
 apple_touch_icon = "assets/avatar.png"
-# card = true
+card = true
 
 [extra.nav]
 icon = "https://api.lanyard.rest/604790617138266149.webp"
