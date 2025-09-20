@@ -18,6 +18,7 @@ badges = [
   { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
   { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
   { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
+  { name = "notnite", url = "https://notnite.com/", alt = "notnite" },
   { name = "eightyeightthirthyone", url = "https://eightyeightthirty.one/", alt = "eightyeightthirthy.one" },
   { name = "fediverse", alt = "Fediverse" },
   { name = "dark-mode", alt = "Made for Dark Mode" },
