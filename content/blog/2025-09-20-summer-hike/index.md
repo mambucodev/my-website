@@ -7,8 +7,8 @@ tags = ["Nature", "Hiking", "Scout"]
 [extra]
 accent_color = ["hsl(139, 79%, 35%)", "hsl(139, 77%, 79%)"]
 banner = "banner.webp"
-# [extra.fediverse]
-# id = ""
+[extra.fediverse]
+id = "115237521692244805"
 +++
 
 <details>
