@@ -1,7 +1,7 @@
 +++
 title = "Summer Hike"
 description = "As a Scout of Europe, every summer I go on a 1-week hike with my scout friends. This august I went on one, and now I want to share it with you!"
-date = 2025-09-20T00:00:00+02:00
+date = 2025-09-20T18:01:00+02:00
 [taxonomies]
 tags = ["Nature", "Hiking", "Scout"]
 [extra]
