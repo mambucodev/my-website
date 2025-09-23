@@ -125,7 +125,7 @@ Doesn't have an app store but it's more than okay, I personally think that apps 
 
 One thing I actually got surprised of is their compatibility &mdash; this is not my first smartwatch, I've had a Xiaomi band before and an actually pretty good Huawei smartwatch. The Xiaomi one being a band was very limited to a few features, but the Huawei one had plenty of 'em. The issue was **iOS**. Bound to an iPhone, it lost half of its utilities because of "incompatibility" while they were just being lazy. The most compatible device was a Huawei phone, *of course*.
 
-I discovered then that a lot of brands do this think, **Apple included**. But this, it's the first time I see a device having **full compatibility** (exactly, none missing) with a phone very far from their own. Made me kind of happy, not gonna lie.
+I discovered then that a lot of brands do this, **Apple included**. But this, it's the first time I see a device having **full compatibility** (exactly, none missing) with a phone very far from their own. Made me kind of happy, not gonna lie.
 
 ## Nothing Phone
 
