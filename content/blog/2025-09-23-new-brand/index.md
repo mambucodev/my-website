@@ -7,8 +7,8 @@ tags = ["Tech", "Nothing"]
 [extra]
 accent_color = ["hsl(213, 14%, 23%)", "hsl(213, 14%, 89%)"]
 banner = "banner.webp"
-# [extra.fediverse]
-# id = ""
+[extra.fediverse]
+id = "115254378638004189"
 +++
 
 <details>
