@@ -1,7 +1,7 @@
 +++
 title = "New Brand"
 description = "I'm planning to completely brand myself with Nothing tech accessories and products."
-date = 2025-09-23T13:00:00+02:00
+date = 2025-09-23T17:43:00+02:00
 [taxonomies]
 tags = ["Tech", "Nothing"]
 [extra]
