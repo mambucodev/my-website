@@ -131,7 +131,7 @@ I discovered then that a lot of brands do this, **Apple included**. But this, it
 
 Don't worry, I haven't got one yet. But I'm planning to.
 
-Actually I'm kind of scared, because what if I don't like it and go back to using my iPhone? But that's another honestly, maybe I'm worrying too much. Oh and by the way, I'm probably gonna get a [Nothing 3](https://nothing.tech/products/phone-3).
+Actually I'm kind of scared, because what if I don't like it and go back to using my iPhone? But honestly, maybe I'm worrying too much. Oh and by the way, I'm probably gonna get a [Nothing 3](https://nothing.tech/products/phone-3).
 
 ## Conclusion
 
