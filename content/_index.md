@@ -53,6 +53,24 @@ Hey! It's Mambuco here, your favorite developer. I'm just kidding, I'm not that 
 
 If you ever wanna get in touch (or just stalk me), just take a look at [this page](@/socials/index.md). -->
 
+## Online
+
+As a citizen of the web, I'm on quite a few platforms.
+
+<ul class="masonry">
+
+<li>
+<article id="discord">
+
+<div class="pfp-container">
+<img src="https://api.lanyard.rest/604790617138266149.webp"  class="pfp no-hover" loading="lazy">
+<div class="online-indicator online"></div>
+</div>
+</article>
+</li>
+
+</ul>
+
 ## Badges
 
 Here's a few badges of people I know, communities I'm in, things I like, and more.
