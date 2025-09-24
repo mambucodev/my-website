@@ -3,6 +3,7 @@ title = "Home"
 [extra]
 no_header = true
 styles = ["index.css"]
+scripts = ["status.js"]
 badges = [
   { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
   { name = "he-him", alt = "He/Him" },
@@ -57,19 +58,35 @@ If you ever wanna get in touch (or just stalk me), just take a look at [this pag
 
 As a citizen of the web, I'm on quite a few platforms.
 
-<ul class="masonry">
+<!--<ul class="masonry">
 
 <li>
-<article id="discord">
+<article id="discord">-->
 
+<div class="card" id="discord">
+
+<div class="left-container">
 <div class="pfp-container">
 <img src="https://api.lanyard.rest/604790617138266149.webp"  class="pfp no-hover" loading="lazy">
-<div class="online-indicator online"></div>
+<div class="indicator-background"><div id="online-indicator" class="offline"></div></div>
 </div>
-</article>
+
+<div class="pill-container">
+
+<div class="username-container"><strong class="username">Mambuco</strong><small class="platform">(Discord)</small></div>
+<small id="status">Offline</small>
+
+<!--<strong class="title">Discord</strong>-->
+
+</div>
+</div>
+<a class="button" target="_blank" href="https://discord.com/users/604790617138266149">{{ icon(name="caret-right") }}</a>
+</div>
+
+<!--</article>
 </li>
 
-</ul>
+</ul>-->
 
 ## Badges
 
