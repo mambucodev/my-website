@@ -1,8 +1,0 @@
-{
-	"rewrites": [
-		{
-			"source": "/api/insights/:match*",
-			"destination": "https://mambuco.dev/_vercel/insights/:match*"
-		}
-	]
-}

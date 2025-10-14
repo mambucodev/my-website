@@ -83,6 +83,7 @@ host = "wetdry.world"
 user = "mambuco"
 show_qr = true
 
-[extra.vercel]
-analytics = true
-speed_insights = true
+[extra.analytics]
+service = "umami"
+id = "d25bb216-4c7d-43d6-9d16-9b9435a6ae61"
+self_hosted_url = "https://umami.mambuco.dev"
