@@ -24,7 +24,7 @@ bottom_footnotes = true
 index_format = "elasticlunr_json"
 
 [extra]
-accent_color = ["hsl(210, 73%, 40%)", "hsl(204, 72%, 81%)"]
+accent_color = ["hsl(29, 65%, 31%)", "hsl(29, 72%, 74%)"]
 
 styles = ["mods.css", "deprecated.css"]
 scripts = ["js/quicklink.umd.js", "js/prefetch.js"]
