@@ -74,7 +74,7 @@ If you want to, you can add **my badge** on your website {{ emoji(name="neofox_b
 
 </details>
 
-## Commissions
+<!--## Commissions
 
 Some of you may have come here because of my works (or at least I hope so {{ emoji(name="neofox_cry") }}). Well, in that case, I'm open to commissions.
 
@@ -82,9 +82,9 @@ If there's something you'd want like a website and don't know how to get it done
 
 <div class="buttons big start">
   <a href="/commissions/">Commissions →</a>
-</div>
+</div>-->
 
-## Credits
+<!--## Credits
 
 This is honestly the most important part for me. I really love the way the website looks, and that's all thanks to [Daudix](https://daudix.one/) for his beautiful theme: [Ametrine](https://ametrine.daudix.one/).
 
@@ -92,4 +92,4 @@ He helped me a lot with the customization, and with the things I didn't understa
 
 The website is available on [GitHub](https://github.com/mambucodev/my-website/) for whoever needs inspiration or is just curious. (By the way, also thanks to [Vercel](https://vercel.com/) for deploying!)
 
-<small>Oh, and by the way, the image in the navbar (top left) is fetched from my Discord profile {{ emoji(name="neofox_book") }}</small>
+<small>Oh, and by the way, the image in the navbar (top left) is fetched from my Discord profile {{ emoji(name="neofox_book") }}</small>-->

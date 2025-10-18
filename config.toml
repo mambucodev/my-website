@@ -24,9 +24,9 @@ bottom_footnotes = true
 index_format = "elasticlunr_json"
 
 [extra]
-accent_color = ["hsl(29, 65%, 31%)", "hsl(29, 72%, 74%)"]
+accent_color = ["hsl(29, 53%, 31%)", "hsl(29, 72%, 74%)"]
 
-styles = ["mods.css", "deprecated.css"]
+styles = ["mods.css", "tape.css", "deprecated.css"]
 scripts = ["js/quicklink.umd.js", "js/prefetch.js"]
 
 issues_url = "https://github.com/mambucodev/my-website/issues"
