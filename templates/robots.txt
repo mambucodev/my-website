@@ -2,30 +2,187 @@ User-agent: *
 Allow: /
 Sitemap: {{ get_url(path="sitemap.xml") }}
 
-# Borrowed from seirdy.one
+# AI assistants & agents — allowed (fetch content for user queries)
+# These bots retrieve pages when a user asks a question, similar to search engines.
 
-User-Agent: peer39_crawler/1.0
-User-Agent: TurnitinBot
-User-Agent: AcademicBotRTU
-User-Agent: SlySearch
-User-Agent: BLEXBot
-User-agent: CheckMarkNetwork/1.0 (+https://www.checkmarknetwork.com/spider.html)
-User-agent: BrandVerity/1.0
-User-agent: PiplBot
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: kagi-fetcher
+Allow: /
+
+User-agent: Gemini-Deep-Research
+Allow: /
+
+User-agent: Google-NotebookLM
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bravebot
+Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+User-agent: AzureAI-SearchBot
+Allow: /
+
+User-agent: LinerBot
+Allow: /
+
+User-agent: TavilyBot
+Allow: /
+
+User-agent: LinkupBot
+Allow: /
+
+User-agent: Poggio-Citations
+Allow: /
+
+User-agent: iAskBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Manus-User
+Allow: /
+
+# AI training & data scrapers — blocked
+# These bots crawl to build training datasets, not to serve user queries.
+
 User-agent: GPTBot
 User-agent: Google-Extended
 User-agent: Applebot-Extended
 User-agent: ClaudeBot
-User-Agent: FacebookBot
-User-Agent: meta-externalagent
+User-agent: anthropic-ai
+User-agent: FacebookBot
+User-agent: meta-externalagent
+User-agent: Meta-ExternalAgent
+User-agent: meta-webindexer
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: ChatGLM-Spider
+User-agent: cohere-training-data-crawler
+User-agent: cohere-ai
+User-agent: Amazonbot
+User-agent: PanguBot
+User-agent: Ai2Bot-Dolma
+User-agent: AI2Bot
+User-agent: AI2Bot-DeepResearchEval
 User-agent: Cotoyogi
-User-agent: Webzio-extended
+User-agent: Diffbot
+User-agent: Timpibot
 User-agent: Kangaroo Bot
-User-Agent: GenAI
-User-Agent: SemrushBot-OCOB
-User-Agent: SemrushBot-FT
-User-Agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: webzio-extended
+User-agent: VelenPublicWebCrawler
+User-agent: SBIntuitionsBot
+User-agent: imageSpider
+User-agent: img2dataset
+User-agent: laion-huggingface-processor
+User-agent: LAIONDownloader
+User-agent: LCC
+User-agent: ICC-Crawler
+User-agent: CloudVertexBot
+User-agent: PetalBot
+User-agent: Spider
+User-agent: omgili
+User-agent: omgilibot
+User-agent: Scrapy
+User-agent: TikTokSpider
+User-agent: Crawl4AI
+User-agent: FirecrawlAgent
+User-agent: DeepSeekBot
+User-agent: WRTNBot
+User-agent: wpbot
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: ShapBot
+User-agent: Poseidon Research Crawler
+User-agent: MyCentralAIScraperBot
+User-agent: WARDBot
+User-agent: Datenbank Crawler
+User-agent: netEstate Imprint Crawler
+User-agent: GenAI
+User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-FT
+User-agent: SemrushBot-SWA
+User-agent: Brightbot 1.0
+User-agent: Panscient
+User-agent: panscient.com
+User-agent: QuillBot
+User-agent: quillbot.com
+User-agent: Echobot Bot
+User-agent: EchoboxBot
+User-agent: ISSCyberRiskCrawler
+User-agent: Crawlspace
+User-agent: FriendlyCrawler
+User-agent: TerraCotta
+User-agent: Thinkbot
+User-agent: BuddyBot
+User-agent: YaK
+User-agent: ZanistaBot
+User-agent: Andibot
+User-agent: OpenAI
+User-agent: Operator
+User-agent: bedrockbot
+User-agent: Factset_spyderbot
+User-agent: Sidetrade indexer bot
+User-agent: KunatoCrawler
+User-agent: aiHitBot
+User-agent: Awario
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: Cloudflare-AutoRAG
+User-agent: Google-Firebase
+User-agent: Google-CloudVertexBot
+User-agent: Channel3Bot
 Disallow: /
+
+# Junk / aggressive crawlers — blocked
+
+User-agent: peer39_crawler/1.0
+User-agent: TurnitinBot
+User-agent: AcademicBotRTU
+User-agent: SlySearch
+User-agent: BLEXBot
+User-agent: CheckMarkNetwork/1.0 (+https://www.checkmarknetwork.com/spider.html)
+User-agent: BrandVerity/1.0
+User-agent: PiplBot
+Disallow: /
+
+# Throttle aggressive but legitimate crawlers
 
 User-agent: MJ12bot
 Crawl-Delay: 10
