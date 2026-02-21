@@ -1,45 +1,81 @@
-.tape {
+// Two parallel hazard tapes crossing the top-right corner.
+// Both share the same angle — clean, geometric, deliberate.
+//
+// Positioning uses a center-anchor approach:
+//   - Both tapes are centered on the viewport with translateX(-50%)
+//   - Rotated at the same angle so they stay perfectly parallel
+//   - Offset vertically to create a gap between them
+//   - The pair sits in the top-right area, away from main content
+
+.tapes {
   position: fixed;
-  width: 100vh;
-  height: 20px;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.tape {
+  position: absolute;
+  pointer-events: none;
+  left: 50%;
+  width: 200vmax;
+  opacity: 0.055;
   background: repeating-linear-gradient(
     -45deg,
-    var(--bg-muted-2) 0,
-    var(--bg-muted-2) 16px,
-    var(--bg-color) 16px,
-    var(--bg-color) 32px
+    var(--accent-color) 0 10px,
+    transparent 10px 22px
   );
-  z-index: -1;
 
+  // --- Desktop (>960px) ---
+  // Sidebar is ~270px. Content starts at 270px, center ~855px.
+  // Tapes cross the upper-right quadrant at 35deg.
+  // tape-1: top edge around 15% from top
+  // tape-2: 60px gap below tape-1 (~22% from top)
   &.tape-1 {
-    top: 15vh; right: -15vw;
-    transform: rotate(45deg);
+    height: 24px;
+    top: 15%;
+    transform: translateX(-50%) rotate(35deg);
   }
 
   &.tape-2 {
-    top: 30vh; left: -20vw;
-    transform: rotate(-70deg);
+    height: 24px;
+    top: 22%;
+    transform: translateX(-50%) rotate(35deg);
+    opacity: 0.04;
   }
-  
+
+  // --- Tablet (601–960px), sidebar collapsed ---
+  @media (max-width: 960px) {
+    &.tape-1 {
+      height: 20px;
+      top: 12%;
+    }
+
+    &.tape-2 {
+      height: 20px;
+      top: 18%;
+    }
+  }
+
+  // --- Mobile (<=600px) ---
   @media (max-width: 600px) {
+    opacity: 0.04;
+    background: repeating-linear-gradient(
+      -45deg,
+      var(--accent-color) 0 7px,
+      transparent 7px 16px
+    );
+
     &.tape-1 {
-      top: 85vh; left: -70vw;
-      transform: rotate(20deg);
+      height: 14px;
+      top: 8%;
     }
+
     &.tape-2 {
-      top: 10vh; left: -90vw;
-      transform: rotate(-75deg);
-    }
-  }
-  
-  @media (min-width: 601px) and (max-width: 900px) {
-    &.tape-1 {
-      top: 80vh; left: -50vw;
-      transform: rotate(60deg);
-    }
-    &.tape-2 {
-      top: 10vh; left: -50vw;
-      transform: rotate(-20deg);
+      height: 14px;
+      top: 13%;
+      opacity: 0.03;
     }
   }
 }

@@ -7,22 +7,16 @@ tags = ["Nature", "Hiking", "Scout"]
 [extra]
 accent_color = ["hsl(139, 79%, 35%)", "hsl(139, 77%, 79%)"]
 banner = "banner.webp"
+music = [
+  { type = "album", artist = "Bring Me the Horizon", name = "Lo-files" },
+]
 [extra.fediverse]
 id = "115237521692244805"
 +++
 
-<details>
-<summary>Tracks</summary>
-
-This time, I'm listening to [Lo-files](https://album.link/i/1821917950) by **Bring Me The Horizon**. It's an album with lo-fi versions of their most famous songs, which give you both chilling and exciting vibes. The same vibes I had while living the experience that I'm about to narrate.
-
-During the hike itself I didn't have earbuds, so I didn't listen to any music. But I didn't have to, 'cause listening to the nature surrounding you while traveling has no substitutes.
-
-</details>
-
 As the title suggests, I went on a hike! Well, not that recently... From the **2nd** to the **7th** of August! <small>Actually, the 2nd I participated at the youth day and actually departed the 3rd, so...</small>
 
-{% alert(warning=true) %}
+{% alert(icon="warning", title="Warning", color="yellow") %}
 
 This article depicts an arch linux user and anime otaku touching **grass**. Not just touching, but also walking and sleeping on it, for several days. There are also pictures of it.
 
@@ -34,7 +28,7 @@ If you're sensitive about the topic, we advise you to exit the article and go re
 
 Before actually departing, I participated to the **international youth day** which was held in **Rome**&mdash;my hometown. It was a really heartwarming experience.
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 
 Most of you do not know but I'm a scout. Not a boyscout (that's american stuff, I'm not involved with it), just a scout. More specifically, I'm part of the **International Union of Guides and Scouts of Europe**, shortened as **FSE**. We're also catholic, this should explain what I'm gonna say next.
 

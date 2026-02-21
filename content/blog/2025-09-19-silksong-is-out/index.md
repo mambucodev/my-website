@@ -8,18 +8,12 @@ tags = ["Gaming", "Indies"]
 accent_color = ["hsl(17, 75%, 44%)", "hsl(17, 75%, 72%)"]
 banner = "banner.webp"
 banner_position = "63%"
+music = [
+  { type = "album", artist = "Christopher Larkin", name = "Hollow Knight: Silksong (Original Soundtrack)" },
+]
 [extra.fediverse]
 id = "115232169336085504"
 +++
-
-<details>
-<summary>Tracks</summary>
-
-This time, I've been listening to Silksong's [soundtracks](https://album.link/i/1838949732). You know, to match the vibes and bring back that game feeling at the time of writing.
-
-You're not forced to listen to them while reading, but they're pretty good. Because the article is not very long, I prefer to actually begin with [Choral Chambers](https://song.link/i/1838951597) as I think it's the best soundtrack so far.
-
-</details>
 
 If you follow me on fedi, you probably know about my obsession for **Hollow Knight**. I tried it out, like, 1 year ago and loved it. Now, after 7 years of development heaven, we've got a sequel!
 
@@ -40,7 +34,7 @@ No preorders, no early access for reviewers. The game was published on the **4th
 
 Eventually I bought it, after a lot of pain and suffering&mdash;oh and it costed ONLY 20 DOLLARS. Silksong already had over **half a million** players online on Steam after only 10 minutes after it came out. I think this beats some records, or at least gives the game a special throne between some of the best games ever.
 
-{% alert(fact=true) %}
+{% alert(icon="lightbulb", title="Fact", color="green") %}
 
 When the game came out I was on Discord with a friend. He managed to buy it in like 15 minutes, while I had to wait like 2 and a half hours... This tells you how messed up the servers were. They didn't even shut down, they were just hella confused because of all the people purchasing and downloading the game.
 

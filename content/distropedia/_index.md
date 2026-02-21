@@ -1,6 +1,7 @@
 +++
 title = "Distropedia"
 description = "[Currently WIP] A project about linux distributions, more of a review magazine. Take a look yourself!"
+draft = true
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
 +++
@@ -9,7 +10,7 @@ Hey, welcome to the Distropedia! This section of the website is slowly growing a
 
 If you're interested on what's the purpose of the Distropedia or want to know how I came up with this idea, [read this](@/blog/2025-03-26-my-new-distropedia/index.md).
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 I'm sorry but lately I don't have much time to work on this project. It will go on, but slowly.
 
 Update: This website section hasn't been updated since it was created. I will surely bring this project to life, just not now. **I'm sorry for the hype.**

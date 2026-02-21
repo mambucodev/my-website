@@ -9,7 +9,7 @@ accent_color = ["hsl(6, 63%, 41%)", "hsl(6, 54%, 78%)"]
 banner = "banner.webp"
 +++
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 A really big thanks to [Daudix](https://daudix.one/) for helping me with the banner!
 {% end %}
 

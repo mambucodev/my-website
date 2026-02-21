@@ -8,24 +8,16 @@ tags = ["Tech", "FOSS"]
 accent_color = ["hsl(261, 72%, 40%)", "hsl(261, 72%, 86%)"]
 banner = "banner.webp"
 banner_position = "48%"
+music = [
+  { type = "album", artist = "Billie Eilish", name = "dont smile at me" },
+]
 [extra.fediverse]
 id = "114900650424383908"
 +++
 
-<details>
-<summary>Tracks</summary>
-
-From now on I'm mentioning the music I'm listening to while writing every article.
-
-I highly suggest reading while listening to these tracks (or the author) to be on the same wavelength I was at the time of publishing. You're not forced to, it's a thing you can do if you're a regular on my website and enjoy what I say.
-
-For this article, I listened to **Billie Eilish**. I don't have any specific tracks list to give you because I played the author on shuffle. **BUT** if you want something specific, play her <a class="external" target="_blank" href="https://album.link/i/1440898929/">**dont smile at me**</a> EP.
-
-</details>
-
 Here we go again... How have you been? Tonight I want to talk about open-source. That's it.
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 
 If you don't know much about open-source, you can learn a lot from this article. I'm going deep into the meaning of why is open-source important, and why some people hate it.
 
@@ -67,7 +59,7 @@ But it's paradoxical: what if I need a logo? Why am I forced to pay either Adobe
 
 ### Piracy
 
-{% alert(warning=true) %}
+{% alert(icon="warning", title="Warning", color="yellow") %}
 
 With this paragraph I'm not saying that piracy is good. It's not. It's illegal and unethical. But it's also a reality. And it's a reality that we have to deal with.
 

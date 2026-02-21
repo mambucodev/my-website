@@ -1,5 +1,11 @@
+{%- set badges_data = [] -%}
+{%- if section is defined and section.extra.badges is defined -%}
+  {%- set badges_data = section.extra.badges -%}
+{%- elif page is defined and page.extra.badges is defined -%}
+  {%- set badges_data = page.extra.badges -%}
+{%- endif -%}
 <div class="badges">
-  {%- for badge in section.extra.badges -%}
+  {%- for badge in badges_data -%}
   {%- if badge.url -%}
   <a href="{{ badge.url }}">
   {%- endif -%}

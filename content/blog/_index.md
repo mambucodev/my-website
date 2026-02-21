@@ -10,23 +10,16 @@ no_header = true
 +++
 
 {% crt() %}
-```
-(\
-\'\
- \'\     __________
- / '|   ()_________)
- \ '/    \ ~~~~~~~~ \
-   \       \ ~~~~~~   \
-   ==).      \__________\
-  (__)       ()__________)
-```
+$ cat /dev/brain
+
+thoughts go here.
+sometimes they make sense.
+
+[########......] 62%
 {% end %}
 
 # Mambuco's Blog
 
-Welcome to my **blogging** corner! {{ emoji(name="neofox_aww") }}
+Welcome to my **blogging** corner! I post about Tech, Anime, personal thoughts and life experiences. Scroll, read whatever you want, and if you've got an ActivityPub account you can leave a comment too!
 
-I post a lot of interesting stuff, I swear. See, we've got a lot of categories: Tech, Anime, or just my personal thoughts and life experiences.
-I'd also like to write about my city (Rome) one day, once I get to appreciate it enough.
-
-By the way, scroll, read whatever you want, and if you've got an ActivityPub account you can leave a comment too!
+{{ icon(name="arrow-down") }} **Dive in** — here's what I've been writing about lately.

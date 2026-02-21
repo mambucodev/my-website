@@ -1,6 +1,6 @@
 title = "Mambuco"
 base_url = "https://mambuco.dev"
-description = "I'm Mambuco, a teenage developer and gamer. I talk about myself here, and about topics that often get ignored by the mainstream."
+description = "Developer, self-hoster, and web builder. I write about tech, share my projects, and occasionally overthink things."
 
 theme = "ametrine"
 
@@ -16,9 +16,17 @@ author = "Mambuco"
 taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
-highlight_code = true
 smart_punctuation = true
 bottom_footnotes = true
+
+[markdown.highlighting]
+style = "class"
+light_theme = "monokai-pro-light"
+dark_theme = "monokai-pro"
+extra_themes = [
+    "themes/ametrine/giallo/themes/monokai-pro-light.json",
+    "themes/ametrine/giallo/themes/monokai-pro.json",
+]
 
 [search]
 index_format = "elasticlunr_json"
@@ -52,13 +60,9 @@ icon = "https://api.lanyard.rest/604790617138266149.webp"
 
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
+    { url = "@/portfolio/index.md", name = "Portfolio", icon = "briefcase" },
     { url = "@/socials/index.md", name = "Socials", icon = "at" },
-    { name = "My Works", category = [
-        { url = "@/blog/_index.md", name = "Blog", icon = "newspaper-clipping" },
-        { url = "@/crestfall/_index.md", name = "Crestfall", icon = "joystick", new = true },
-        { url = "@/distropedia/_index.md", name = "Distropedia", icon = "books" },
-        { url = "@/commissions/index.md", name = "Commissions", icon = "basket" },
-    ] },
+    { url = "@/blog/_index.md", name = "Blog", icon = "newspaper-clipping" },
     { name = "External", category = [
         { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" },
         { url = "https://envs.net", name = "Envs.net", icon = "hard-drives" }

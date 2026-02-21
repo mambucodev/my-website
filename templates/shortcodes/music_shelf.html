@@ -1,0 +1,79 @@
+{%- set api_key = get_env(name="LAST_FM_API_KEY", default="") -%}
+{%- if api_key and page.extra.music_shelf is defined -%}
+{%- set music_icon = load_data(path="themes/ametrine/icons/phosphor/music-notes.svg", required=false) -%}
+{%- set fallback_icon = load_data(path="themes/ametrine/icons/phosphor/vinyl-record.svg", required=false) -%}
+<div class="music-shelf-card card">
+	<div class="music-shelf-header">
+		{%- if music_icon -%}
+			<i class="icon music-notes music-shelf-icon" style="--icon: url('data:image/svg+xml,{{ music_icon | urlencode }}');"></i>
+		{%- endif -%}
+		<span class="music-shelf-title">On Repeat</span>
+	</div>
+	<div class="music-shelf">
+		<div class="music-shelf-track">
+			{%- for item in page.extra.music_shelf -%}
+				{%- set artist_encoded = item.artist | urlencode -%}
+				{%- set album_encoded = item.album | urlencode -%}
+				{%- set api_url = "https://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=" ~ api_key ~ "&artist=" ~ artist_encoded ~ "&album=" ~ album_encoded ~ "&autocorrect=1&format=json" -%}
+				{%- set info = load_data(url=api_url, format="json", required=false) -%}
+				{%- if info and info.album -%}
+					{%- set cover_xl = info.album.image | filter(attribute="size", value="extralarge") | first -%}
+					{%- set cover_lg = info.album.image | filter(attribute="size", value="large") | first -%}
+					{%- if cover_xl['#text'] and cover_xl['#text'] | length > 1 -%}
+						{%- set cover_url = cover_xl['#text'] -%}
+					{%- elif cover_lg['#text'] and cover_lg['#text'] | length > 1 -%}
+						{%- set cover_url = cover_lg['#text'] -%}
+					{%- else -%}
+						{%- set cover_url = "" -%}
+					{%- endif -%}
+					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}">
+						<div class="album-cover-fallback">
+							{%- if fallback_icon -%}
+								<i class="icon vinyl-record" style="--icon: url('data:image/svg+xml,{{ fallback_icon | urlencode }}');"></i>
+							{%- endif -%}
+						</div>
+						{%- if cover_url | length > 1 -%}
+							<img class="album-cover transparent no-hover" src="{{ cover_url }}" alt="{{ info.album.name }}" width="174" height="174" loading="lazy" onerror="this.style.display='none'" />
+						{%- endif -%}
+						<div class="album-info">
+							<span class="album-name">{{ info.album.name }}</span>
+							<span class="album-artist">{{ info.album.artist }}</span>
+						</div>
+					</a>
+				{%- endif -%}
+			{%- endfor -%}
+		{%- for item in page.extra.music_shelf -%}
+				{%- set artist_encoded = item.artist | urlencode -%}
+				{%- set album_encoded = item.album | urlencode -%}
+				{%- set api_url = "https://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=" ~ api_key ~ "&artist=" ~ artist_encoded ~ "&album=" ~ album_encoded ~ "&autocorrect=1&format=json" -%}
+				{%- set info = load_data(url=api_url, format="json", required=false) -%}
+				{%- if info and info.album -%}
+					{%- set cover_xl = info.album.image | filter(attribute="size", value="extralarge") | first -%}
+					{%- set cover_lg = info.album.image | filter(attribute="size", value="large") | first -%}
+					{%- if cover_xl['#text'] and cover_xl['#text'] | length > 1 -%}
+						{%- set cover_url = cover_xl['#text'] -%}
+					{%- elif cover_lg['#text'] and cover_lg['#text'] | length > 1 -%}
+						{%- set cover_url = cover_lg['#text'] -%}
+					{%- else -%}
+						{%- set cover_url = "" -%}
+					{%- endif -%}
+					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}" aria-hidden="true" tabindex="-1">
+						<div class="album-cover-fallback">
+							{%- if fallback_icon -%}
+								<i class="icon vinyl-record" style="--icon: url('data:image/svg+xml,{{ fallback_icon | urlencode }}');"></i>
+							{%- endif -%}
+						</div>
+						{%- if cover_url | length > 1 -%}
+							<img class="album-cover transparent no-hover" src="{{ cover_url }}" alt="" width="174" height="174" loading="lazy" onerror="this.style.display='none'" />
+						{%- endif -%}
+						<div class="album-info">
+							<span class="album-name">{{ info.album.name }}</span>
+							<span class="album-artist">{{ info.album.artist }}</span>
+						</div>
+					</a>
+				{%- endif -%}
+			{%- endfor -%}
+		</div>
+	</div>
+</div>
+{%- endif -%}

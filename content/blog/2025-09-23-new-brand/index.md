@@ -7,24 +7,18 @@ tags = ["Tech", "Nothing"]
 [extra]
 accent_color = ["hsl(213, 14%, 23%)", "hsl(213, 14%, 89%)"]
 banner = "banner.webp"
+music = [
+  { type = "album", artist = "Bad Omens", name = "THE DEATH OF PEACE OF MIND" },
+]
 [extra.fediverse]
 id = "115254378638004189"
 +++
-
-<details>
-<summary>Tracks</summary>
-
-Hi! Interested in some tracks? Well... this time I've got some peak to share with you.
-
-I listened to an album called [THE DEATH OF PEACE IN MIND](https://album.link/i/1647228197) by **Bad Omens**. I's a metal album and it has some really cool vocals, rythm and music overall. I often listen to this, it's one of my favorite metal albums. Gives you chills, I swear.
-
-</details>
 
 To be honest I need to show you what's been going on in my head this couple weeks, lemme know what you think about it.
 
 ## Tech Dilemma
 
-{% alert (note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 
 This is a strictly personal section. If you're just interested about the review for the Nothing tech accessories I got, you're free to skip this part.
 

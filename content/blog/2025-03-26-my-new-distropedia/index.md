@@ -16,7 +16,7 @@ id = "114237109441401674"
 
 Get ready, because you're about to read a lot of interesting stuff (at least I hope so) about **Linux**, and about **me**.
 
-{% alert(important=true) %}
+{% alert(icon="warning-diamond", title="Important", color="purple") %}
 If you don't know what Linux is, it's basically a computer operating system like **Windows** and **MacOS** (from Apple Macs).
 
 Do I suggest you read this article? *I'm not sure.* The thing is that this blog is probably going to go into technical details about OSes, distros, software, and all that nerdy stuff.
@@ -45,7 +45,7 @@ What do I mean by criteria? Just a list of things to try out before you give fee
 - Writing code
 - Launching games
 - Listening to music
-- Other stuff (See [#suggestions](@/distropedia/_index.md#suggestions))
+- Other stuff
 
 ## Which Distros?
 
@@ -57,22 +57,22 @@ I'm open to just about anything, so let's start with
 - Red Hat
 - ~~Arch Linux~~
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 Q: *Why not Arch?*
 A: **It was my first distro** and I've been using it for months. [Here](@/blog/2025-02-04-from-arch-to-fedora/index.md)'s why I quit, but it was a wonderful experience.
 {% end %}
 
 I'll continue with Debian-based distros and so on with Red Hat/Arch-based distros.
 
-By the way there's a [roadmap](@/distropedia/roadmap/index.md) if you're interested.
+By the way there was a roadmap if you were interested.
 
 ## Conclusion
 
-The [Distropedia](@/distropedia/_index.md) tab should now appear in the sidebar. There you'll find all the distros that have been tried so far, a roadmap, and a link to this article.
+The Distropedia tab used to appear in the sidebar. There you could find all the distros that have been tried so far, a roadmap, and a link to this article.
 
-Again, if you have any suggestions please read this [section](@/distropedia/_index.md#suggestions) to understand how you can contribute.
+The Distropedia is currently under maintenance and not available.
 
-{% alert(fact=true) %}
+{% alert(icon="lightbulb", title="Fact", color="green") %}
 Thank you, really. This website helps me get trough a lot of things. You probably can't read about all the difficulties someone is going trough in one article.
 
 That's why I really appreciate everyone who reads my blog light-heartedly. It helps me more than you can imagine.

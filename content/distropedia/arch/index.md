@@ -1,5 +1,6 @@
 +++
 title = "Arch Linux"
+draft = true
 [extra]
 accent_color = ["hsl(200, 89%, 38%)", "hsl(200, 81%, 59%)"]
 +++

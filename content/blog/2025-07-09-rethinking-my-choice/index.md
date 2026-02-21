@@ -16,7 +16,7 @@ id = "114825869258735669"
 
 Hey, welcome back! I haven't posted for a while, and it's because I've been thinking about what to post about. I want to talk about big corporations this time such as Apple, Google, Microsoft, and so on.
 
-{% alert(warning=true) %}
+{% alert(icon="warning", title="Warning", color="yellow") %}
 This blog post is different from the others. There's not a lot of text formatting. You'll feel like it's a novel, as it's supposed to be.
 
 Please tho, tell me in the comments if you feel like this is boring. *I do need feedback afterall...*
@@ -71,7 +71,7 @@ On the other hand, Android need a lot of work and is not perfect either. It lack
 
 This was a nice thought. Maybe in 2 years I'll read this article again and laugh, either with the latest iPhone model in my hands or with a linux phone, once GNOME Mobile gets decent.
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 This article is pretty old. I planned on publishing it 2 months ago but then I got distracted and forgot about it.
 
 My opinion has changed overtime, and my hate towards Android has definitely ceased. I'll soon make a new blog post about iOS's new features, mentioning also its diversities with Android probably.

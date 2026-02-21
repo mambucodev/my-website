@@ -1,5 +1,6 @@
 +++
 title = "Vanilla OS"
+draft = true
 [extra]
 accent_color = ["hsl(39, 78%, 41%)", "hsl(39, 100%, 64%)"]
 +++

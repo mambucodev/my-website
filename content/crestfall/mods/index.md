@@ -1,6 +1,7 @@
 +++
 title = "Crestfall's Mods"
 description = "A full list of the mod files inside Crestfall. Links are not available yet, but they soon will be (hopefully)."
+draft = true
 +++
 
 This is a complete list of the installed mods. They're all downloaded from [Modrinth](https://modrinth.com/).

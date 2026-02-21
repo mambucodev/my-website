@@ -1,6 +1,7 @@
 +++
 title = "Crestfall's Rules"
 description = "A list of rules you must comply in order to play on Crestfall."
+draft = true
 +++
 
 Rules are Work In Progress... *Sorry*.

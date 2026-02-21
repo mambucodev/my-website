@@ -1,5 +1,6 @@
 +++
 title = "Fedora"
+draft = true
 [extra]
 accent_color = ["hsl(215, 60%, 43%)", "hsl(215, 66%, 61%)"]
 +++

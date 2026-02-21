@@ -11,7 +11,7 @@ banner = "banner.webp"
 
 Hey, this is my first post here. Alright, seems cool.
 
-{% alert(note=true) %}
+{% alert(icon="info", title="Note", color="blue") %}
 This is actually the first post I write on this blog.
 I'm not even a native english speaker, and I'm not used to writing blog articles.
 I will get used to it with time, but don't expect some quality content right now.

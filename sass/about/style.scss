@@ -1,31 +1,329 @@
-.masonry {
-	column-gap: 0.5rem;
-	columns: auto 16rem;
-	margin: 0;
-	margin-block-start: 2rem;
-	padding: 0;
-	list-style: none;
+// Stat cards — quick-glance personal facts
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
 
-	& > li {
-		display: contents;
-		margin: 0;
-		padding: 0;
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.75rem 0.5rem;
 
-		article {
-			break-inside: avoid;
-			margin-block-end: 0.5rem;
-			box-shadow: var(--edge-highlight), var(--shadow);
-			border-radius: var(--rounded-corner);
-			background-color: var(--bg-muted-1);
-			padding: 1rem;
+  .stat-value {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-small);
+    color: var(--accent-color);
+  }
 
-			:first-child {
-				margin-block-start: 0;
-			}
+  .stat-label {
+    font-size: var(--font-size-x-small);
+    color: var(--fg-muted-1);
+    margin-block-start: 0.125rem;
+  }
+}
 
-			:last-child {
-				margin-block-end: 0;
-			}
-		}
-	}
+// Tech stack pill strip
+.stack-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-block: 1rem;
+}
+
+.stack-pill {
+  box-shadow: var(--edge-highlight);
+  border-radius: var(--rounded-corner-small);
+  background-color: var(--bg-muted-1);
+  padding: 0.1875rem 0.625rem;
+  font-size: var(--font-size-x-small);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--fg-muted-2);
+}
+
+// Interest cards — icon + text side by side
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
+
+.interest {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+
+  .interest-icon {
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    margin-block-start: 0.125rem;
+  }
+
+  .interest-body {
+    min-width: 0;
+
+    strong {
+      display: block;
+      font-size: var(--font-size-small);
+      margin-block-end: 0.125rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: var(--font-size-x-small);
+      color: var(--fg-muted-1);
+      line-height: 1.5;
+    }
+  }
+}
+
+// Distro timeline
+.distro-timeline-wrap {
+  margin-block: 1.5rem;
+}
+
+.distro-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.distro-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 7.5rem;
+
+  @media (max-width: 600px) {
+    min-width: 5rem;
+  }
+
+  // Connecting line between nodes
+  &:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0.6875rem; // center of 1.5rem dot
+    left: calc(50% + 0.75rem);
+    width: calc(100% - 1.5rem);
+    height: 2px;
+    background-color: var(--bg-muted-2);
+  }
+
+  .distro-dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--bg-muted-2);
+    box-shadow: var(--edge-highlight), var(--shadow);
+    flex-shrink: 0;
+    z-index: 1;
+  }
+
+  // Active node (current distro) gets accent color
+  &.active .distro-dot {
+    background-color: var(--accent-color);
+    box-shadow: var(--edge-highlight), var(--shadow-glow);
+  }
+
+  .distro-name {
+    margin-block-start: 0.5rem;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--fg-color);
+    line-height: 1.3;
+  }
+
+  .distro-time {
+    font-size: var(--font-size-x-small);
+    color: var(--fg-muted-1);
+    margin-block-start: 0.0625rem;
+  }
+}
+
+// Music shelf — card container with horizontal scrolling album covers
+.music-shelf-card {
+  margin-block: 1.5rem;
+  padding: 1.25rem;
+  position: relative;
+
+  // Decorative accent line at the top
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--accent-color),
+      transparent
+    );
+    opacity: 0.5;
+  }
+}
+
+.music-shelf-header {
+  position: relative;
+  text-align: center;
+  margin-block-end: 0.75rem;
+}
+
+.music-shelf-title {
+  display: block;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--accent-color);
+}
+
+.music-shelf-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 1.75rem;
+  color: var(--accent-color);
+  opacity: 0.4;
+  filter: drop-shadow(0 0 6px var(--accent-highlight));
+}
+
+// Marquee — two identical tracks side by side, scrolling left infinitely.
+// Pauses on hover so users can interact with tiles.
+@keyframes music-shelf-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.music-shelf {
+  display: flex;
+  overflow: hidden;
+  // Fade edges so tiles don't pop in/out harshly
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 1.5rem,
+    black calc(100% - 1.5rem),
+    transparent
+  );
+
+  &:hover .music-shelf-track {
+    animation-play-state: paused;
+  }
+}
+
+.music-shelf-track {
+  display: flex;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  padding-inline-end: 0.625rem;
+  animation: music-shelf-scroll 30s linear infinite;
+}
+
+.album-tile {
+  position: relative;
+  flex-shrink: 0;
+  display: block;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: var(--rounded-corner-small);
+  overflow: hidden;
+  box-shadow: var(--edge-highlight), var(--shadow);
+  text-decoration: none;
+  transition: box-shadow var(--transition);
+
+  &:hover {
+    box-shadow:
+      var(--edge-highlight),
+      var(--shadow-raised),
+      inset 0 0 0 2px var(--accent-highlight);
+    z-index: 1;
+
+    .album-info {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  &:active {
+    box-shadow:
+      var(--edge-highlight),
+      var(--shadow),
+      inset 0 0 0 2px var(--accent-highlight);
+  }
+}
+
+// Override theme global img styles inside album tiles
+.album-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  background-color: var(--bg-muted-2);
+  box-shadow: none;
+  // Hide alt text while image loads
+  color: transparent;
+  font-size: 0;
+}
+
+.album-cover-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-muted-2);
+  color: var(--fg-muted-1);
+  font-size: 1.5rem;
+}
+
+.album-info {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.375rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+  opacity: 0;
+  translate: 0 0.25rem;
+  transition: opacity var(--transition), translate var(--transition);
+}
+
+.album-name {
+  display: block;
+  font-size: var(--font-size-xx-small);
+  font-weight: var(--font-weight-semi-bold);
+  color: white;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.album-artist {
+  display: block;
+  font-size: var(--font-size-xx-small);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-block-start: 0.0625rem;
 }

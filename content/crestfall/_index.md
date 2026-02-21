@@ -1,6 +1,7 @@
 +++
 title = "Crestfall"
 description = "A vanilla-like minecraft server, with server-side mods only! I'd suggest you to give it a try, there's some fire world generation!"
+draft = true
 [extra]
 styles = ["crestfall/style.css"]
 scripts = ["crestfall/status.js"]
@@ -74,7 +75,7 @@ The server version is `1.21.7`, but you can join from older versions too thanks 
 
 The IP is `crestfall.cc`, but there's a whitelist. If you want to get added, simply [ask me](@/socials/index.md) or a friend that's on the server to add you.
 
-{% alert(warning=true) %}
+{% alert(icon="warning", title="Warning", color="yellow") %}
 
 **The server has `online-mode` disabled.** But don't worry, there's a login system. Once you join, kindly `/register` and choose a password to your liking. Nobody will be able to join using your name without knowing it.
 

@@ -1,107 +1,182 @@
 +++
 title = "About Me"
-description = "A brief introduction about myself, and my interests of course."
+description = "A brief introduction about myself, what I do, and what I care about."
 [extra]
 styles = ["about/style.css"]
+badges = [
+  { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
+  { name = "he-him", alt = "He/Him" },
+  { name = "saynotoweb3", url = "https://yesterweb.org/saynotoweb3no-to-web3/", alt = "Say No To Web3" },
+  { name = "adhd", alt = "ADHD" },
+  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
+  { name = "daudix", url = "https://daudix.one/", alt = "Daudix" },
+  { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
+  { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },
+  { name = "mint", url = "https://www.freshlygrown.me/", alt = "Mint" },
+  { name = "lina", url = "https://lina.sh/", alt = "lina.sh" },
+  { name = "immjs", url = "https://immjs.dev/", alt = "immjs" },
+  { name = "volpeon", url = "https://volpeon.ink/", alt = "Volpeon" },
+  { name = "aperturelabs", url = "https://www.aperturescience.com/", alt = "Aperture Labs" },
+  { name = "stardew-valley", url = "https://www.stardewvalley.net/", alt = "Stardew Valley" },
+  { name = "notnite", url = "https://notnite.com/", alt = "notnite" },
+  { name = "eightyeightthirthyone", url = "https://eightyeightthirty.one/", alt = "eightyeightthirthy.one" },
+  { name = "fediverse", alt = "Fediverse" },
+  { name = "dark-mode", alt = "Made for Dark Mode" },
+  { name = "mobile-friendly", alt = "Mobile Friendly" },
+  { name = "duckduckgo", url = "https://duckduckgo.com/", alt = "DuckDuckGo" },
+  { name = "yarrr", alt = "Yarrr" },
+]
+music_shelf = [
+  { artist = "Billie Eilish", album = "HIT ME HARD AND SOFT" },
+  { artist = "Billie Eilish", album = "Happier Than Ever" },
+  { artist = "Billie Eilish", album = "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" },
+  { artist = "Billie Eilish", album = "dont smile at me" },
+  { artist = "Rosalía", album = "LUX" },
+  { artist = "Ado", album = "Zanmu" },
+  { artist = "Ado", album = "Vivarium" },
+  { artist = "Laufey", album = "A Matter of Time" },
+  { artist = "Bad Omens", album = "THE DEATH OF PEACE OF MIND" },
+  { artist = "Bring Me the Horizon", album = "POST HUMAN: NeX GEn" },
+  { artist = "Metro Boomin", album = "HEROES & VILLAINS" },
+  { artist = "Måneskin", album = "Teatro d'ira - Vol. I" },
+  { artist = "Bring Me the Horizon", album = "That's the Spirit" },
+  { artist = "Bring Me the Horizon", album = "Lo-files" },
+]
 +++
 
-Want to know a little bit more about me? Here you go.
+Here's the short version.
 
-<small>Even tho you'd learn even more reading my [blog](@/blog/_index.md) {{ emoji(name="neofox_smug") }}</small>
+## Who I Am
 
-<ul class="masonry">
+My name is Gabriele, but online I go by **Mambuco**. Italian, mainly introverted, and I love food.
 
-<li>
-<article>
+<div class="stat-grid">
+<div class="stat card">
+<span class="stat-value">INFP-T</span>
+<span class="stat-label">Personality</span>
+</div>
+<div class="stat card">
+<span class="stat-value">Italian</span>
+<span class="stat-label">Nationality</span>
+</div>
+<div class="stat card">
+<span class="stat-value">He/Him</span>
+<span class="stat-label">Pronouns</span>
+</div>
+<div class="stat card">
+<span class="stat-value">Scorpio</span>
+<span class="stat-label">Zodiac</span>
+</div>
+<div class="stat card">
+<span class="stat-value">Alt-Pop</span>
+<span class="stat-label">Fav. Genre</span>
+</div>
+</div>
 
-My actual name is Gabriele, I'm Italian, and I love food. <small>I mean, who doesn't?</small>
+## What I Do
 
-</article>
-</li>
+I build things for the web — and sometimes off it. I also self-host pretty much everything I can on my own infrastructure.
 
-<li>
-<article>
+<div class="stack-strip">
+<span class="stack-pill">TypeScript</span>
+<span class="stack-pill">React</span>
+<span class="stack-pill">Next.js</span>
+<span class="stack-pill">Node.js</span>
+<span class="stack-pill">Rust</span>
+<span class="stack-pill">C++</span>
+<span class="stack-pill">PostgreSQL</span>
+<span class="stack-pill">Supabase</span>
+<span class="stack-pill">MongoDB</span>
+</div>
 
-I'd define myself as **mainly introverted**.
+<div class="buttons start big">
+<a class="suggested" href="/portfolio/">See my work</a>
+</div>
 
-My personality type is `INFP-T` <small>(<a class="external" href="https://www.16personalities.com/infp-personality">here</a>)</small>, you can understand a lot about me from that. I don't usually start a conversation unless **I'm confident with that person**, and I often like spending time **alone**.
+## Beyond Code
 
-</article>
-</li>
+<div class="interest-grid">
 
-<li>
-<article class="fancy-list">
+<div class="interest card">
+<span class="interest-icon">{{ icon(name="monitor-play") }}</span>
+<div class="interest-body">
+<strong>Anime & Manga</strong>
+<p>Love the Japanese culture. Always watching something.</p>
+</div>
+</div>
 
-**My overall passions:**
+<div class="interest card">
+<span class="interest-icon">{{ icon(name="game-controller") }}</span>
+<div class="interest-body">
+<strong>Gaming</strong>
+<p>Hollow Knight, ARC Raiders, Celeste, Portal, and more.</p>
+</div>
+</div>
 
-- Linux <small>(I'm a fosshead)</small>
-- Coding <small>(duh)</small>
-- Music
-- Games
-- Ricing
+<div class="interest card">
+<span class="interest-icon">{{ icon(name="linux-logo") }}</span>
+<div class="interest-body">
+<strong>Linux</strong>
+<p>Arch + KDE Plasma daily driver, both on my PC and on my laptop. Can't stand Windows.</p>
+</div>
+</div>
 
-</article>
-</li>
+<div class="interest card">
+<span class="interest-icon">{{ icon(name="browser") }}</span>
+<div class="interest-body">
+<strong>Web Design</strong>
+<p>A website can be anything — home, shop, diary. No limits.</p>
+</div>
+</div>
 
-<li>
-<article>
+</div>
 
-My favorite programming language is currently **Rust**, but the one I know the best is **JavaScript**.
+{{ music_shelf() }}
 
-</article>
-</li>
+### Distro Journey
 
-<li>
-<article>
+<div class="distro-timeline-wrap">
+<div class="distro-timeline">
+<div class="distro-node">
+<div class="distro-dot"></div>
+<span class="distro-name">Arch Linux</span>
+<span class="distro-time">2024</span>
+</div>
+<div class="distro-node">
+<div class="distro-dot"></div>
+<span class="distro-name">Fedora</span>
+<span class="distro-time">Early 2025</span>
+</div>
+<div class="distro-node">
+<div class="distro-dot"></div>
+<span class="distro-name">Vanilla OS</span>
+<span class="distro-time">Tried</span>
+</div>
+<div class="distro-node active">
+<div class="distro-dot"></div>
+<span class="distro-name">Arch Linux</span>
+<span class="distro-time">Now</span>
+</div>
+</div>
+</div>
 
-I love **Anime**, **Manga**, and the japanese culture in general. You'll find me talking more and more about it in my [blog](@/blog/_index.md) over time.
+## Badges
 
-If you want to see a list of the anime I've watched or that I'm currently watching, I have a <a class="external" target="_blank" href="https://anilist.co/user/mambuco/">AniList</a> account.
+A few badges of people I know, communities I'm in, and things I like.
 
-</article>
-</li>
+{{ badges() }}
 
-<li>
-<article>
+<details>
+<summary>My Badge</summary>
 
-I listen to music every day, for hours. It makes me relax, hype, or whatever I need it to do. My favorite singer is **Billie Eilish**, she's helped me a lot. I also listen to **Sleep Token**, **Polyphia**, and many other Rock/Metal artists. **BUT** I'm currently obessed with J-pop and J-rock, especially Anime opening/ending themes.
+If you want to, you can add **my badge** on your website {{ emoji(name="neofox_boop_blep") }}
 
-</article>
-</li>
+<img class="pixels transparent no-hover badge" src="/badges/mambuco.gif" alt="My Badge">
 
-<li>
-<article class="fancy-list">
+```html
+<a href="https://mambuco.dev">
+  <img src="https://mambuco.dev/badges/mambuco.gif" alt="Mambuco">
+</a>
+```
 
-**My favorite games are:**
-
-- Hollow Knight <small>(Skong)</small>
-- Beat Saber
-- Celeste
-- Portal
-- Minecraft
-- *A few FPS games*
-
-</article>
-</li>
-
-<li>
-<article>
-
-I love **Linux** and hate Windows. My main distro is currently **Arch Linux** <small>(btw)</small>, with Hyprland.
-
-I also tried other distros trough time, you'd want to take a look at the [Distropedia](@/distropedia/_index.md): a project of mine.
-
-</article>
-</li>
-
-<li>
-<article>
-
-I'm really passionate about design, especially **web design**.
-
-A website can either be your home, your shop, your little showcase/portfolio, your diary, and so on. The internet has **no limit**. That's why I love it so much.
-
-</article>
-</li>
-
-</ul>
+</details>
