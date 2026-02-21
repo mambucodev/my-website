@@ -327,3 +327,214 @@
   white-space: nowrap;
   margin-block-start: 0.0625rem;
 }
+
+// Game shelf — scattered stack of vertical game panels
+.game-shelf-card {
+  margin-block: 1.5rem;
+  padding: 1.25rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--accent-color),
+      transparent
+    );
+    opacity: 0.5;
+  }
+}
+
+.game-shelf-header {
+  position: relative;
+  text-align: center;
+  margin-block-end: 0.75rem;
+}
+
+.game-shelf-title {
+  display: block;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--accent-color);
+}
+
+.game-shelf-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 1.75rem;
+  color: var(--accent-color);
+  opacity: 0.4;
+  filter: drop-shadow(0 0 6px var(--accent-highlight));
+}
+
+// Scattered container — panels overlap and rotate for a messy desk feel.
+// Uses flexbox with centered wrapping; negative margins pull panels together.
+.game-shelf {
+  --panel-w: 7rem;
+  --panel-h: 10.5rem; // 2:3 ratio (matches 600×900 Steam capsules)
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 1.5rem 0.5rem;
+  position: relative;
+
+  @media (max-width: 720px) {
+    --panel-w: 6rem;
+    --panel-h: 9rem;
+    padding: 1rem 0.25rem;
+  }
+
+  @media (max-width: 480px) {
+    --panel-w: 5.25rem;
+    --panel-h: 7.875rem;
+    padding: 0.75rem 0;
+  }
+}
+
+.game-panel {
+  position: relative;
+  flex-shrink: 0;
+  display: block;
+  width: var(--panel-w);
+  height: var(--panel-h);
+  border-radius: var(--rounded-corner-small);
+  overflow: hidden;
+  box-shadow: var(--edge-highlight), var(--shadow);
+  cursor: default;
+  // Negative margin creates overlap between panels
+  margin: 0.5rem -0.25rem;
+  // Per-panel scatter driven by CSS vars (--rot, --ty, --tx)
+  transform: rotate(calc(var(--rot, 0) * 1deg)) translate(calc(var(--tx, 0) * 1px), calc(var(--ty, 0) * 1px));
+  transition:
+    transform var(--transition-bezier),
+    box-shadow var(--transition),
+    z-index 0s;
+  z-index: calc(var(--i) + 1);
+
+  &:hover {
+    transform: rotate(0deg) translate(0, -0.5rem) scale(1.08);
+    box-shadow:
+      var(--edge-highlight),
+      var(--shadow-raised),
+      inset 0 0 0 2px var(--accent-highlight);
+    z-index: 50;
+
+    .game-panel-label {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  // Row 1 (1-6): gentle tilts, no horizontal drift
+  &:nth-child(1)  { --rot: -3;  --ty: 4;   --tx: 0; }
+  &:nth-child(2)  { --rot: 5;   --ty: -6;  --tx: 0; }
+  &:nth-child(3)  { --rot: -2;  --ty: 10;  --tx: 0; }
+  &:nth-child(4)  { --rot: 4;   --ty: -3;  --tx: 0; }
+  &:nth-child(5)  { --rot: -5;  --ty: 7;   --tx: 0; }
+  &:nth-child(6)  { --rot: 3;   --ty: -8;  --tx: 0; }
+  // Row 2 (7-12): opposite rotation direction + slight shared offset
+  &:nth-child(7)  { --rot: 4;   --ty: -4;  --tx: 6; }
+  &:nth-child(8)  { --rot: -3;  --ty: 7;   --tx: 6; }
+  &:nth-child(9)  { --rot: 5;   --ty: -8;  --tx: 6; }
+  &:nth-child(10) { --rot: -4;  --ty: 3;   --tx: 6; }
+  &:nth-child(11) { --rot: 2;   --ty: -6;  --tx: 6; }
+  &:nth-child(12) { --rot: -3;  --ty: 9;   --tx: 6; }
+
+  @media (max-width: 720px) {
+    margin: 0.25rem -0.375rem;
+  }
+
+  @media (max-width: 480px) {
+    margin: 0.25rem -0.25rem;
+
+    &:nth-child(1)  { --rot: -2;  --ty: 3;  --tx: 0; }
+    &:nth-child(2)  { --rot: 3;   --ty: -4; --tx: 0; }
+    &:nth-child(3)  { --rot: -1;  --ty: 6;  --tx: 0; }
+    &:nth-child(4)  { --rot: 3;   --ty: -2; --tx: 0; }
+    &:nth-child(5)  { --rot: -4;  --ty: 5;  --tx: 0; }
+    &:nth-child(6)  { --rot: 2;   --ty: -5; --tx: 0; }
+    &:nth-child(7)  { --rot: 3;   --ty: -3; --tx: 4; }
+    &:nth-child(8)  { --rot: -2;  --ty: 5;  --tx: 4; }
+    &:nth-child(9)  { --rot: 4;   --ty: -5; --tx: 4; }
+    &:nth-child(10) { --rot: -3;  --ty: 3;  --tx: 4; }
+    &:nth-child(11) { --rot: 2;   --ty: -4; --tx: 4; }
+    &:nth-child(12) { --rot: -1;  --ty: 6;  --tx: 4; }
+  }
+}
+
+.game-panel-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  background-color: var(--bg-muted-2);
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+}
+
+.game-panel-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-muted-2);
+  color: var(--fg-muted-1);
+  font-size: 1.5rem;
+  z-index: -1;
+}
+
+.game-panel-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.375rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 40%, transparent 100%);
+  opacity: 0;
+  translate: 0 0.25rem;
+  transition: opacity var(--transition), translate var(--transition);
+}
+
+.game-panel-name {
+  display: block;
+  font-size: var(--font-size-xx-small);
+  font-weight: var(--font-weight-semi-bold);
+  color: white;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.game-panel-link {
+  display: inline-block;
+  font-size: var(--font-size-xx-small);
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-block-start: 0.125rem;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+  }
+}

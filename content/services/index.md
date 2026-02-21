@@ -43,6 +43,6 @@ I build websites and web applications — from simple landing pages to full-stac
 
 ## Get in Touch
 
-**Email:** `me@mambuco.dev`
+**Email:** `gabriele[dot]giambrone[at]icloud[dot]com`
 
 Or find me on my [Socials](/socials/) page — I'm most active on Discord and Mastodon.

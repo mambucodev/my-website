@@ -42,6 +42,20 @@ music_shelf = [
   { artist = "Bring Me the Horizon", album = "That's the Spirit" },
   { artist = "Bring Me the Horizon", album = "Lo-files" },
 ]
+game_shelf = [
+  { name = "Hollow Knight: Silksong", appid = 1030300 },
+  { name = "ARC Raiders", appid = 1808500 },
+  { name = "Hollow Knight", appid = 367520 },
+  { name = "Sons of the Forest", appid = 1326470 },
+  { name = "Doki Doki Literature Club", appid = 698780 },
+  { name = "The Coffin of Andy and Leyley", appid = 2378900 },
+  { name = "Celeste", appid = 504230 },
+  { name = "Undertale", appid = 391540 },
+  { name = "Skyrim Special Edition", appid = 489830 },
+  { name = "Portal 2", appid = 620 },
+  { name = "Stardew Valley", appid = 413150 },
+  { name = "Hell Let Loose", appid = 686810 },
+]
 +++
 
 Here's the short version.
@@ -132,6 +146,8 @@ I build things for the web — and sometimes off it. I also self-host pretty muc
 </div>
 
 {{ music_shelf() }}
+
+{{ game_shelf() }}
 
 ### Distro Journey
 

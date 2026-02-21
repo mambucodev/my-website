@@ -127,6 +127,6 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 <p>I'm open for work — from simple landing pages to full-stack applications.</p>
 </div>
 <div class="buttons start big">
-<a class="suggested" href="/commissions/">See my services & pricing</a>
+<a class="suggested" href="/services/">See my services & pricing</a>
 </div>
 </div>

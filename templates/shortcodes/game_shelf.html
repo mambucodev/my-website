@@ -1,0 +1,27 @@
+{%- if page.extra.game_shelf is defined -%}
+{%- set controller_icon = load_data(path="themes/ametrine/icons/phosphor/game-controller.svg", required=false) -%}
+<div class="game-shelf-card card">
+	<div class="game-shelf-header">
+		{%- if controller_icon -%}
+			<i class="icon game-controller game-shelf-icon" style="--icon: url('data:image/svg+xml,{{ controller_icon | urlencode }}');"></i>
+		{%- endif -%}
+		<span class="game-shelf-title">My Library</span>
+	</div>
+	<div class="game-shelf">
+		{%- for game in page.extra.game_shelf -%}
+			<div class="game-panel" style="--i: {{ loop.index0 }};">
+				<img class="game-panel-cover transparent no-hover" src="https://steamcdn-a.akamaihd.net/steam/apps/{{ game.appid }}/library_600x900_2x.jpg" alt="{{ game.name }}" width="600" height="900" loading="lazy" onerror="this.style.display='none'" />
+				<div class="game-panel-fallback">
+					{%- if controller_icon -%}
+						<i class="icon game-controller" style="--icon: url('data:image/svg+xml,{{ controller_icon | urlencode }}');"></i>
+					{%- endif -%}
+				</div>
+				<div class="game-panel-label">
+					<span class="game-panel-name">{{ game.name }}</span>
+					<a class="game-panel-link" href="https://store.steampowered.com/app/{{ game.appid }}/" target="_blank" rel="noopener noreferrer">Steam</a>
+				</div>
+			</div>
+		{%- endfor -%}
+	</div>
+</div>
+{%- endif -%}
