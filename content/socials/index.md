@@ -21,7 +21,7 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 
 <div class="status-card card">
 <noscript><small>JavaScript is disabled, but no worries. The line below just showed you the time in Rome, and my Discord status.</small></noscript>
-<span>In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(UTC+1)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>.</span>
+<span>In Rome it's currently <time id="clock"><noscript>NO:JS</noscript></time> <small>(<span id="utc-offset">UTC+1</span>)</small> and I'm <span id="online-indicator"><noscript>N/A</noscript></span>.</span>
 </div>
 
 ## Platforms

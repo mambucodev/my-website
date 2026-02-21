@@ -1,15 +1,24 @@
 function updateClock() {
-  const options = {
+  const now = new Date();
+
+  const timeOptions = {
     timeZone: "Europe/Rome",
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
   };
 
-  const clockElement = document.getElementById("clock");
-  const localTime = new Date().toLocaleString("en-IE", options);
+  document.getElementById("clock").textContent =
+    now.toLocaleString("en-IE", timeOptions);
 
-  clockElement.textContent = localTime;
+  const rome = new Date(now.toLocaleString("en-US", { timeZone: "Europe/Rome" }));
+  const utc = new Date(now.toLocaleString("en-US", { timeZone: "UTC" }));
+  const offsetHours = Math.round((rome - utc) / 3600000);
+
+  const utcLabel = document.getElementById("utc-offset");
+  if (utcLabel) {
+    utcLabel.textContent = `UTC+${offsetHours}`;
+  }
 }
 
 updateClock();
