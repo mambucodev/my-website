@@ -4,14 +4,33 @@
 {%- elif page is defined and page.extra.badges is defined -%}
   {%- set badges_data = page.extra.badges -%}
 {%- endif -%}
-<div class="badges">
-  {%- for badge in badges_data -%}
-  {%- if badge.url -%}
-  <a href="{{ badge.url }}">
-  {%- endif -%}
-  <img class="pixels transparent no-hover" src="/badges/{{ badge.name }}.gif" alt="{{ badge.alt }}">
-  {%- if badge.url -%}
-  </a>
-  {%- endif -%}
-  {%- endfor -%}
+{%- set pin_icon = load_data(path="themes/ametrine/icons/phosphor/push-pin.svg", required=false) -%}
+<div class="badge-board card">
+	<div class="badge-board-header">
+		{%- if pin_icon -%}
+			<i class="icon push-pin badge-board-icon" style="--icon: url('data:image/svg+xml,{{ pin_icon | urlencode }}');"></i>
+		{%- endif -%}
+		<span class="badge-board-title">Badges</span>
+	</div>
+	<div class="badge-board-wall">
+		{%- for badge in badges_data -%}
+		<span class="badge-pin">
+			{%- if badge.url -%}
+			<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer">
+			{%- endif -%}
+			<img class="pixels transparent no-hover" src="/badges/{{ badge.name }}.gif" alt="{{ badge.alt }}" width="88" height="31">
+			{%- if badge.url -%}
+			</a>
+			{%- endif -%}
+		</span>
+		{%- endfor -%}
+	</div>
+	<div class="badge-board-divider"></div>
+	<div class="badge-board-mine">
+		<div class="badge-mine-left">
+			<img class="pixels transparent no-hover badge-mine-img" src="/badges/mambuco.gif" alt="Mambuco's Badge" width="88" height="31">
+			<span class="badge-mine-label">Add mine on your site!</span>
+		</div>
+		<pre class="badge-mine-code"><code>&lt;a href="https://mambuco.dev"&gt;&lt;img src="https://mambuco.dev/badges/mambuco.gif" alt="Mambuco"&gt;&lt;/a&gt;</code></pre>
+	</div>
 </div>

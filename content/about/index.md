@@ -145,10 +145,6 @@ I build things for the web — and sometimes off it. I also self-host pretty muc
 
 </div>
 
-{{ music_shelf() }}
-
-{{ game_shelf() }}
-
 ### Distro Journey
 
 <div class="distro-timeline-wrap">
@@ -176,23 +172,8 @@ I build things for the web — and sometimes off it. I also self-host pretty muc
 </div>
 </div>
 
-## Badges
+{{ music_shelf() }}
 
-A few badges of people I know, communities I'm in, and things I like.
+{{ game_shelf() }}
 
 {{ badges() }}
-
-<details>
-<summary>My Badge</summary>
-
-If you want to, you can add **my badge** on your website {{ emoji(name="neofox_boop_blep") }}
-
-<img class="pixels transparent no-hover badge" src="/badges/mambuco.gif" alt="My Badge">
-
-```html
-<a href="https://mambuco.dev">
-  <img src="https://mambuco.dev/badges/mambuco.gif" alt="Mambuco">
-</a>
-```
-
-</details>
