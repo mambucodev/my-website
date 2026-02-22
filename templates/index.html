@@ -51,7 +51,7 @@
 
   <div class="bento-cell now-playing card" id="now-playing-card"
     data-lastfm-key="{{ get_env(name="LAST_FM_API_KEY", default="") }}"
-    style="--blurnail: url('https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62');">
+    style="--blurnail: url('https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62'); --blurnail-color: #1D2B36;">
     <div class="now-playing-cover">
       <img class="transparent no-hover" id="now-playing-cover" src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt="Album cover" />
     </div>
@@ -63,7 +63,7 @@
       </div>
     </div>
   </div>
-  <noscript><style>.now-playing::before { opacity: 0.45; } .now-playing .now-playing-cover, .now-playing .cell-label, .now-playing .now-playing-track, .now-playing .now-playing-artist { opacity: 1; transform: none; }</style></noscript>
+  <noscript><style>.now-playing::before { opacity: 0.45; } .now-playing::after { opacity: 0.45; } .now-playing .now-playing-cover, .now-playing .cell-label, .now-playing .now-playing-track, .now-playing .now-playing-artist { opacity: 1; transform: none; }</style></noscript>
 
   <div class="bento-cell clock-card card" id="home-clock-card">
     <span class="cell-label">{{ macros_icon::icon(name="clock") }} Rome, Italy</span>

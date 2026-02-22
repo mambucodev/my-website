@@ -225,14 +225,22 @@
 
   background-color: var(--bg-muted-1);
 
-  // Blurnail color wash — heavily blurred so only the dominant color bleeds through
+  // Dominant color wash from JS-extracted artwork color
   &::before {
     content: "";
     position: absolute;
+    inset: 0;
+    background-color: var(--blurnail-color, transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  // Blurnail — blurred artwork layered on top of the color wash
+  &::after {
+    content: "";
+    position: absolute;
     inset: -2rem;
-    background-image: var(--blurnail);
-    background-position: center;
-    background-size: cover;
+    background: var(--blurnail) center / cover;
     filter: blur(2rem) saturate(2);
     opacity: 0;
     transition: opacity 0.4s ease;
@@ -241,6 +249,14 @@
   // Staggered reveal when JS loads the track
   &.is-loaded {
     &::before {
+      opacity: 0.45;
+
+      @media (prefers-color-scheme: dark) {
+        opacity: 0.35;
+      }
+    }
+
+    &::after {
       opacity: 0.45;
 
       @media (prefers-color-scheme: dark) {
@@ -273,6 +289,7 @@
     opacity: 0;
     transition: opacity 0.4s ease;
     position: absolute;
+    z-index: 1;
     inset: 0;
     left: auto;
     width: 60%;
@@ -305,7 +322,7 @@
 
   .now-playing-body {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     min-width: 0;
     padding: 1rem;
     display: flex;
@@ -314,9 +331,10 @@
   }
 
   .cell-label {
+    color: var(--blurnail-accent, var(--accent-color));
     opacity: 0;
     transform: translateX(0.5rem);
-    transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+    transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s, color 0.4s ease;
   }
 
   .now-playing-info {
