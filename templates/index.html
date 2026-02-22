@@ -49,18 +49,21 @@
     {%- endif -%}
   </a>
 
-  <div class="bento-cell stack card">
-    <span class="cell-label">{{ macros_icon::icon(name="code") }} Tech Stack</span>
-    <div class="stack-strip">
-      <span class="stack-pill">TypeScript</span>
-      <span class="stack-pill">React</span>
-      <span class="stack-pill">Next.js</span>
-      <span class="stack-pill">Node.js</span>
-      <span class="stack-pill">Rust</span>
-      <span class="stack-pill">C++</span>
-      <span class="stack-pill">PostgreSQL</span>
+  <div class="bento-cell now-playing card" id="now-playing-card"
+    data-lastfm-key="{{ get_env(name="LAST_FM_API_KEY", default="") }}"
+    style="--blurnail: url('https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62');">
+    <div class="now-playing-cover">
+      <img class="transparent no-hover" id="now-playing-cover" src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt="Album cover" />
+    </div>
+    <div class="now-playing-body">
+      <span class="cell-label">{{ macros_icon::icon(name="music-note") }} <span id="now-playing-status">Favorite Album</span></span>
+      <div class="now-playing-info">
+        <span class="now-playing-track" id="now-playing-track">HIT ME HARD AND SOFT</span>
+        <span class="now-playing-artist" id="now-playing-artist">Billie Eilish</span>
+      </div>
     </div>
   </div>
+  <noscript><style>.now-playing::before { opacity: 0.45; } .now-playing .now-playing-cover, .now-playing .cell-label, .now-playing .now-playing-track, .now-playing .now-playing-artist { opacity: 1; transform: none; }</style></noscript>
 
   <div class="bento-cell clock-card card" id="home-clock-card">
     <span class="cell-label">{{ macros_icon::icon(name="clock") }} Rome, Italy</span>
