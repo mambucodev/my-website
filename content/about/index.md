@@ -3,6 +3,7 @@ title = "About Me"
 description = "A brief introduction about myself, what I do, and what I care about."
 [extra]
 styles = ["about/style.css"]
+scripts = ["js/music-shelf-highlight.js"]
 badges = [
   { name = "archlinux", url = "https://archlinux.org/", alt = "Arch Linux" },
   { name = "he-him", alt = "He/Him" },
@@ -31,6 +32,7 @@ music_shelf = [
   { artist = "Billie Eilish", album = "Happier Than Ever" },
   { artist = "Billie Eilish", album = "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" },
   { artist = "Billie Eilish", album = "dont smile at me" },
+  { artist = "Charli xcx", album = "BRAT" },
   { artist = "Rosalía", album = "LUX" },
   { artist = "Ado", album = "Zanmu" },
   { artist = "Ado", album = "Vivarium" },

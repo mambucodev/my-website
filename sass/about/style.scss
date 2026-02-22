@@ -303,6 +303,26 @@
       var(--shadow),
       inset 0 0 0 2px var(--accent-highlight);
   }
+
+  &.now-playing {
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: 3px solid var(--green-fg);
+      border-radius: inherit;
+      z-index: 3;
+      pointer-events: none;
+      animation: np-pulse 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes np-pulse {
+  0%, 100% { opacity: 0; }
+  50% { opacity: .4; }
 }
 
 // Override theme global img styles inside album tiles

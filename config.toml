@@ -32,7 +32,7 @@ extra_themes = [
 index_format = "elasticlunr_json"
 
 [extra]
-accent_color = ["hsl(29, 53%, 31%)", "hsl(29, 72%, 74%)"]
+accent_color = ["hsl(29, 53%, 31%)", "hsl(27, 35%, 65%)"]
 
 styles = ["mods.css", "tape.css"]
 scripts = ["js/quicklink.umd.js", "js/prefetch.js"]

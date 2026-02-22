@@ -2,7 +2,7 @@
 {%- if api_key and page.extra.music_shelf is defined -%}
 {%- set music_icon = load_data(path="themes/ametrine/icons/phosphor/music-notes.svg", required=false) -%}
 {%- set fallback_icon = load_data(path="themes/ametrine/icons/phosphor/vinyl-record.svg", required=false) -%}
-<div class="music-shelf-card card">
+<div class="music-shelf-card card" data-lastfm-key="{{ api_key }}" data-lastfm-user="mambuco">
 	<div class="music-shelf-header">
 		{%- if music_icon -%}
 			<i class="icon music-notes music-shelf-icon" style="--icon: url('data:image/svg+xml,{{ music_icon | urlencode }}');"></i>
@@ -26,7 +26,7 @@
 					{%- else -%}
 						{%- set cover_url = "" -%}
 					{%- endif -%}
-					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}">
+					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}" data-album="{{ info.album.name }}" data-artist="{{ info.album.artist }}">
 						<div class="album-cover-fallback">
 							{%- if fallback_icon -%}
 								<i class="icon vinyl-record" style="--icon: url('data:image/svg+xml,{{ fallback_icon | urlencode }}');"></i>
@@ -57,7 +57,7 @@
 					{%- else -%}
 						{%- set cover_url = "" -%}
 					{%- endif -%}
-					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}" aria-hidden="true" tabindex="-1">
+					<a class="album-tile" href="{{ info.album.url }}" target="_blank" rel="noopener noreferrer" title="{{ info.album.name }} — {{ info.album.artist }}" data-album="{{ info.album.name }}" data-artist="{{ info.album.artist }}" aria-hidden="true" tabindex="-1">
 						<div class="album-cover-fallback">
 							{%- if fallback_icon -%}
 								<i class="icon vinyl-record" style="--icon: url('data:image/svg+xml,{{ fallback_icon | urlencode }}');"></i>
