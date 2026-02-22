@@ -91,14 +91,30 @@
   flex-direction: column;
   text-decoration: none;
   overflow: hidden;
+  position: relative;
   border-radius: var(--rounded-corner);
   box-shadow: var(--edge-highlight), var(--shadow);
 
-  // Accent background tinted with blurred thumbnail (same as ametrine article cards)
-  background-image: var(--bg-overlay), var(--blurnail);
-  background-position: center;
-  background-size: cover;
-  background-color: var(--bg-muted-1);
+  background-color: var(--bg-color);
+
+  // Accent color wash — always use the light-mode accent (the darker variant) for tinting
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: hsl(var(--accent-light-h), var(--accent-light-s), var(--accent-light-l));
+    opacity: 0.4;
+  }
+
+  // Blurnail texture on top
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -2rem;
+    background: var(--blurnail) center / cover;
+    filter: blur(2rem) saturate(3);
+    opacity: 0.2;
+  }
 
   // Accent color scoping (uses the --accent-light/dark-h/s/l vars set inline)
   --accent-color: hsl(var(--accent-light-h), var(--accent-light-s), var(--accent-light-l));
@@ -134,6 +150,8 @@
   }
 
   .latest-post-body {
+    position: relative;
+    z-index: 1;
     padding: 1rem;
     flex: 1;
     display: flex;
@@ -171,21 +189,25 @@
     color: var(--fg-muted-2);
   }
 
-  // Banner peek at the bottom — fades from top into the card bg
+  // Banner at the bottom — fades from top into the accent wash
   .latest-post-banner {
     position: relative;
-    height: 6.5rem;
+    z-index: 1;
+    height: 7rem;
     overflow: hidden;
     flex-shrink: 0;
 
-    // Easing mask: smooth fade spanning most of the banner height
+    // Fade mask: transparent at top, solid at bottom
     --mask-image: linear-gradient(
       to bottom,
       hsla(0, 0%, 0%, 0) 0%,
-      hsla(0, 0%, 0%, 0.15) 20%,
-      hsla(0, 0%, 0%, 0.4) 40%,
-      hsla(0, 0%, 0%, 0.7) 60%,
-      hsl(0, 0%, 0%) 80%
+      hsla(0, 0%, 0%, 0.05) 10%,
+      hsla(0, 0%, 0%, 0.15) 25%,
+      hsla(0, 0%, 0%, 0.35) 40%,
+      hsla(0, 0%, 0%, 0.55) 55%,
+      hsla(0, 0%, 0%, 0.75) 70%,
+      hsla(0, 0%, 0%, 0.9) 85%,
+      hsl(0, 0%, 0%) 100%
     );
     mask-image: var(--mask-image);
     -webkit-mask-image: var(--mask-image);
