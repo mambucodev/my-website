@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block content %}
+{%- set blog = get_section(path="blog/_index.md") -%}
+{%- set posts = blog.pages -%}
+{%- set latest = posts.0 -%}
+
+<div class="bento-wrap">
+<div class="bento">
+
+  <div class="bento-cell hero card">
+    <img class="hero-avatar transparent no-hover" src="/assets/avatar.png" alt="Just my avatar" />
+    <div class="hero-body">
+      <h1 class="hero-title">Hey, I'm Mambuco</h1>
+      <p class="hero-tagline">Developer, self-hoster, and occasional overthinker. I build websites, tools, and whatever else catches my interest.</p>
+      <div class="buttons start big">
+        <a class="suggested" href="/portfolio/">Portfolio</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+  </div>
+
+  <a class="bento-cell latest-post"
+    href="{{ latest.permalink | safe }}"
+    style="
+    {%- if latest.extra.banner -%}
+      {%- set blurnail = resize_image(path=latest.colocated_path ~ latest.extra.banner, width=4, height=2, op='fill', format='webp') -%}
+      {%- set thumb = resize_image(path=latest.colocated_path ~ latest.extra.banner, width=480, height=240, op='fill', format='webp') -%}
+      --blurnail: url('{{ blurnail.url }}');
+      --banner: url('{{ thumb.url }}');
+    {%- endif -%}
+    {%- if latest.extra.accent_color -%}
+      {%- set page = latest -%}
+      {% include 'partials/accent_color.html' %}
+    {%- endif -%}
+    ">
+    <div class="latest-post-body">
+      <span class="cell-label">{{ macros_icon::icon(name="newspaper-clipping") }} Latest Post</span>
+      <strong class="latest-post-title">{{ latest.title }} {{ macros_icon::icon(name="arrow-right") }}</strong>
+      {%- if latest.description -%}
+        <p class="latest-post-desc">{{ latest.description }}</p>
+      {%- endif -%}
+      <span class="latest-post-date">{{ latest.date | date(format="%d %b %Y") }}</span>
+    </div>
+    {%- if latest.extra.banner -%}
+    <div class="latest-post-banner">
+      <img class="transparent no-hover" src="{{ thumb.url | safe }}" alt="" />
+    </div>
+    {%- endif -%}
+  </a>
+
+  <div class="bento-cell stack card">
+    <span class="cell-label">{{ macros_icon::icon(name="code") }} Tech Stack</span>
+    <div class="stack-strip">
+      <span class="stack-pill">TypeScript</span>
+      <span class="stack-pill">React</span>
+      <span class="stack-pill">Next.js</span>
+      <span class="stack-pill">Node.js</span>
+      <span class="stack-pill">Rust</span>
+      <span class="stack-pill">C++</span>
+      <span class="stack-pill">PostgreSQL</span>
+    </div>
+  </div>
+
+  <div class="bento-cell clock-card card" id="home-clock-card">
+    <span class="cell-label">{{ macros_icon::icon(name="clock") }} Rome, Italy</span>
+    <div class="clock-content">
+      <div class="clock-side">
+        <time class="clock-display" id="home-clock">
+          <span class="clock-hours">--</span>
+          <span class="clock-separator">:</span>
+          <span class="clock-minutes">--</span>
+        </time>
+        <span class="clock-greeting" id="home-clock-greeting"></span>
+      </div>
+      <div class="weather-side" id="home-weather" style="display: none;">
+        <div class="weather-main">
+          <span class="weather-icon-wrap">
+            <span class="weather-icon" id="weather-icon-sun" style="display: none;">{{ macros_icon::icon(name="sun") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud-sun" style="display: none;">{{ macros_icon::icon(name="cloud-sun") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud-fog" style="display: none;">{{ macros_icon::icon(name="cloud-fog") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud-rain" style="display: none;">{{ macros_icon::icon(name="cloud-rain") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud-snow" style="display: none;">{{ macros_icon::icon(name="cloud-snow") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud-lightning" style="display: none;">{{ macros_icon::icon(name="cloud-lightning") }}</span>
+            <span class="weather-icon" id="weather-icon-cloud" style="display: none;">{{ macros_icon::icon(name="cloud") }}</span>
+          </span>
+          <span class="weather-temp" id="home-weather-temp"></span>
+        </div>
+        <span class="weather-condition" id="home-weather-condition"></span>
+      </div>
+    </div>
+    <span class="clock-meta" id="home-utc-offset">UTC+1</span>
+  </div>
+
+</div>
+</div>
+{% endblock content %}

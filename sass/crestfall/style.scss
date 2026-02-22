@@ -168,14 +168,35 @@
     }
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.fancy-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    box-shadow: var(--edge-highlight);
+    border-radius: var(--rounded-corner-small);
+    background-color: var(--bg-muted-1);
+    padding: 0.5rem 0.75rem;
+  }
+}
+
 #player-details.fancy-list ul {
-    margin-top: .8rem;
+  margin-top: .8rem;
 
-    li .emoji {
-        border-radius: calc(var(--rounded-corner-small) / 1.5);
+  li .emoji {
+    border-radius: calc(var(--rounded-corner-small) / 1.5);
 
-        &:hover {
-            border-radius: calc(var(--rounded-corner-small) / 3);
-        }
+    &:hover {
+      border-radius: calc(var(--rounded-corner-small) / 3);
     }
+  }
 }

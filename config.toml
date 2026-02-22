@@ -34,7 +34,7 @@ index_format = "elasticlunr_json"
 [extra]
 accent_color = ["hsl(29, 53%, 31%)", "hsl(29, 72%, 74%)"]
 
-styles = ["mods.css", "tape.css", "deprecated.css"]
+styles = ["mods.css", "tape.css"]
 scripts = ["js/quicklink.umd.js", "js/prefetch.js"]
 
 issues_url = "https://github.com/mambucodev/my-website/issues"

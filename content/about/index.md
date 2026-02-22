@@ -103,6 +103,14 @@ I build things for the web — and sometimes off it. I also self-host pretty muc
 <span class="stack-pill">MongoDB</span>
 </div>
 
+<div class="ssh-key card">
+<span class="ssh-key-icon">{{ icon(name="key") }}</span>
+<div class="ssh-key-body">
+<span class="ssh-key-label">SSH Public Key</span>
+<code class="ssh-key-value">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAgxNlN1yRCUKFlQEaQ3M1VBqbxzt8BHiexI2xlKSjY7</code>
+</div>
+</div>
+
 <div class="buttons start big">
 <a class="suggested" href="/portfolio/">See my work</a>
 </div>

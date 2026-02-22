@@ -4,6 +4,7 @@ description = "[Currently WIP] A project about linux distributions, more of a re
 draft = true
 [extra]
 accent_color = ["hsl(338, 78%, 48%)", "hsl(340, 82%, 76%)"]
+styles = ["distropedia/style.css"]
 +++
 
 Hey, welcome to the Distropedia! This section of the website is slowly growing as my side project.
