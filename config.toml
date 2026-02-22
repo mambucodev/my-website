@@ -56,7 +56,7 @@ apple_touch_icon = "assets/avatar.png"
 card = true
 
 [extra.nav]
-icon = "https://api.lanyard.rest/604790617138266149.webp"
+icon = "assets/nav-icon.jpeg"
 
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
