@@ -64,6 +64,23 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 </div>
 
+<div class="project card">
+<div class="project-header">
+<div class="project-title">
+<span class="project-icon">{{ icon(name="book-open-text") }}</span>
+<strong>MultiDictionary</strong>
+</div>
+<div class="tech-tags">
+<span class="tech-tag">TypeScript</span>
+<span class="tech-tag">Obsidian</span>
+</div>
+</div>
+<p>Offline multilingual dictionary plugin for Obsidian with 10 languages, auto-detection, stemming, and popover/sidebar lookup.</p>
+<div class="buttons start">
+<a href="https://github.com/mambucodev/obsidian-multilingual-dictionary">{{ icon(name="github-logo") }} Source</a>
+</div>
+</div>
+
 <div class="project card wip">
 <div class="project-header">
 <div class="project-title">
@@ -97,6 +114,40 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 <div class="buttons start">
 <a class="suggested" href="https://gioffydex.mambuco.dev">{{ icon(name="arrow-square-out") }} Live</a>
 </div>
+</div>
+
+<div class="project card">
+<div class="project-header">
+<div class="project-title">
+<span class="project-icon">{{ icon(name="newspaper") }}</span>
+<strong>Scout Blog</strong>
+</div>
+<div class="tech-tags">
+<span class="tech-tag">Next.js</span>
+<span class="tech-tag">TypeScript</span>
+</div>
+</div>
+<p>Official blog website for FSE Roma 3, an Italian scout group. Live and running.</p>
+<div class="buttons start">
+<a class="suggested" href="https://scouts-blog.com">{{ icon(name="arrow-square-out") }} Live</a>
+</div>
+</div>
+
+<div class="project card wip">
+<div class="project-header">
+<div class="project-title">
+<span class="project-icon">{{ icon(name="books") }}</span>
+<strong>Komikku Wrapper</strong>
+</div>
+<div class="tech-tags">
+<span class="tech-tag">Node.js</span>
+</div>
+</div>
+<p>CLI tool that organizes manga downloaded through Komikku into volumes and exports them as MOBI, EPUB, or CBZ.</p>
+<div class="buttons start">
+<a href="https://github.com/mambucodev/komikku-wrapper">{{ icon(name="github-logo") }} Source</a>
+</div>
+<span class="wip-icon">{{ icon(name="hammer") }}</span>
 </div>
 
 <div class="project card wip">
