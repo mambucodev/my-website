@@ -56,14 +56,14 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 <span class="social-arrow">{{ icon(name="arrow-right") }}</span>
 </a>
 
-<a class="social-link" href="https://matrix.to/#/@mambuco:envs.net/">
+<a class="social-link" href="https://matrix.to/#/@mambuco:mambuco.dev/">
 <div class="social-icon-wrap">
 <img alt="Matrix" class="transparent no-hover pixels" src="icons/matrix.png" />
 </div>
 <div class="social-body">
 <div class="social-name">
 <strong>Matrix</strong>
-<code>@mambuco:envs.net</code>
+<code>@mambuco:mambuco.dev</code>
 </div>
 <span>I don't use it daily, but receive notifications.</span>
 </div>
