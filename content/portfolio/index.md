@@ -47,6 +47,23 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 </div>
 
+<div class="project card">
+<div class="project-header">
+<div class="project-title">
+<span class="project-icon">{{ icon(name="puzzle-piece") }}</span>
+<strong>zed-arduino</strong>
+</div>
+<div class="tech-tags">
+<span class="tech-tag">Rust</span>
+<span class="tech-tag">Zed</span>
+</div>
+</div>
+<p>Zed extension that registers Arduino as a dedicated language for <code>.ino</code> files, with tree-sitter grammar and arduino-language-server LSP integration.</p>
+<div class="buttons start">
+<a href="https://github.com/mambucodev/zed-arduino">{{ icon(name="github-logo") }} Source</a>
+</div>
+</div>
+
 <div class="project card wip">
 <div class="project-header">
 <div class="project-title">
