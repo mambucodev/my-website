@@ -59,7 +59,25 @@ It's sooo many objectives, right? I realize this even while writing them down. B
 
 ## New Lifestyle
 
-I realised I want to drastically change and become more productive, self-sufficient and basically just happy with myself. Right now 
+Right now I really feel like I spend most of my day doing nothing. I wake up, go to school (which already takes up most of my day) and on the evening I either think, doom-scroll, or sleep because I'm bored. When I do stuff like playing or coding it's always messy: no concept of time. If somebody asked how much time I spent studying or coding yesterday I wouldn't know how to answer because everything is so fragmentated.
+
+Then I got tired of all of this confusion in my head. I started thinking how I could fix the fragmentation and I thought about a **calendar**! I created a bunch of calendars, added all my already coming events (e.g. school, my barber, various trips) and then added objectives like **studying** at least 1 hour **every day**, and same about coding. Called them "Study Session" and "Code Session". I planned the study sessions right before tests, a whole week of studying for every single one. Not happy yet, I also added 45 minutes of **reading** every night before bed.
+
+It's currently going pretty well. The first days I managed to follow it, then I had to change a few things because I felt it being too strict and now I'm still following every single event I planned.
+
+### Finding a job
+
+I mean, I've always wanted to put my coding capabilities to some use that could also financiate me, I'm not going to lie. I've worked on some commissions here and there to help some people, but I've never actually went out there searching for a contract. Truth is that I've been looking for one for the past 5 months, I've got a few rejections because of my age and the fact that I'm in school, so I'm only helping out my dad at the company for a while.
+
+### Reading
+
+![Rascal Does Not Dream of a Dear Friend - Book Cover](rascal-does-not-dream.webp#end)
+
+I'm currently reading the [Rascal Does Not Dream](https://yenpress.com/series/rascal-does-not-dream-light-novel) series, a japanese light novel. I watched the anime basically a year ago, loved it and chose to buy the books depicting the whole story. It includes romance, psichology, and has a subtle grasp on physics. I'm currently at the **4th**, out of 15. I admin I've been going pretty slow, since I "don't have a lot of time to read"- just an excuse. SO, I set an objective to have more occasions and actually find the time to read!
+
+I've got some other books in mind that I want to read, like the [Monogatari](https://kodansha.us/series/monogatari/) Series, which is also another great piece of fiction. I'd say the story itself has some similarities with the first novel I mentioned, but I know it's much more elaborate and deep. I also want to read some novels by **Haruki Murakami** like **Norwegian Wood**. And by the way I swear, all of them being japanese is just a coincidence.
+
+Oh and by the way, this links to the time I said I bought a Kindle. NOW we can put it to even more use than just reading manga. I can read actual BOOKS! <small>I'm still buying a few physically though.</small>
 
 ## Wait, a home server?
 
