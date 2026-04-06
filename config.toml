@@ -61,8 +61,9 @@ icon = "assets/nav-icon.jpeg"
 links = [
     { url = "@/about/index.md", name = "About", icon = "info" },
     { url = "@/portfolio/index.md", name = "Portfolio", icon = "briefcase" },
-    { url = "@/socials/index.md", name = "Socials", icon = "at" },
     { url = "@/blog/_index.md", name = "Blog", icon = "newspaper-clipping" },
+    { url = "@/crestfall/_index.md", name = "Crestfall", icon = "cube" },
+    { url = "@/socials/index.md", name = "Socials", icon = "at" },
     { name = "External", category = [
         { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" },
         { url = "https://envs.net", name = "Envs.net", icon = "hard-drives" }

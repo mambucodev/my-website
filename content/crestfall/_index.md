@@ -1,35 +1,32 @@
 +++
 title = "Crestfall"
-description = "A vanilla-like minecraft server, with server-side mods only! I'd suggest you to give it a try, there's some fire world generation!"
-draft = true
+description = "A vanilla-like Minecraft server running Fabric with server-side mods only. Custom world generation, voice chat, Bedrock support, and more."
 [extra]
 styles = ["crestfall/style.css"]
 scripts = ["crestfall/status.js"]
 +++
 
-Hi, and welcome to **Crestfall**! {{ emoji(name="neofox_aww") }}
+Welcome to **Crestfall** — a vanilla-like Minecraft server with server-side mods only.
 
-<div class="card-grid big">
+<div class="card-grid">
 
-<div class="card">
-<strong class="title">Server Status</strong>
-<div id="online-card" class="card-content">
+<div class="card status-card">
+<strong class="card-title">{{ icon(name="cell-signal-full") }} Server Status</strong>
+<div id="online-card" class="card-body">
 
 The server is currently <span id="online-indicator"><noscript>NO:JS</noscript></span>.
 
 <noscript>
 
-Seems like you have JavaScript disabled, and that's great!
-
-If you had scripts enabled, you would have seen an **Online/Offline** indicator and a **players list** instead of this paragraph, in this spot.
+JavaScript is disabled. With scripts enabled, this section would show a live **Online/Offline** indicator and a **players list**.
 
 </noscript>
 
 <div id="offline-message" class="hidden">
 
-We're sorry, but the server is currently unreachable. It's probably either rebooting, under maintenance, or just not working at the moment.
+The server is currently unreachable. It may be rebooting or under maintenance.
 
-If the server is **Offline** for too long, feel free to [contact me](@/socials/index.md) and let me know.
+If it stays **Offline** for an extended period, please [let me know](@/socials/index.md).
 
 </div>
 
@@ -41,80 +38,119 @@ If the server is **Offline** for too long, feel free to [contact me](@/socials/i
 </div>
 </div>
 
+<div class="card info-card">
+<strong class="card-title">{{ icon(name="cube") }} What's Crestfall?</strong>
+<div class="card-body">
 
-<div class="card">
-<strong class="title">What's Crestfall?</strong>
-<div class="card-content">
+A **Minecraft** server running **Fabric** with server-side mods only — no client mods required. Both modded and vanilla clients can join.
 
-It's a **Minecraft** vanilla-like server.
-
-The server runs on a **Fabric** instance, with **server-side mods** only. This means that anybody can join, both modded and vanilla clients!
-
-If you want to take a better look at the server, read the [features](#features) list.
+See the [features](#features) section for details on what's installed.
 
 </div>
 </div>
 
 </div>
 
-Here's a few links you may want to look out about Crestfall:
-
-<div class="buttons start">
-<a class="suggested" href="https://map.crestfall.cc/">Map →</a>
-<a href="rules/">Rules →</a>
-<a href="mods/">Mods →</a>
-<a href="https://matrix.to/#/#crestfall:envs.net/">
+<div class="buttons start big">
+<a class="suggested" href="https://map.crestfall.cc/">{{ icon(name="map-trifold") }} Map</a>
+<a href="/crestfall/rules/">{{ icon(name="scales") }} Rules</a>
+<a href="/crestfall/mods/">{{ icon(name="puzzle-piece") }} Mods</a>
+<a href="https://matrix.to/#/#crestfall:mambuco.dev/">
 <img alt="Pixel art Matrix icon" title="Matrix" class="emoji transparent pixels drop-shadow" src="/socials/icons/matrix.png" />
-Chat →
+Room
 </a>
 </div>
 
 ## How to Join
 
-The server version is `1.21.7`, but you can join from older versions too thanks to **ViaFabricPlus**.
+The server version is `1.21.7`. Both **Java** and **Bedrock** clients can join thanks to **Floodgate**.
 
-The IP is `crestfall.cc`, but there's a whitelist. If you want to get added, simply [ask me](@/socials/index.md) or a friend that's on the server to add you.
+<div class="server-ip card">
+<span class="server-ip-icon">{{ icon(name="game-controller") }}</span>
+<div class="server-ip-body">
+<span class="server-ip-label">Server Address</span>
+<code class="server-ip-value">crestfall.cc</code>
+</div>
+</div>
 
-{% alert(icon="warning", title="Warning", color="yellow") %}
+The server is whitelisted. To get added, [contact me](@/socials/index.md) or ask a friend who's already on the server.
 
-**The server has `online-mode` disabled.** But don't worry, there's a login system. Once you join, kindly `/register` and choose a password to your liking. Nobody will be able to join using your name without knowing it.
-
-<small>People with a paid minecraft account will probably not be prompted to insert that password ever again after registration.</small>
-
+{% alert(icon="info", title="About online-mode", color="blue") %}
+The server has `online-mode` disabled to support both Bedrock players and those without a paid Java account. When you first join, run `/register` and pick a password — this locks your username so nobody else can use it. Paid Java accounts will likely only need to do this once.
 {% end %}
 
 ---
 
 ## Features
 
-being a **Fabric** server, Crestfall obviously has many different features. Some of them being:
+Being a **Fabric** server, Crestfall has many different features:
 
-### World Generation
+<div class="feature-grid">
 
-We added many terrain generation mods to the server, such as [Terralith](https://modrinth.com/datapack/terralith/), [Tectonic](https://modrinth.com/datapack/tectonic/), and more.
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="mountains") }}</span>
+<div class="feature-body">
+<strong>Custom World Generation</strong>
+<p>Overhauled terrain with <a href="https://modrinth.com/mod/terralith">Terralith</a>, <a href="https://modrinth.com/mod/tectonic">Tectonic</a>, and <a href="https://modrinth.com/mod/geophilic">Geophilic</a>. The Nether and End are also revamped thanks to <a href="https://modrinth.com/mod/incendium">Incendium</a> and <a href="https://modrinth.com/mod/nullscape">Nullscape</a>.</p>
+</div>
+</div>
 
-Obviously we added structure mods too, so you will be able to find **Towers**, **Dungeons**, and many other types of buildings across the server.
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="house-line") }}</span>
+<div class="feature-body">
+<strong>New Structures</strong>
+<p>Discover ruins, towers, and dungeons scattered across the world thanks to <a href="https://modrinth.com/mod/structory">Structory</a>, <a href="https://modrinth.com/mod/explorify">Explorify</a>, and <a href="https://modrinth.com/mod/wabi-sabi-structures">Wabi-Sabi Structures</a>.</p>
+</div>
+</div>
 
-### Falling Trees
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="microphone") }}</span>
+<div class="feature-body">
+<strong>Voice Chat</strong>
+<p>Talk to other players in-game with <a href="https://modrinth.com/mod/simple-voice-chat">Simple Voice Chat</a>. Just install the mod on your client. Note: voice chat is not logged — <a href="/socials/">contact me</a> if someone misbehaves.</p>
+</div>
+</div>
 
-We added the [FallingTree](https://modrinth.com/mod/fallingtree/) mod. Every time you'll start chopping down a tree, it will fall down immediately, and its leaves too.
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="tree") }}</span>
+<div class="feature-body">
+<strong>Falling Trees</strong>
+<p>Chop the bottom of a tree and the whole thing comes down — leaves included. Powered by <a href="https://modrinth.com/mod/fallingtree">FallingTree</a>.</p>
+</div>
+</div>
 
-We think it's a nice addition to the server, as a lot of players don't usually enjoy chopping down hundreds of thousands of trees every time they need to build something. If you think this is a bad idea, please [let me know](@/socials/index.md) and I'll consider removing this mod.
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="sword") }}</span>
+<div class="feature-body">
+<strong>Quality of Life</strong>
+<p>Right-click harvesting, axes as weapons, inventory sorting, healing campfires, dynamic lights, nether portal fix, and more.</p>
+</div>
+</div>
 
-### Distant Horizons
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="map-trifold") }}</span>
+<div class="feature-body">
+<strong>Live Map</strong>
+<p>Explore the server in your browser with <a href="https://modrinth.com/mod/bluemap">BlueMap</a>. Place signs to mark locations on the map.</p>
+</div>
+</div>
 
-Honestly my favorite! If you install the [Distant Horizons](https://modrinth.com/mod/distanthorizons/) mod in your client, you'll be able to see land much further than your render distance limit, and at a very low cost.
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="device-mobile") }}</span>
+<div class="feature-body">
+<strong>Bedrock Support</strong>
+<p>Play from any platform — Java and Bedrock clients can both join thanks to <a href="https://geysermc.org/">Geyser</a>.</p>
+</div>
+</div>
 
-### Voice Chat
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="cloud-arrow-up") }}</span>
+<div class="feature-body">
+<strong>Constant Backups</strong>
+<p>Differential backups are taken automatically. Got griefed or lost something? <a href="/socials/">Tell me</a> and I'll revert what's needed.</p>
+</div>
+</div>
 
-The server provided [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice/) compatibility for those who want to talk using their voice, rather than typing in the chat. Just install the mod in your client, and **boom**. {{ emoji(name="neofox_floof_explode") }}
+</div>
 
-The chat is usually monitored by us, and logged into the server's console. But the **voice chat is not**. That's why I'd like you to [contact me](@/socials/index.md) in case another player uses it to harass you.
-
-### Backups
-
-Differential backups are taken **constantly**. If you get griefed, or something worth of reverting a backup happens, [tell me] as soon as it happens. I'll hardly ever revert too old backups, to avoid other users from being affected drastically.
-
-### Others
-
-There's tons of features and mods not listed here. You can just take at the [mods page](@/crestfall/mods/index.md) if you're curious about what else is in here.
+For a complete list of installed mods, see the [mods page](@/crestfall/mods/index.md).
