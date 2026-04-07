@@ -123,7 +123,7 @@ Being a **Fabric** server, Crestfall has many different features:
 <span class="feature-icon">{{ icon(name="sword") }}</span>
 <div class="feature-body">
 <strong>Quality of Life</strong>
-<p>Right-click harvesting, axes as weapons, inventory sorting, healing campfires, dynamic lights, nether portal fix, and more.</p>
+<p>Right-click harvesting, axes as weapons, inventory sorting, healing campfires, dynamic lights, nether portal fix, <a href="https://modrinth.com/mod/vote2sleep">sleep voting</a>, <a href="https://modrinth.com/mod/unloaded-activity">unloaded chunk simulation</a>, and more.</p>
 </div>
 </div>
 
