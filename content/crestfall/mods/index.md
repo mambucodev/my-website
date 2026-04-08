@@ -165,15 +165,6 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 <span class="mod-arrow">{{ icon(name="arrow-right") }}</span>
 </a>
 
-<a class="mod-item" href="https://modrinth.com/mod/vote2sleep">
-<span class="mod-icon">{{ icon(name="moon") }}</span>
-<div class="mod-info">
-<strong>Vote2Sleep</strong>
-<code>vote2sleep-fabric-1.21-1.0.0.jar</code>
-</div>
-<span class="mod-arrow">{{ icon(name="arrow-right") }}</span>
-</a>
-
 <a class="mod-item" href="https://modrinth.com/mod/unloaded-activity">
 <span class="mod-icon">{{ icon(name="hourglass") }}</span>
 <div class="mod-info">
