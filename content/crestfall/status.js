@@ -29,9 +29,14 @@ function updateStatus() {
         case "online": {
           indicatorElement.innerHTML = "Online";
           playerCounterElement.innerHTML = `${data.players.online}/${data.players.max}`;
-          playersListElement.innerHTML = data.players.list.length > 0 ?
-            data.players.list.map(player => `<li><img class="emoji transparent pixels drop-shadow" height="24" src="https://mineskin.eu/helm/${player.name_clean}/24.png" title="${player.name_raw}'s head" width="24"> ${player.name_raw}</li>`).join("") :
-            `<li>No players online.</li>`;
+          const playerList = data.players.list;
+          if (playerList && playerList.length > 0) {
+            playersListElement.innerHTML = playerList.map(player => `<li><img class="emoji transparent pixels drop-shadow" height="24" src="https://mineskin.eu/helm/${player.name_clean}/24.png" title="${player.name_raw}'s head" width="24"> ${player.name_raw}</li>`).join("");
+          } else if (data.players.online > 0) {
+            playersListElement.innerHTML = `<li>Player list not available.</li>`;
+          } else {
+            playersListElement.innerHTML = `<li>No players online.</li>`;
+          }
           playerDetailsElement.classList.remove("hidden");
           offlineMessageElement.classList.add("hidden");
           break;
