@@ -63,7 +63,7 @@ Room
 
 ## How to Join
 
-The server version is `1.21.7`. Both **Java** and **Bedrock** clients can join thanks to **Floodgate**.
+The server version is `1.21.11`. Both **Java** and **Bedrock** clients can join thanks to **Floodgate**.
 
 <div class="server-ip card">
 <span class="server-ip-icon">{{ icon(name="game-controller") }}</span>
@@ -123,7 +123,7 @@ Being a **Fabric** server, Crestfall has many different features:
 <span class="feature-icon">{{ icon(name="sword") }}</span>
 <div class="feature-body">
 <strong>Quality of Life</strong>
-<p>Right-click harvesting, axes as weapons, inventory sorting, healing campfires, dynamic lights, nether portal fix, <a href="https://modrinth.com/mod/vote2sleep">sleep voting</a>, <a href="https://modrinth.com/mod/unloaded-activity">unloaded chunk simulation</a>, and more.</p>
+<p>Right-click harvesting, axes as weapons, healing campfires, dynamic lights, nether portal fix, <a href="https://modrinth.com/mod/unloaded-activity">unloaded chunk simulation</a>, and more.</p>
 </div>
 </div>
 
@@ -132,6 +132,22 @@ Being a **Fabric** server, Crestfall has many different features:
 <div class="feature-body">
 <strong>Live Map</strong>
 <p>Explore the server in your browser with <a href="https://modrinth.com/mod/bluemap">BlueMap</a>. Place signs to mark locations on the map.</p>
+</div>
+</div>
+
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="eye") }}</span>
+<div class="feature-body">
+<strong>Distant Horizons</strong>
+<p>Extended view distances with level-of-detail rendering. Install <a href="https://modrinth.com/mod/distanthorizons">Distant Horizons</a> on your client to see far beyond the normal render distance.</p>
+</div>
+</div>
+
+<div class="feature card">
+<span class="feature-icon">{{ icon(name="grid-four") }}</span>
+<div class="feature-body">
+<strong>Pre-generated Chunks</strong>
+<p>Large areas of the world are pre-generated periodically using <a href="https://modrinth.com/mod/chunky">Chunky</a>, so you won't encounter generation lag when exploring.</p>
 </div>
 </div>
 
