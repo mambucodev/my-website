@@ -14,7 +14,6 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 ### World Generation
 
 <div class="mod-grid">
-
 {{ mod_item(name="Terralith", icon="mountains", slug="terralith", jar="Terralith_1.21.11_v2.6.1_Fabric.jar") }}
 {{ mod_item(name="Tectonic", icon="mountains", slug="tectonic", jar="tectonic-3.0.19-fabric-1.21.11.jar") }}
 {{ mod_item(name="Incendium", icon="fire", slug="incendium", jar="Incendium_26.1_v5.4.12.jar") }}
@@ -24,13 +23,11 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Structory", icon="house-line", slug="structory", jar="Structory_26.1_v1.3.16.jar") }}
 {{ mod_item(name="Structory: Towers", icon="building", slug="structory-towers", jar="Structory_Towers_26.1_v1.0.16.jar") }}
 {{ mod_item(name="Wabi-Sabi Structures", icon="buildings", slug="wabi-sabi-structures", jar="Wabi-Sabi Structures 3.0.5-1.21.11.jar") }}
-
 </div>
 
 ### Gameplay
 
 <div class="mod-grid">
-
 {{ mod_item(name="FallingTree", icon="tree", slug="fallingtree", jar="FallingTree-1.21.11-1.21.11.3.jar") }}
 {{ mod_item(name="Simple Voice Chat", icon="microphone", slug="simple-voice-chat", jar="voicechat-fabric-1.21.11-2.6.15.jar") }}
 {{ mod_item(name="Axes Are Weapons", icon="sword", slug="axes-are-weapons", jar="AxesAreWeapons-1.9.5-fabric-1.21.11.jar") }}
@@ -41,13 +38,11 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Dynamic Lights", icon="lightbulb", slug="dynamic-lights", jar="dynamiclights-v1.9.2-mc1.17-26.1.1-mod.jar") }}
 {{ mod_item(name="NetherPortalFix", icon="door", slug="netherportalfix", jar="netherportalfix-fabric-1.21.11-21.11.2.jar") }}
 {{ mod_item(name="Distant Horizons", icon="eye", slug="distanthorizons", jar="DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar", note="Requires the client mod to use.") }}
-
 </div>
 
 ### Performance
 
 <div class="mod-grid">
-
 {{ mod_item(name="Lithium", icon="lightning", slug="lithium", jar="lithium-fabric-0.21.4+mc1.21.11.jar") }}
 {{ mod_item(name="C2ME", icon="lightning", slug="c2me-fabric", jar="c2me-fabric-mc1.21.11-0.3.6.0.0.jar") }}
 {{ mod_item(name="Krypton", icon="wifi-high", slug="krypton", jar="krypton-0.2.10.jar") }}
@@ -57,13 +52,11 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="spark", icon="chart-line", slug="spark", jar="spark-1.10.170-fabric.jar") }}
 {{ mod_item(name="Debugify", icon="bug", slug="debugify", jar="debugify-1.21.11+1.0.jar") }}
 {{ mod_item(name="Let Me Despawn", icon="ghost", slug="lmd", jar="LetMeDespawn-1.21.11-x-fabric-1.6.2.jar") }}
-
 </div>
 
 ### Administration
 
 <div class="mod-grid">
-
 {{ mod_item(name="BlueMap", icon="map-trifold", slug="bluemap", jar="bluemap-5.16-fabric.jar") }}
 {{ mod_item(name="BlueMap Sign Markers", icon="map-pin", slug="bluemap-sign-markers", jar="bluemapsignmarkers-1.21.11-0.15.0.68.jar") }}
 {{ mod_item(name="Chunky", icon="grid-four", slug="chunky", jar="Chunky-Fabric-1.4.55.jar") }}
@@ -83,13 +76,11 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="LuckPerms Placeholders", icon="puzzle-piece", slug="luckperms-placeholders", jar="LuckPerms-Fabric-Placeholders.jar") }}
 {{ mod_item(name="Styled Chat", icon="chat-text", slug="styled-chat", jar="styled-chat-2.11.0+1.21.11.jar") }}
 {{ mod_item(name="Styled Player List", icon="list-bullets", slug="styled-player-list", jar="styledplayerlist-3.10.0+1.21.11.jar") }}
-
 </div>
 
 ### Libraries
 
 <div class="mod-grid">
-
 {{ mod_item(name="Fabric API", icon="package", slug="fabric-api", jar="fabric-api-0.141.3+1.21.11.jar") }}
 {{ mod_item(name="Cloth Config API", icon="gear", slug="cloth-config", jar="cloth-config-21.11.153-fabric.jar") }}
 {{ mod_item(name="Architectury API", icon="package", slug="architectury-api", jar="architectury-19.0.1-fabric.jar") }}
@@ -100,7 +91,6 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Lithostitched", icon="package", slug="lithostitched", jar="lithostitched-1.6.1-fabric-1.21.11.jar") }}
 {{ mod_item(name="Almanac", icon="package", slug="almanac", jar="Almanac-1.21.11-x-fabric-1.6.2.jar") }}
 {{ mod_item(name="Fabric Language Kotlin", icon="package", slug="fabric-language-kotlin", jar="fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar") }}
-
 </div>
 
 <div class="buttons">
