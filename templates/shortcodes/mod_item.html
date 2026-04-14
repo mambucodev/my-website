@@ -2,12 +2,10 @@
 {%- if not mod_icon -%}
 	{%- set mod_icon = load_data(path="themes/ametrine/icons/phosphor/" ~ icon ~ ".svg", required=false) -%}
 {%- endif -%}
-
 {%- set arrow_icon = load_data(path="icons/phosphor/arrow-right.svg", required=false) -%}
 {%- if not arrow_icon -%}
 	{%- set arrow_icon = load_data(path="themes/ametrine/icons/phosphor/arrow-right.svg", required=false) -%}
 {%- endif -%}
-
 <a class="mod-item" href="https://modrinth.com/mod/{{ slug }}">
 <span class="mod-icon"><i class="icon {{ icon }}" style="--icon: url('data:image/svg+xml,{{ mod_icon | urlencode }}');"></i></span>
 <div class="mod-info">
