@@ -63,7 +63,7 @@ Room
 
 ## How to Join
 
-The server version is `1.21.11`. Both **Java** and **Bedrock** clients can join thanks to **Floodgate**.
+The server is on version `1.21.11`, but thanks to **ViaVersion** clients on any version from `1.8` onwards can join. Both **Java** and **Bedrock** players are supported thanks to **Geyser**.
 
 <div class="server-ip card">
 <span class="server-ip-icon">{{ icon(name="game-controller") }}</span>

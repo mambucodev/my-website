@@ -72,7 +72,6 @@ links = [
 
 [extra.footer]
 copyright = "© Mambuco, 2024-$YEAR"
-show_fediring = true
 show_timestamp = true
 show_powered_by = true
 
@@ -81,6 +80,11 @@ socials = [
     # { url = "https://bsky.app/profile/mambuco.dev", icon = "bluesky" },
     { url = "https://github.com/mambucodev", icon = "github" },
     { url = "https://discord.sadyn.it", icon = "discord" },
+]
+
+webrings = [
+    { name = "Fediring", url = "https://fediring.net", previous = "https://fediring.net/previous?host=$HOST", next = "https://fediring.net/next?host=$HOST", random = "https://fediring.net/random" },
+    { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring?action=previous", next = "https://snugnook.org/ring?action=next", random = "https://snugnook.org/ring?action=random" },
 ]
 
 [extra.fediverse]

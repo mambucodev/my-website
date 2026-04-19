@@ -7,7 +7,11 @@ styles = ["crestfall/style.css"]
 
 All mods are **server-side only** — you don't need to install anything to play. They're all sourced from [Modrinth](https://modrinth.com/).
 
-{% alert(icon="lightbulb", title="Got a mod suggestion?", color="blue") %}
+{% alert(icon="info", title="Why no Geyser or ViaVersion?", color="blue") %}
+Crestfall sits behind a **Velocity proxy** that also fronts other servers I occasionally host. **Geyser** (for Bedrock clients) and the **ViaVersion + ViaBackwards + ViaRewind** stack (for older client versions) live on the proxy, not on the backend — so they won't show up in the list below.
+{% end %}
+
+{% alert(icon="lightbulb", title="Got a mod suggestion?", color="green") %}
 Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [contact me directly](@/socials/index.md) — I'm always open to new ideas!
 {% end %}
 
