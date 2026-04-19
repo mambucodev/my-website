@@ -52,10 +52,10 @@ See the [features](#features) section for details on what's installed.
 </div>
 
 <div class="buttons start big">
-<a class="suggested" href="https://map.crestfall.cc/">{{ icon(name="map-trifold") }} Map</a>
-<a href="/crestfall/rules/">{{ icon(name="scales") }} Rules</a>
-<a href="/crestfall/mods/">{{ icon(name="puzzle-piece") }} Mods</a>
-<a href="https://matrix.to/#/#crestfall:mambuco.dev/">
+<a class="suggested" href="https://map.crestfall.cc/" data-umami-event="click-crestfall-map">{{ icon(name="map-trifold") }} Map</a>
+<a href="/crestfall/rules/" data-umami-event="click-crestfall-rules">{{ icon(name="scales") }} Rules</a>
+<a href="/crestfall/mods/" data-umami-event="click-crestfall-mods">{{ icon(name="puzzle-piece") }} Mods</a>
+<a href="https://matrix.to/#/#crestfall:mambuco.dev/" data-umami-event="click-crestfall-matrix-room">
 <img alt="Pixel art Matrix icon" title="Matrix" class="emoji transparent pixels drop-shadow" src="/socials/icons/matrix.png" />
 Room
 </a>

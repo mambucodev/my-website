@@ -25,7 +25,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Custom-built content delivery and file management system with project-scoped API keys and a dashboard.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/personal-cdn">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/personal-cdn" data-umami-event="click-portfolio-project" data-umami-event-project="personal-cdn" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 </div>
 
@@ -42,8 +42,8 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>MCP server for integrating with Memos — a self-hosted note-taking service. Published on npm.</p>
 <div class="buttons start">
-<a href="https://www.npmjs.com/package/mcp-memos">{{ icon(name="package") }} NPM</a>
-<a href="https://github.com/mambucodev/mcp-memos">{{ icon(name="github-logo") }} Source</a>
+<a href="https://www.npmjs.com/package/mcp-memos" data-umami-event="click-portfolio-project" data-umami-event-project="mcp-memos" data-umami-event-link-type="package">{{ icon(name="package") }} NPM</a>
+<a href="https://github.com/mambucodev/mcp-memos" data-umami-event="click-portfolio-project" data-umami-event-project="mcp-memos" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 </div>
 
@@ -60,7 +60,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Zed extension that registers Arduino as a dedicated language for <code>.ino</code> files, with tree-sitter grammar and arduino-language-server LSP integration.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/zed-arduino">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/zed-arduino" data-umami-event="click-portfolio-project" data-umami-event-project="zed-arduino" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 </div>
 
@@ -77,7 +77,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Offline multilingual dictionary plugin for Obsidian with 10 languages, auto-detection, stemming, and popover/sidebar lookup.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/obsidian-multilingual-dictionary">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/obsidian-multilingual-dictionary" data-umami-event="click-portfolio-project" data-umami-event-project="multidictionary" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 </div>
 
@@ -94,7 +94,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Desktop app that syncs with ClasseViva and Axios (Italian school dashboards) to track grades and run simulations. More platforms coming soon.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/VoteTracker">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/VoteTracker" data-umami-event="click-portfolio-project" data-umami-event-project="votetracker" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 <span class="wip-icon">{{ icon(name="hammer") }}</span>
 </div>
@@ -112,7 +112,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>A full-stack Pokedex in Italian, built for Twitch streamer <a class="external" target="_blank" href="https://www.twitch.tv/gioffyna">Gioffyna</a>. Live and running.</p>
 <div class="buttons start">
-<a class="suggested" href="https://gioffydex.mambuco.dev">{{ icon(name="arrow-square-out") }} Live</a>
+<a class="suggested" href="https://gioffydex.mambuco.dev" data-umami-event="click-portfolio-project" data-umami-event-project="gioffydex" data-umami-event-link-type="live">{{ icon(name="arrow-square-out") }} Live</a>
 </div>
 </div>
 
@@ -129,7 +129,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Official blog website for FSE Roma 3, an Italian scout group. Live and running.</p>
 <div class="buttons start">
-<a class="suggested" href="https://scouts-blog.com">{{ icon(name="arrow-square-out") }} Live</a>
+<a class="suggested" href="https://scouts-blog.com" data-umami-event="click-portfolio-project" data-umami-event-project="scout-blog" data-umami-event-link-type="live">{{ icon(name="arrow-square-out") }} Live</a>
 </div>
 </div>
 
@@ -145,7 +145,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>CLI tool that organizes manga downloaded through Komikku into volumes and exports them as MOBI, EPUB, or CBZ.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/komikku-wrapper">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/komikku-wrapper" data-umami-event="click-portfolio-project" data-umami-event-project="komikku-wrapper" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 <span class="wip-icon">{{ icon(name="hammer") }}</span>
 </div>
@@ -163,7 +163,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>Desktop application for backing up and restoring game saves. Built for reliability.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/game-rewind">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/game-rewind" data-umami-event="click-portfolio-project" data-umami-event-project="game-rewind" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 <span class="wip-icon">{{ icon(name="hammer") }}</span>
 </div>
@@ -181,7 +181,7 @@ I work with **TypeScript**, **React**, **Next.js**, and **Rust** — among other
 </div>
 <p>This website. Built with Zola and the Ametrine theme, self-hosted on Coolify.</p>
 <div class="buttons start">
-<a href="https://github.com/mambucodev/my-website">{{ icon(name="github-logo") }} Source</a>
+<a href="https://github.com/mambucodev/my-website" data-umami-event="click-portfolio-project" data-umami-event-project="mambuco-dev" data-umami-event-link-type="source">{{ icon(name="github-logo") }} Source</a>
 </div>
 </div>
 

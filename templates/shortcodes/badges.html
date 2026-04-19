@@ -16,7 +16,7 @@
 		{%- for badge in badges_data -%}
 		<span class="badge-pin">
 			{%- if badge.url -%}
-			<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer">
+			<a href="{{ badge.url }}" target="_blank" rel="noopener noreferrer" data-umami-event="click-badge" data-umami-event-badge="{{ badge.name }}">
 			{%- endif -%}
 			<img class="pixels transparent no-hover" src="/badges/{{ badge.name }}.gif" alt="{{ badge.alt }}" width="88" height="31">
 			{%- if badge.url -%}

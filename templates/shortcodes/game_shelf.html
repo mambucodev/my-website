@@ -18,7 +18,7 @@
 				</div>
 				<div class="game-panel-label">
 					<span class="game-panel-name">{{ game.name }}</span>
-					<a class="game-panel-link" href="https://store.steampowered.com/app/{{ game.appid }}/" target="_blank" rel="noopener noreferrer">Steam</a>
+					<a class="game-panel-link" href="https://store.steampowered.com/app/{{ game.appid }}/" target="_blank" rel="noopener noreferrer" data-umami-event="click-game-link" data-umami-event-game="{{ game.name }}" data-umami-event-appid="{{ game.appid }}">Steam</a>
 				</div>
 			</div>
 		{%- endfor -%}

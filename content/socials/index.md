@@ -28,7 +28,7 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 
 <div class="social-list">
 
-<a class="social-link" href="https://discord.com/users/604790617138266149/">
+<a class="social-link" href="https://discord.com/users/604790617138266149/" data-umami-event="click-social-platform" data-umami-event-platform="discord">
 <div class="social-icon-wrap">
 <img alt="Discord" class="transparent no-hover pixels" src="icons/discord.png" />
 </div>
@@ -42,7 +42,7 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 <span class="social-arrow">{{ icon(name="arrow-right") }}</span>
 </a>
 
-<a class="social-link" href="https://wetdry.world/@mambuco/">
+<a class="social-link" href="https://wetdry.world/@mambuco/" data-umami-event="click-social-platform" data-umami-event-platform="mastodon">
 <div class="social-icon-wrap">
 <img alt="Mastodon" class="transparent no-hover pixels" src="icons/mastodon.png" />
 </div>
@@ -56,7 +56,7 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 <span class="social-arrow">{{ icon(name="arrow-right") }}</span>
 </a>
 
-<a class="social-link" href="https://matrix.to/#/@mambuco:mambuco.dev/">
+<a class="social-link" href="https://matrix.to/#/@mambuco:mambuco.dev/" data-umami-event="click-social-platform" data-umami-event-platform="matrix">
 <div class="social-icon-wrap">
 <img alt="Matrix" class="transparent no-hover pixels" src="icons/matrix.png" />
 </div>
@@ -70,7 +70,7 @@ There's also the fact that most big corp SNSs are grabbing a lot of data. And yo
 <span class="social-arrow">{{ icon(name="arrow-right") }}</span>
 </a>
 
-<a class="social-link" href="https://t.me/mambucodev/">
+<a class="social-link" href="https://t.me/mambucodev/" data-umami-event="click-social-platform" data-umami-event-platform="telegram">
 <div class="social-icon-wrap">
 <img alt="Telegram" class="transparent no-hover pixels" src="icons/telegram.png" />
 </div>
