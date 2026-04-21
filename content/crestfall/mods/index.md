@@ -23,10 +23,29 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Incendium", icon="fire", slug="incendium", jar="Incendium_26.1_v5.4.12.jar") }}
 {{ mod_item(name="Nullscape", icon="planet", slug="nullscape", jar="Nullscape_1.21.x_v1.2.17.jar") }}
 {{ mod_item(name="Geophilic", icon="flower", slug="geophilic", jar="Geophilic v3.4.6.mod.jar") }}
+{{ mod_item(name="Snow Under Trees", icon="snowflake", slug="snow-under-trees", jar="SnowUnderTrees-2.7.5+1.21.11.jar") }}
+</div>
+
+### Structures
+
+<div class="mod-grid">
 {{ mod_item(name="Explorify", icon="compass", slug="explorify", jar="Explorify v1.6.4 f15-88.mod.jar") }}
 {{ mod_item(name="Structory", icon="house-line", slug="structory", jar="Structory_26.1_v1.3.16.jar") }}
 {{ mod_item(name="Structory: Towers", icon="building", slug="structory-towers", jar="Structory_Towers_26.1_v1.0.16.jar") }}
 {{ mod_item(name="Wabi-Sabi Structures", icon="buildings", slug="wabi-sabi-structures", jar="Wabi-Sabi Structures 3.0.5-1.21.11.jar") }}
+{{ mod_item(name="ATi Structures", icon="castle-turret", slug="ati-structures-fabricforge", jar="ATi Structures Vanilla V1.4.4 (1.21+).jar") }}
+{{ mod_item(name="Additional Structures", icon="buildings", slug="additional-structures", jar="AdditionalStructures-1.21-(v.5.2.0-FABRIC)-dev.jar") }}
+{{ mod_item(name="Choicetheorem's Overhauled Village", icon="house-line", slug="ct-overhaul-village", jar="[fabric]ctov-1.21.11-3.6.2a.jar") }}
+{{ mod_item(name="Hopo Better Ruined Portals", icon="door", slug="hopo-better-ruined-portals", jar="HopoBetterRuinedPortals-[1.21.11]-1.4.9.jar") }}
+{{ mod_item(name="Hopo Better Underwater Ruins", icon="waves", slug="hopo-better-underwater-ruins", jar="HopoBetterUnderwaterRuins-[1.21.11]-1.2.6.jar") }}
+{{ mod_item(name="Philips Ruins", icon="castle-turret", slug="philips-ruins", jar="PhilipsRuins-1.21.11-1.0-Fabric.jar") }}
+{{ mod_item(name="Dungeons+", icon="skull", slug="dungeons-plus", jar="dungeons+-1.11.1.jar") }}
+{{ mod_item(name="Dungeons & Taverns: Pillager Outposts", icon="crosshair", slug="dungeons-and-taverns-pillager-outpost-overhaul", jar="dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar") }}
+{{ mod_item(name="Formations", icon="mountains", slug="formations", jar="formations-1.0.4-fabric-mc1.21.11.jar") }}
+{{ mod_item(name="Formations Nether", icon="fire", slug="formations-nether", jar="formationsnether-1.0.5-mc1.21+.jar") }}
+{{ mod_item(name="Formations Overworld", icon="tree", slug="formations-overworld", jar="formationsoverworld-1.0.5-mc1.21+.jar") }}
+{{ mod_item(name="Improved Village Placement", icon="house-line", slug="improved-village-placement", jar="improved-village-placement-1.1.1.jar") }}
+{{ mod_item(name="Lukis' Grand Capitals", icon="buildings", slug="lukis-grand-capitals", jar="lukis-grand-capitals-1.1.3.jar") }}
 </div>
 
 ### Gameplay
@@ -42,6 +61,18 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Dynamic Lights", icon="lightbulb", slug="dynamic-lights", jar="dynamiclights-v1.9.2-mc1.17-26.1.1-mod.jar") }}
 {{ mod_item(name="NetherPortalFix", icon="door", slug="netherportalfix", jar="netherportalfix-fabric-1.21.11-21.11.2.jar") }}
 {{ mod_item(name="Distant Horizons", icon="eye", slug="distanthorizons", jar="DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar", note="Requires the client mod to use.") }}
+{{ mod_item(name="Better Than Mending", icon="wrench", slug="better-than-mending", jar="BetterThanMending-2.2.5.jar") }}
+{{ mod_item(name="Stellarity", icon="moon-stars", slug="stellarity", jar="Stellarity-5.3.0.jar") }}
+{{ mod_item(name="Arrow Entity Loot Drop", icon="target", slug="arrow-entity-loot-drop", jar="arrow-entity-loot-drop-1.2.4+1.21.11.jar") }}
+{{ mod_item(name="Better Wandering Traders", icon="handshake", slug="better-wanderingtraders", jar="better-wanderingtraders-1.0.0+1.21.6.jar") }}
+{{ mod_item(name="CrossStitch", icon="needle", slug="crossstitch", jar="crossstitch-0.1.7.jar") }}
+{{ mod_item(name="Falling Apples", icon="apple-logo", slug="falling-apples", jar="falling-apples-1.21.11-1.1.jar") }}
+{{ mod_item(name="Mine Spawners", icon="hammer", slug="mine-spawners", jar="mine-spawners-1.6.6.jar") }}
+{{ mod_item(name="Regenerative Sleep", icon="bed", slug="regenerative-sleep", jar="regenerative-sleep-1.2+1.21.9.jar") }}
+{{ mod_item(name="Reimagined Trims", icon="paint-brush", slug="reimagined-trims", jar="reimagined-trims-1.21.11-v1.2.0.jar") }}
+{{ mod_item(name="Spawn Animations", icon="sparkle", slug="spawn-animations", jar="spawnanimations-v1.11.4-mc1.17-26.1.1-mod.jar") }}
+{{ mod_item(name="Trek", icon="footprints", slug="trek", jar="trek-B0.6.1.1.jar") }}
+{{ mod_item(name="Villager Names", icon="identification-badge", slug="villagernames", jar="villagernames-1.21.11-8.3.jar") }}
 </div>
 
 ### Performance
@@ -56,6 +87,10 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="spark", icon="chart-line", slug="spark", jar="spark-1.10.170-fabric.jar") }}
 {{ mod_item(name="Debugify", icon="bug", slug="debugify", jar="debugify-1.21.11+1.0.jar") }}
 {{ mod_item(name="Let Me Despawn", icon="ghost", slug="lmd", jar="LetMeDespawn-1.21.11-x-fabric-1.6.2.jar") }}
+{{ mod_item(name="Alternate Current", icon="lightning", slug="alternate-current", jar="alternate-current-mc1.21.11-1.9.0.jar") }}
+{{ mod_item(name="Clumps", icon="sparkle", slug="clumps", jar="Clumps-fabric-1.21.11-29.0.0.1.jar") }}
+{{ mod_item(name="PacketFixer", icon="wifi-high", slug="packet-fixer", jar="packetfixer-fabric-3.3.4-1.21.11.jar") }}
+{{ mod_item(name="TT20", icon="gauge", slug="tt20", jar="tt20-0.8.0+mc1.21.11-fabric.jar") }}
 </div>
 
 ### Administration
@@ -89,12 +124,13 @@ Drop it in the [Matrix room](https://matrix.to/#/#crestfall:mambuco.dev/) or [co
 {{ mod_item(name="Cloth Config API", icon="gear", slug="cloth-config", jar="cloth-config-21.11.153-fabric.jar") }}
 {{ mod_item(name="Architectury API", icon="package", slug="architectury-api", jar="architectury-19.0.1-fabric.jar") }}
 {{ mod_item(name="Balm", icon="package", slug="balm", jar="balm-fabric-1.21.11-21.11.8.jar") }}
-{{ mod_item(name="Collective", icon="package", slug="collective", jar="collective-1.21.11-8.17.jar") }}
+{{ mod_item(name="Collective", icon="package", slug="collective", jar="collective-1.21.11-8.20.jar") }}
 {{ mod_item(name="JamLib", icon="package", slug="jamlib", jar="jamlib-fabric-1.3.6+1.21.11.jar") }}
 {{ mod_item(name="Bad Packets", icon="package", slug="badpackets", jar="badpackets-fabric-0.11.2.jar") }}
 {{ mod_item(name="Lithostitched", icon="package", slug="lithostitched", jar="lithostitched-1.6.1-fabric-1.21.11.jar") }}
 {{ mod_item(name="Almanac", icon="package", slug="almanac", jar="Almanac-1.21.11-x-fabric-1.6.2.jar") }}
 {{ mod_item(name="Fabric Language Kotlin", icon="package", slug="fabric-language-kotlin", jar="fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar") }}
+{{ mod_item(name="MRU", icon="package", slug="mru", jar="mru-1.0.26+edge+1.21.11-fabric.jar") }}
 </div>
 
 <div class="buttons">
