@@ -1,0 +1,67 @@
+{# Site-level override of ametrine/templates/partials/analytics.html.
+   Adds Umami v3.1 support: data-performance (Web Vitals) and recorder.js (Session Replay). #}
+
+{% set analytics_service = config.extra.analytics.service %}
+{% set analytics_id = config.extra.analytics.id | default(value="") %}
+{% set self_hosted_url = config.extra.analytics.self_hosted_url | default(value="") %}
+
+{% if analytics_service == "goatcounter" %}
+  <script async
+  {% if self_hosted_url %}
+    data-goatcounter="{{ self_hosted_url ~ '/count' }}"
+    src="{{ self_hosted_url ~ '/count.js' }}"
+  {% else %}
+    data-goatcounter="https://{{ analytics_id }}.goatcounter.com/count"
+    src="https://gc.zgo.at/count.js"
+    {% endif %}
+  ></script>
+
+{% elif analytics_service == "umami" %}
+  <script async defer
+  {% if self_hosted_url %}
+    data-website-id="{{ analytics_id }}"
+    src="{{ self_hosted_url ~ '/script.js' }}"
+  {% else %}
+    data-website-id="{{ analytics_id }}"
+    src="https://cloud.umami.is/script.js"
+  {% endif %}
+  {% if config.extra.analytics.exclude_search %}
+    data-exclude-search="true"
+  {% endif %}
+  {% if config.extra.analytics.exclude_hash %}
+    data-exclude-hash="true"
+  {% endif %}
+  {% if config.extra.analytics.do_not_track %}
+    data-do-not-track="true"
+  {% endif %}
+  {% if config.extra.analytics.performance %}
+    data-performance="true"
+  {% endif %}
+  ></script>
+
+  {% set replay = config.extra.analytics.replay | default(value=false) %}
+  {% if replay and replay.enabled %}
+  <script defer
+    data-website-id="{{ analytics_id }}"
+    {% if self_hosted_url %}
+    src="{{ self_hosted_url ~ '/recorder.js' }}"
+    {% else %}
+    src="https://cloud.umami.is/recorder.js"
+    {% endif %}
+    data-sample-rate="{{ replay.sample_rate | default(value=0.15) }}"
+    data-mask-level="{{ replay.mask_level | default(value='moderate') }}"
+    data-max-duration="{{ replay.max_duration | default(value=300000) }}"
+    {% if replay.block_selector %}
+    data-block-selector="{{ replay.block_selector }}"
+    {% endif %}
+  ></script>
+  {% endif %}
+
+  {% elif analytics_service == "plausible" %}
+  <script
+    defer
+    data-domain="{{ analytics_id }}"
+    src="{% if self_hosted_url %}{{ self_hosted_url ~ '/js/plausible.js' }}{% else %}https://plausible.io/js/script.js{% endif %}"
+  ></script>
+
+{% endif %}

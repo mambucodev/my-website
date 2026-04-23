@@ -96,3 +96,10 @@ show_qr = true
 service = "umami"
 id = "d25bb216-4c7d-43d6-9d16-9b9435a6ae61"
 self_hosted_url = "https://umami.mambuco.dev"
+performance = true
+
+[extra.analytics.replay]
+enabled = true
+sample_rate = 1.0
+mask_level = "moderate"
+max_duration = 300000
