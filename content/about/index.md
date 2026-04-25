@@ -9,7 +9,7 @@ badges = [
   { name = "he-him", alt = "He/Him" },
   { name = "saynotoweb3", url = "https://yesterweb.org/saynotoweb3no-to-web3/", alt = "Say No To Web3" },
   { name = "adhd", alt = "ADHD" },
-  { name = "snug-nook", url = "https://daudix.one/snug-nook/", alt = "Snug Nook" },
+  { name = "snug-nook", url = "https://snugnook.org/", alt = "Snug Nook" },
   { name = "daudix", url = "https://daudix.one/", alt = "Daudix" },
   { name = "pixlxip", url = "https://xip.neocities.org/", alt = "Pixlxip" },
   { name = "kevadesu", url = "https://kevadesu.github.io/", alt = "Kevadesu" },

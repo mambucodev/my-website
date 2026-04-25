@@ -65,7 +65,7 @@ links = [
     { url = "@/crestfall/_index.md", name = "Crestfall", icon = "cube" },
     { url = "@/socials/index.md", name = "Socials", icon = "at" },
     { name = "External", category = [
-        { url = "https://daudix.one/snug-nook", name = "Snug Nook", icon = "chats" },
+        { url = "https://snugnook.org", name = "Snug Nook", icon = "chats" },
         { url = "https://envs.net", name = "Envs.net", icon = "hard-drives" }
     ] }
 ]
